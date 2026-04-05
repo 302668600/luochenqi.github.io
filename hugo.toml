@@ -1,4 +1,4 @@
-baseURL = "https://YOUR_GITHUB_USERNAME.github.io/"
+baseURL = "https://302668600.github.io/"
 languageCode = "zh-cn"
 title = "我的个人博客"
 theme = "PaperMod"
@@ -24,7 +24,7 @@ defaultContentLanguage = "zh"
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/YOUR_GITHUB_USERNAME"
+    url = "https://github.com/302668600"
 
 [menu]
   [[menu.main]]
