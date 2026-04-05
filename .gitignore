@@ -1,0 +1,5 @@
+# Hugo 博客初始化提交
+public/
+resources/
+.hugo_build.lock
+hugo*.zip
