@@ -1,4 +1,4 @@
-baseURL = "https://302668600.github.io/"
+baseURL = "https://chenqiluo.github.io/"
 languageCode = "zh-cn"
 title = "luochenqi's Blog"
 theme = "PaperMod"
@@ -24,7 +24,7 @@ defaultContentLanguage = "zh"
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/302668600"
+    url = "https://github.com/chenqiluo"
 
 [menu]
   [[menu.main]]
