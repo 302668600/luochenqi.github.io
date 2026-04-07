@@ -43,6 +43,11 @@ defaultContentLanguage = "zh"
     url = "/wiki/"
     weight = 30
   [[menu.main]]
+    identifier = "stock"
+    name = "股票分析"
+    url = "/stock/"
+    weight = 35
+  [[menu.main]]
     identifier = "tags"
     name = "标签"
     url = "/tags/"
