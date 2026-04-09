@@ -1,3 +1,27 @@
+/* =============================================
+   全局背景图片
+   ============================================= */
+body {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* 内容区域加半透明遮罩，保证可读性（浅色模式） */
+.main, #top, header.header {
+    background-color: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(2px);
+}
+
+/* 深色模式适配 */
+.dark .main,
+.dark #top,
+.dark header.header {
+    background-color: rgba(20, 20, 20, 0.85);
+}
+
 /* 代码块横向滚动，不换行，修复 ASCII 图错位 */
 pre, pre code {
     white-space: pre !important;
