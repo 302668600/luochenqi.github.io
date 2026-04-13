@@ -1,9 +1,20 @@
 /* =============================================
    全局背景：纯白
    ============================================= */
-body {
+:root {
+    --theme: rgb(255, 255, 255) !important;
+    --code-bg: rgb(245, 245, 245) !important;
+}
+
+body,
+html {
     background-color: #ffffff !important;
     background-image: none !important;
+}
+
+/* 列表页背景也改为纯白 */
+.list {
+    background: #ffffff !important;
 }
 
 /* =============================================
