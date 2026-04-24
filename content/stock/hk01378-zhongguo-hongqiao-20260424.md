@@ -1,10 +1,10 @@
 ---
-title: "腾讯控股(hk00700) 深度分析 — 2026-04-24"
+title: "中国宏桥(hk01378) 深度分析 — 2026-04-24"
 date: 2026-04-24T08:00:00+08:00
 draft: false
-tags: ["股票分析", "港股", "腾讯控股", "hk00700"]
+tags: ["股票分析", "港股", "中国宏桥", "hk01378"]
 categories: ["股票分析"]
-description: "腾讯控股(hk00700) 2026-04-24深度分析，现价488.8"
+description: "中国宏桥(hk01378) 2026-04-24深度分析，现价36.02"
 showToc: false
 TocOpen: false
 ---
@@ -79,12 +79,12 @@ TocOpen: false
 </style>
 
 ---
-title: "腾讯控股(hk00700) 全面行情分析报告 — 2026-04-24"
+title: "中国宏桥(hk01378) 全面行情分析报告 — 2026-04-24"
 date: 2026-04-24
 draft: false
-tags: ["股票分析", "港股", "腾讯控股", "hk00700"]
+tags: ["股票分析", "港股", "中国宏桥", "hk01378"]
 categories: ["股票分析"]
-description: "腾讯控股(hk00700) 2026-04-24深度分析：现价HK$488.8港元，▼1.29%。综合评分5.4/10，谨慎观望，控制仓位。"
+description: "中国宏桥(hk01378) 2026-04-24深度分析：现价HK$36.02港元，▲1.64%。综合评分6.2/10，中性持有，关注量价。"
 showToc: false
 TocOpen: false
 ---
@@ -159,12 +159,12 @@ TocOpen: false
 <div class="sr-wrap">
 
 <div class="sr-header">
-<div class="sr-meta">港股 ·  · hk00700 · 2026-04-24 收盘</div>
-<h2>腾讯控股(hk00700) 全面行情分析报告</h2>
+<div class="sr-meta">港股 ·  · hk01378 · 2026-04-24 收盘</div>
+<h2>中国宏桥(hk01378) 全面行情分析报告</h2>
 <div class="sr-price-hero">
-<span class="sr-price">488.8</span>
-<span class="sr-pos">▼ 1.29%</span>
-<span class="sr-info">港元 &nbsp;|&nbsp; 振幅 0.00% &nbsp;|&nbsp; 成交额 +387461.15亿港元</span>
+<span class="sr-price">36.02</span>
+<span class="sr-neg">▲ 1.64%</span>
+<span class="sr-info">港元 &nbsp;|&nbsp; 振幅 0.00% &nbsp;|&nbsp; 成交额 +23078.85亿港元</span>
 </div>
 </div>
 
@@ -181,7 +181,7 @@ TocOpen: false
 </div>
 <div class="sr-score-card">
 <div class="sr-label">资金面</div>
-<div class="sr-val sr-val-green">6</div>
+<div class="sr-val sr-val-orange">4</div>
 <div class="sr-sub2">/ 10</div>
 </div>
 <div class="sr-score-card">
@@ -191,15 +191,15 @@ TocOpen: false
 </div>
 <div class="sr-score-card" style="background:linear-gradient(135deg,#fff3e0,#fce8e6)">
 <div class="sr-label">综合评分</div>
-<div class="sr-val" style="color:#f57c00">5.4</div>
-<div class="sr-sub2">/ 10 &nbsp;<span class="sr-badge sr-badge-orange">谨慎观望，控制仓位</span></div>
+<div class="sr-val" style="color:#f57c00">6.2</div>
+<div class="sr-sub2">/ 10 &nbsp;<span class="sr-badge sr-badge-orange">中性持有，关注量价</span></div>
 </div>
 </div>
 
 <div class="sr-section">
 <div class="sr-section-title">一、基本行情概览</div>
 <div class="sr-section-body">
-<div class="sr-grid4"><div class="sr-kv"><div class="sr-k">收盘价</div><div class="sr-v sr-val-green">HK$488.8</div></div><div class="sr-kv"><div class="sr-k">今日涨跌</div><div class="sr-v sr-val-green">▼ 1.29%</div></div><div class="sr-kv"><div class="sr-k">开盘 / 昨收</div><div class="sr-v ">HK$487 / HK$0</div></div><div class="sr-kv"><div class="sr-k">今日高 / 低</div><div class="sr-v ">HK$491.4 / HK$487</div></div><div class="sr-kv"><div class="sr-k">成交额</div><div class="sr-v ">+387461.15亿港元</div></div><div class="sr-kv"><div class="sr-k">换手率 / 量比</div><div class="sr-v ">0.09% / 2.21</div></div><div class="sr-kv"><div class="sr-k">PE(TTM) / PB</div><div class="sr-v ">17.92x / 3.52x</div></div><div class="sr-kv"><div class="sr-k">总市值</div><div class="sr-v ">+0港元</div></div><div class="sr-kv"><div class="sr-k">52周高 / 低</div><div class="sr-v ">HK$683 / HK$464.5</div></div><div class="sr-kv"><div class="sr-k">距52周高 / 低</div><div class="sr-v "><span class="sr-val-red">-28.4%</span> / <span class="sr-val-green">+5.2%</span></div></div><div class="sr-kv"><div class="sr-k">年初至今</div><div class="sr-v "><span class="sr-val-green">-18.40%</span></div></div><div class="sr-kv"><div class="sr-k">近60日</div><div class="sr-v "><span class="sr-val-green">-18.19%</span></div></div></div>
+<div class="sr-grid4"><div class="sr-kv"><div class="sr-k">收盘价</div><div class="sr-v sr-val-red">HK$36.02</div></div><div class="sr-kv"><div class="sr-k">今日涨跌</div><div class="sr-v sr-val-red">▲ 1.64%</div></div><div class="sr-kv"><div class="sr-k">开盘 / 昨收</div><div class="sr-v ">HK$35.3 / HK$0</div></div><div class="sr-kv"><div class="sr-k">今日高 / 低</div><div class="sr-v ">HK$36.14 / HK$35.12</div></div><div class="sr-kv"><div class="sr-k">成交额</div><div class="sr-v ">+23078.85亿港元</div></div><div class="sr-kv"><div class="sr-k">换手率 / 量比</div><div class="sr-v ">0.06% / 1.15</div></div><div class="sr-kv"><div class="sr-k">PE(TTM) / PB</div><div class="sr-v ">14.26x / 2.47x</div></div><div class="sr-kv"><div class="sr-k">总市值</div><div class="sr-v ">+0港元</div></div><div class="sr-kv"><div class="sr-k">52周高 / 低</div><div class="sr-v ">HK$41.36 / HK$12.62</div></div><div class="sr-kv"><div class="sr-k">距52周高 / 低</div><div class="sr-v "><span class="sr-val-red">-12.9%</span> / <span class="sr-val-green">+185.4%</span></div></div><div class="sr-kv"><div class="sr-k">年初至今</div><div class="sr-v "><span class="sr-val-red">+10.42%</span></div></div><div class="sr-kv"><div class="sr-k">近60日</div><div class="sr-v "><span class="sr-val-red">+1.69%</span></div></div></div>
 </div>
 </div>
 
@@ -208,7 +208,7 @@ TocOpen: false
 <div class="sr-section-body">
 <canvas id="sr-kline" style="width:100%;display:block" height="300"></canvas>
 <div style="margin-top:12px;font-size:13px;color:var(--sr-sub)">
-<b>走势回顾：</b>近60个交易日累计下跌18.2%，中期趋势明显偏弱。近20日回调4.9%，短期有一定抛压，当前价格跌破MA20(500.3)约2.3%，均线由支撑转为压力。今日下跌1.29%，处于52周底部区域（11%分位），接近52周低点464.5，具备底部支撑。今日量比2.21，放量显著，市场参与度明显提升，换手率0.09%。
+<b>走势回顾：</b>近60个交易日累计涨跌+1.7%，整体处于横盘整理阶段。近20日小幅上涨5.8%，短期呈震荡修复态势，当前价格跌破MA20(36.79)约2.1%，均线由支撑转为压力。今日上涨1.64%，处于52周高位区（81%分位），距52周高点41.36仅12.9%。今日量比1.15，成交量与近期持平，属于正常波动，换手率0.06%。
 </div>
 </div>
 </div>
@@ -223,66 +223,66 @@ var H=300;
 canvas.width=W*dpr;canvas.height=H*dpr;
 canvas.style.width=W+'px';canvas.style.height=H+'px';
 ctx.scale(dpr,dpr);
-var raw=[{d:"01-23",o:597.5,c:595,h:602,l:595},
-{d:"01-26",o:595,c:599.5,h:605,l:594},
-{d:"01-27",o:600,c:607,h:610.5,l:598.5},
-{d:"01-28",o:613,c:621,h:623,l:610.5},
-{d:"01-29",o:614.5,c:622,h:625,l:612.5},
-{d:"01-30",o:615,c:606,h:619.5,l:605.5},
-{d:"02-02",o:598,c:598.5,h:604.5,l:590.5},
-{d:"02-03",o:598.5,c:581,h:601.5,l:561},
-{d:"02-04",o:572,c:558,h:574.5,l:558},
-{d:"02-05",o:550,c:558.5,h:561.5,l:541},
-{d:"02-06",o:546,c:547.5,h:557.5,l:543},
-{d:"02-09",o:550,c:560,h:562.5,l:550},
-{d:"02-10",o:563,c:551,h:566,l:547},
-{d:"02-11",o:543,c:548,h:550.5,l:543},
-{d:"02-12",o:537,c:535.5,h:541,l:530.5},
-{d:"02-13",o:525.5,c:532,h:534.5,l:525},
-{d:"02-16",o:530,c:533,h:535,l:527.5},
-{d:"02-20",o:531.5,c:522,h:533,l:518},
-{d:"02-23",o:529,c:538,h:543,l:528},
-{d:"02-24",o:534.5,c:520,h:534.5,l:516},
-{d:"02-25",o:522.5,c:522.5,h:529,l:522},
-{d:"02-26",o:529,c:512,h:529.5,l:512},
-{d:"02-27",o:510.5,c:518,h:530.5,l:510.5},
-{d:"03-02",o:511.5,c:514,h:520,l:507},
-{d:"03-03",o:518,c:510.5,h:525.5,l:510.5},
-{d:"03-04",o:506,c:506,h:515,l:498.8},
-{d:"03-05",o:509.5,c:502,h:515.5,l:501.5},
-{d:"03-06",o:504,c:519,h:522,l:502},
-{d:"03-09",o:502.5,c:516,h:517.5,l:502.5},
-{d:"03-10",o:525,c:553.5,h:556,l:525},
-{d:"03-11",o:578,c:552,h:578,l:548},
-{d:"03-12",o:550.5,c:546.5,h:557,l:541.5},
-{d:"03-13",o:546.5,c:547.5,h:558.5,l:543},
-{d:"03-16",o:551,c:558.5,h:565.5,l:543.5},
-{d:"03-17",o:563,c:550,h:566,l:549},
-{d:"03-18",o:546.5,c:550.5,h:552,l:542.5},
-{d:"03-19",o:528,c:513,h:529.5,l:512},
-{d:"03-20",o:505,c:508,h:519,l:505},
-{d:"03-23",o:497.8,c:498.4,h:506,l:495.2},
-{d:"03-24",o:508,c:514,h:520,l:500},
-{d:"03-25",o:519,c:505.5,h:521.5,l:502},
-{d:"03-26",o:501,c:495.6,h:507.5,l:495},
-{d:"03-27",o:491.2,c:493.4,h:498.2,l:487.6},
-{d:"03-30",o:485,c:481.6,h:485.8,l:476},
-{d:"03-31",o:484.4,c:484,h:492,l:480},
-{d:"04-01",o:504,c:496.6,h:504,l:493},
-{d:"04-02",o:496,c:489.2,h:496,l:485},
-{d:"04-08",o:504.5,c:508,h:510,l:501},
-{d:"04-09",o:506.5,c:508.5,h:514.5,l:503},
-{d:"04-10",o:508,c:504.5,h:514,l:501},
-{d:"04-13",o:498.4,c:490,h:503,l:487.8},
-{d:"04-14",o:497.4,c:493.2,h:497.4,l:486.2},
-{d:"04-15",o:500,c:499,h:510,l:497.4},
-{d:"04-16",o:506.5,c:517,h:517,l:504},
-{d:"04-17",o:512,c:510.5,h:517,l:506},
-{d:"04-20",o:509.5,c:522.5,h:526.5,l:504.5},
-{d:"04-21",o:523,c:519,h:525.5,l:515.5},
-{d:"04-22",o:513.5,c:504,h:514.5,l:502},
-{d:"04-23",o:500,c:495.2,h:502,l:495.2},
-{d:"04-24",o:487,c:489,h:491.4,l:487}];
+var raw=[{d:"01-23",o:35.98,c:35.86,h:36.24,l:35.34},
+{d:"01-26",o:36.38,c:36.56,h:37.24,l:36.12},
+{d:"01-27",o:37.38,c:37.48,h:37.92,l:36.32},
+{d:"01-28",o:38,c:40.22,h:40.38,l:37.6},
+{d:"01-29",o:40.66,c:39.82,h:41.36,l:38.34},
+{d:"01-30",o:38.58,c:36.12,h:38.86,l:36.12},
+{d:"02-02",o:34.28,c:34.86,h:36.12,l:33.9},
+{d:"02-03",o:35.42,c:35.3,h:36,l:34.24},
+{d:"02-04",o:35.36,c:35.82,h:36.18,l:35.18},
+{d:"02-05",o:35.14,c:34.98,h:35.74,l:33.58},
+{d:"02-06",o:33.9,c:34.5,h:34.8,l:33.02},
+{d:"02-09",o:35.38,c:35.3,h:35.68,l:34.84},
+{d:"02-10",o:35.66,c:36.88,h:36.9,l:35.66},
+{d:"02-11",o:36.88,c:36.72,h:37.16,l:36.2},
+{d:"02-12",o:37.02,c:37.22,h:37.74,l:36.52},
+{d:"02-13",o:37,c:35.22,h:37.1,l:34.58},
+{d:"02-16",o:35.5,c:36.6,h:36.94,l:35.3},
+{d:"02-20",o:37.2,c:36.4,h:37.38,l:36.08},
+{d:"02-23",o:37.4,c:37.3,h:38.08,l:36.98},
+{d:"02-24",o:37.3,c:36.02,h:37.3,l:35.4},
+{d:"02-25",o:36.9,c:36.7,h:37.2,l:35.9},
+{d:"02-26",o:37.18,c:36.06,h:37.24,l:36.02},
+{d:"02-27",o:36.4,c:35.46,h:37.2,l:35.44},
+{d:"03-02",o:36.06,c:38,h:38.34,l:35.78},
+{d:"03-03",o:38.18,c:36.7,h:38.6,l:36.38},
+{d:"03-04",o:36.78,c:38.92,h:38.92,l:36.78},
+{d:"03-05",o:40.22,c:39.48,h:41.2,l:39.22},
+{d:"03-06",o:39.48,c:38.28,h:39.48,l:37.1},
+{d:"03-09",o:38.1,c:37.7,h:38.18,l:37},
+{d:"03-10",o:37.24,c:37.5,h:37.78,l:36.84},
+{d:"03-11",o:37.7,c:38.52,h:38.78,l:37.54},
+{d:"03-12",o:38.84,c:40.04,h:40.4,l:38.82},
+{d:"03-13",o:40.32,c:39.52,h:40.6,l:39.36},
+{d:"03-16",o:39.8,c:38.72,h:39.86,l:37.14},
+{d:"03-17",o:39.18,c:37.46,h:39.3,l:37.4},
+{d:"03-18",o:37.72,c:37.26,h:37.84,l:36.2},
+{d:"03-19",o:36.66,c:34.78,h:36.94,l:34.44},
+{d:"03-20",o:34.3,c:34.5,h:35.56,l:34},
+{d:"03-23",o:31.6,c:31.7,h:32.46,l:30.1},
+{d:"03-24",o:32.3,c:34.04,h:34.1,l:32.24},
+{d:"03-25",o:35.1,c:34.9,h:35.2,l:34.06},
+{d:"03-26",o:35,c:33.78,h:35.02,l:33.28},
+{d:"03-27",o:33.78,c:34.5,h:34.94,l:33.3},
+{d:"03-30",o:36.74,c:35.78,h:36.78,l:34.82},
+{d:"03-31",o:35.94,c:34.76,h:36.12,l:34.14},
+{d:"04-01",o:35.9,c:36.36,h:36.62,l:35.56},
+{d:"04-02",o:36.5,c:36.68,h:37.68,l:36.06},
+{d:"04-08",o:38,c:37.36,h:38.4,l:37.3},
+{d:"04-09",o:37.42,c:39.3,h:39.36,l:37.32},
+{d:"04-10",o:39.3,c:38.36,h:39.86,l:37.84},
+{d:"04-13",o:38,c:37.52,h:38.16,l:37.2},
+{d:"04-14",o:38.64,c:39.04,h:39.42,l:38.34},
+{d:"04-15",o:39.04,c:38.24,h:39.28,l:38.04},
+{d:"04-16",o:38.82,c:39.06,h:39.32,l:38.8},
+{d:"04-17",o:38.24,c:37.9,h:38.96,l:37.62},
+{d:"04-20",o:38,c:37.3,h:38,l:36.52},
+{d:"04-21",o:37.3,c:37.12,h:37.9,l:36.86},
+{d:"04-22",o:36.66,c:36.3,h:37.08,l:36.04},
+{d:"04-23",o:36.56,c:35.44,h:36.76,l:35},
+{d:"04-24",o:35.3,c:36.02,h:36.14,l:35.12}];
 var avgCost=0;
 var pad={left:52,right:15,top:18,bottom:28};
 var cw=W-pad.left-pad.right,ch=H-pad.top-pad.bottom;
@@ -357,43 +357,43 @@ ctx.fillStyle=labelColor;ctx.fillText('阴线',pad.left+168,12);
 <div class="sr-section-title">三、技术面分析</div>
 <div class="sr-section-body">
 <div class="sr-grid2">
-<div><b style="font-size:13px;display:block;margin-bottom:8px">均线系统</b><table class="sr-table"><tr><th>均线</th><th>数值</th><th>信号</th></tr><tr><td>MA5</td><td>505.9</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA10</td><td>503.9</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA20</td><td>500.3</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA30</td><td>511.5</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA60</td><td>530.9</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr></table></div>
-<div><b style="font-size:13px;display:block;margin-bottom:8px">主要技术指标</b><table class="sr-table"><tr><th>指标</th><th>数值</th><th>信号</th></tr><tr><td>MACD(DIF/DEA)</td><td>-5.62 / -6.54</td><td><span class="sr-badge sr-badge-green">MACD金叉</span></td></tr><tr><td>KDJ(K/D/J)</td><td>37.0 / 54.8 / 1.6</td><td><span class="sr-badge sr-badge-green">超卖</span></td></tr><tr><td>RSI(6/12)</td><td>34.0 / 40.7</td><td><span class="sr-badge sr-badge-gray">中性34</span></td></tr><tr><td>布林带(上/中/下)</td><td>0 / 0 / 0</td><td><span class="sr-badge sr-badge-blue">中轨运行</span></td></tr><tr><td>SAR抛物线</td><td>—</td><td><span class="sr-badge sr-badge-gray">无数据</span></td></tr></table></div>
+<div><b style="font-size:13px;display:block;margin-bottom:8px">均线系统</b><table class="sr-table"><tr><th>均线</th><th>数值</th><th>信号</th></tr><tr><td>MA5</td><td>36.44</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA10</td><td>37.39</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA20</td><td>36.79</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA30</td><td>36.74</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA60</td><td>36.77</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr></table></div>
+<div><b style="font-size:13px;display:block;margin-bottom:8px">主要技术指标</b><table class="sr-table"><tr><th>指标</th><th>数值</th><th>信号</th></tr><tr><td>MACD(DIF/DEA)</td><td>0.03 / 0.24</td><td><span class="sr-badge sr-badge-red">MACD死叉</span></td></tr><tr><td>KDJ(K/D/J)</td><td>23.2 / 34.8 / 0.1</td><td><span class="sr-badge sr-badge-green">超卖</span></td></tr><tr><td>RSI(6/12)</td><td>39.5 / 45.8</td><td><span class="sr-badge sr-badge-gray">中性40</span></td></tr><tr><td>布林带(上/中/下)</td><td>0 / 0 / 0</td><td><span class="sr-badge sr-badge-blue">中轨运行</span></td></tr><tr><td>SAR抛物线</td><td>—</td><td><span class="sr-badge sr-badge-gray">无数据</span></td></tr></table></div>
 </div>
 <div style="margin-top:14px">
 <b style="font-size:13px">支撑与压力位</b>
 <div class="sr-grid4" style="margin-top:8px">
-<div class="sr-kv"><div class="sr-k">强压力</div><div class="sr-v sr-val-red">HK$648.9</div></div>
-<div class="sr-kv"><div class="sr-k">次压力</div><div class="sr-v sr-val-orange">HK$503.9（MA区间）</div></div>
-<div class="sr-kv"><div class="sr-k">支撑1</div><div class="sr-v sr-val-green">HK$500.3（MA20）</div></div>
-<div class="sr-kv"><div class="sr-k">支撑2</div><div class="sr-v sr-val-green">HK$464.5（布林下轨）</div></div>
+<div class="sr-kv"><div class="sr-k">强压力</div><div class="sr-v sr-val-red">HK$39.29</div></div>
+<div class="sr-kv"><div class="sr-k">次压力</div><div class="sr-v sr-val-orange">HK$37.39（MA区间）</div></div>
+<div class="sr-kv"><div class="sr-k">支撑1</div><div class="sr-v sr-val-green">HK$36.79（MA20）</div></div>
+<div class="sr-kv"><div class="sr-k">支撑2</div><div class="sr-v sr-val-green">HK$12.62（布林下轨）</div></div>
 </div>
 </div>
-<div class="sr-warn-box"><b>技术面小结：</b>均线系统：MA5(505.9) > MA10(503.9) > MA20(500.3)，多头排列，均线对价格形成支撑。MACD金叉（DIF=-5.62/DEA=-6.54），但仍处于零轴下方，买入信号偏弱。 RSI(6)=34，中性区间偏弱，KDJ-J=2，进入超卖区，历史上此位置易出现反弹。 综合技术面：技术面整体偏多，可适量关注做多机会。</div>
+<div class="sr-warn-box"><b>技术面小结：</b>均线系统：MA5(36.44)、MA10(37.39)、MA20(36.79)均线纠缠，方向不明。MACD死叉（DIF=0.03/DEA=0.24），动能偏弱。 RSI(6)=40，中性区间偏弱，KDJ-J=0，进入超卖区，历史上此位置易出现反弹。 综合技术面：技术面偏弱，建议观望等待企稳信号。</div>
 </div>
 </div>
 
 <div class="sr-section">
 <div class="sr-section-title">四、资金面分析（港股通资金流向）</div>
 <div class="sr-section-body">
-<div class="sr-grid4"><div class="sr-kv"><div class="sr-k">主力净流入（今日）</div><div class="sr-v "><span class="sr-val-red">+7793.6万元</span><div class="sr-bar-wrap"><div class="sr-bar sr-bar-green" style="width:0%"></div></div><div style="font-size:11px;color:var(--sr-sub)">净比 +0.0%</div></div></div><div class="sr-kv"><div class="sr-k">超大单净流入</div><div class="sr-v "><span class="sr-val-red">+0元</span><div style="font-size:11px;color:var(--sr-sub)">买入+0 / 卖出+0</div></div></div><div class="sr-kv"><div class="sr-k">大单净流入</div><div class="sr-v "><span class="sr-val-red">+0元</span></div></div><div class="sr-kv"><div class="sr-k">散户净流入</div><div class="sr-v "><span class="sr-val-red">+0元</span><div style="font-size:11px;color:var(--sr-sub)">5日累计：+0元</div></div></div></div>
+<div class="sr-grid4"><div class="sr-kv"><div class="sr-k">主力净流入（今日）</div><div class="sr-v "><span class="sr-val-green">-797.1万元</span><div class="sr-bar-wrap"><div class="sr-bar sr-bar-red" style="width:0%"></div></div><div style="font-size:11px;color:var(--sr-sub)">净比 +0.0%</div></div></div><div class="sr-kv"><div class="sr-k">超大单净流入</div><div class="sr-v "><span class="sr-val-red">+0元</span><div style="font-size:11px;color:var(--sr-sub)">买入+0 / 卖出+0</div></div></div><div class="sr-kv"><div class="sr-k">大单净流入</div><div class="sr-v "><span class="sr-val-red">+0元</span></div></div><div class="sr-kv"><div class="sr-k">散户净流入</div><div class="sr-v "><span class="sr-val-red">+0元</span><div style="font-size:11px;color:var(--sr-sub)">5日累计：+0元</div></div></div></div>
 <div class="sr-grid2" style="margin-top:14px">
-<div><b style="font-size:13px;display:block;margin-bottom:8px">港股通持股情况</b><table class="sr-table"><tr><th>项目</th><th>数值</th></tr><tr><td>港股通持股比例</td><td>11.94%</td></tr><tr><td>南下持仓股数</td><td>+10.89亿股</td></tr><tr><td>今日日变动</td><td><span class="sr-val-green">-1.72亿股</span></td></tr><tr><td>季度累计变动</td><td><span class="sr-val-red">+0股</span></td></tr></table></div>
+<div><b style="font-size:13px;display:block;margin-bottom:8px">港股通持股情况</b><table class="sr-table"><tr><th>项目</th><th>数值</th></tr><tr><td>港股通持股比例</td><td>10.82%</td></tr><tr><td>南下持仓股数</td><td>+10.73亿股</td></tr><tr><td>今日日变动</td><td><span class="sr-val-green">-1439.7万股</span></td></tr><tr><td>季度累计变动</td><td><span class="sr-val-red">+0股</span></td></tr></table></div>
 
 </div>
-<div class="sr-warn-box"><b>资金面小结：</b>主力资金今日净流入+7793.6万元（主力净比+0.0%），主动性买盘明显，机构存在建仓或加仓行为。 超大单数据暂无。 港股通今日减持+1.72亿元，持股比例11.9%，内地资金阶段性获利了结。 综合资金面：资金面整体积极，多方占优，有利于股价企稳上行。</div>
+<div class="sr-warn-box"><b>资金面小结：</b>主力资金今日小幅净流出+797.1万元（主力净比+0.0%），筹码轻微松动。 超大单数据暂无。 港股通今日减持+1439.7万元，持股比例10.8%，内地资金阶段性获利了结。 综合资金面：资金面承压，需等待主力资金回流信号才可考虑加仓。</div>
 </div>
 </div>
 
 <div class="sr-section">
 <div class="sr-section-title">五、基本面分析</div>
 <div class="sr-section-body">
-<div class="sr-grid2"><div><b style="font-size:13px;display:block;margin-bottom:8px">公司简介</b><table class="sr-table"><tr><th>项目</th><th>内容</th></tr><tr><td style="color:var(--sr-sub)">公司全名</td><td>腾讯控股</td></tr><tr><td style="color:var(--sr-sub)">所属行业</td><td></td></tr><tr><td style="color:var(--sr-sub)">主营业务</td><td style="font-size:12px">腾讯以技术丰富互联网用户的生活。公司旗下社交网络及通讯平台微信和 QQ 将用户连接到多元化的数字内容,包括游戏、视频、音乐和文学。腾讯自主开发的目标用户定向技术协助广告主触达数以亿计的中国消费者。在基础设施服务方面,腾讯在移动支付、网络安全...</td></tr></table></div><div><b style="font-size:13px;display:block;margin-bottom:8px">估值与市场指标</b><table class="sr-table"><tr><th>指标</th><th>数值</th><th>评价</th></tr><tr><td>PE(TTM)</td><td>17.92x</td><td><span class="sr-badge sr-badge-blue">合理</span></td></tr><tr><td>PB</td><td>3.52x</td><td><span class="sr-badge sr-badge-blue">合理</span></td></tr><tr><td>股息率(TTM)</td><td>0.93%</td><td><span class="sr-badge sr-badge-blue">有分红</span></td></tr><tr><td>总市值</td><td colspan="2">+0港元</td></tr></table></div></div>
+<div class="sr-grid2"><div><b style="font-size:13px;display:block;margin-bottom:8px">公司简介</b><table class="sr-table"><tr><th>项目</th><th>内容</th></tr><tr><td style="color:var(--sr-sub)">公司全名</td><td>中国宏桥</td></tr><tr><td style="color:var(--sr-sub)">所属行业</td><td></td></tr><tr><td style="color:var(--sr-sub)">主营业务</td><td style="font-size:12px">中国宏桥集团有限公司(「中国宏桥」或「本集团」;股份编号:01378) 是一家中国领先的铝产品制造商。位于中国山东省的中国宏桥主要从事液态铝合金、铝合金锭、铝合金铸轧产品及铝母线的生产和销售。本集团凭借其庞大的规模及先进的技术、具竞争力的成...</td></tr></table></div><div><b style="font-size:13px;display:block;margin-bottom:8px">估值与市场指标</b><table class="sr-table"><tr><th>指标</th><th>数值</th><th>评价</th></tr><tr><td>PE(TTM)</td><td>14.26x</td><td><span class="sr-badge sr-badge-green">低估</span></td></tr><tr><td>PB</td><td>2.47x</td><td><span class="sr-badge sr-badge-blue">合理</span></td></tr><tr><td>股息率(TTM)</td><td>2.65%</td><td><span class="sr-badge sr-badge-blue">有分红</span></td></tr><tr><td>总市值</td><td colspan="2">+0港元</td></tr></table></div></div>
 
-<div style="margin-top:14px"><b style="font-size:13px;display:block;margin-bottom:8px">财务报表摘要（利润表）</b><table class="sr-table"><tr><th>财务指标</th><th>2025-12-31</th></tr><tr><td style="color:var(--sr-sub)">营业收入</td><td>+8323.18亿</td></tr><tr><td style="color:var(--sr-sub)">净利润</td><td>+2544.24亿</td></tr><tr><td style="color:var(--sr-sub)">毛利率</td><td>56.2%</td></tr><tr><td style="color:var(--sr-sub)">净利率</td><td>30.6%</td></tr><tr><td style="color:var(--sr-sub)">ROE(加权)</td><td>21.4%</td></tr><tr><td style="color:var(--sr-sub)">基本EPS</td><td>27.401</td></tr><tr><td style="color:var(--sr-sub)">营收增速</td><td>16.7%</td></tr><tr><td style="color:var(--sr-sub)">净利增速</td><td>19.9%</td></tr></table></div>
+<div style="margin-top:14px"><b style="font-size:13px;display:block;margin-bottom:8px">财务报表摘要（利润表）</b><table class="sr-table"><tr><th>财务指标</th><th>2025-12-31</th></tr><tr><td style="color:var(--sr-sub)">营业收入</td><td>+1797.50亿</td></tr><tr><td style="color:var(--sr-sub)">净利润</td><td>+267.42亿</td></tr><tr><td style="color:var(--sr-sub)">毛利率</td><td>25.6%</td></tr><tr><td style="color:var(--sr-sub)">净利率</td><td>14.9%</td></tr><tr><td style="color:var(--sr-sub)">ROE(加权)</td><td>19.0%</td></tr><tr><td style="color:var(--sr-sub)">基本EPS</td><td>2.640</td></tr><tr><td style="color:var(--sr-sub)">营收增速</td><td>6.6%</td></tr><tr><td style="color:var(--sr-sub)">净利增速</td><td>0.9%</td></tr></table></div>
 <div style="margin-top:14px"><b style="font-size:13px;display:block;margin-bottom:8px">近期分红</b><table class="sr-table"><tr><th>派息日期</th><th>每股派息</th></tr><tr><td>—</td><td>— 港元</td></tr></table></div>
 
-<div class="sr-warn-box" style="margin-top:12px"><b>基本面小结：</b>PE(TTM)=17.9倍，处于历史中低位估值区间，安全边际充足。 PB=3.52倍，处于合理区间。 暂无机构评级数据。 股息率0.93%，有一定分红回报。 综合基本面：估值合理且具备上行空间，长期配置价值较高。</div>
+<div class="sr-warn-box" style="margin-top:12px"><b>基本面小结：</b>PE(TTM)=14.3倍，处于历史中低位估值区间，安全边际充足。 PB=2.47倍，处于合理偏低区间。 暂无机构评级数据。 股息率2.65%，高于债券收益率，兼具成长与分红属性。 综合基本面：估值合理且具备上行空间，长期配置价值较高。</div>
 </div>
 </div>
 
@@ -403,35 +403,35 @@ ctx.fillStyle=labelColor;ctx.fillText('阴线',pad.left+168,12);
 <div class="sr-grid2">
 <div>
 <b style="font-size:13px;display:block;margin-bottom:8px">近期重要资讯</b>
-<div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">重估腾讯AI价值： "40%效率提升+极致定价"，混元HY3.0已具规模化商用能力</div><div class="sr-news-meta">2026-04-24 · 华尔街见闻</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">腾讯发布出行全场景智能体开放平台</div><div class="sr-news-meta">2026-04-23 · 北京商报</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">刚刚，姚顺雨腾讯首秀来了！三个月重建混元新模型，实测到底什么水平</div><div class="sr-news-meta">2026-04-23 · 爱范儿</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">腾讯发布混元Hy3 preview并开源，系混元重建后首个模型</div><div class="sr-news-meta">2026-04-23 · 界面新闻</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">易方达基金张坤最新持仓动向来了！腾讯、茅台等位列前十重仓股</div><div class="sr-news-meta">2026-04-23 · 格隆汇</div></div></div>
+<div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">每日卖空追踪</div><div class="sr-news-meta">2026-04-23 · 0.0</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">中国宏桥04月23日收跌2.37% 主力资金逆市抢筹</div><div class="sr-news-meta">2026-04-23 · 市场透视</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">中国宏桥盘中异动 早盘急速下挫3.03%</div><div class="sr-news-meta">2026-04-23 · 市场透视</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">中国宏桥4月22日获南向资金加仓141.14万股</div><div class="sr-news-meta">2026-04-23 · 市场透视</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">每日卖空追踪</div><div class="sr-news-meta">2026-04-22 · 0.0</div></div></div>
 </div>
 <div><b style="font-size:13px;display:block;margin-bottom:8px">国际局势与宏观因素</b><table class="sr-table"><tr><th>因素</th><th>方向</th><th>说明</th></tr><tr><td>中美贸易摩擦</td><td><span class="sr-badge sr-badge-red">利空</span></td><td>港股外资情绪承压</td></tr><tr><td>美联储利率政策</td><td><span class="sr-badge sr-badge-orange">偏空</span></td><td>高利率压制港股估值</td></tr><tr><td>港元联汇制</td><td><span class="sr-badge sr-badge-gray">中性</span></td><td>无法像A股一样宽松对冲</td></tr><tr><td>南下资金流向</td><td><span class="sr-badge sr-badge-red">利空</span></td><td>内地资金今日减持</td></tr><tr><td>AI/科技政策</td><td><span class="sr-badge sr-badge-green">利好</span></td><td>国内AI政策持续支持</td></tr><tr><td>人民币汇率</td><td><span class="sr-badge sr-badge-gray">中性</span></td><td>汇兑影响相对有限</td></tr></table></div>
 </div>
 <div style="margin-top:14px;background:var(--sr-bg);border-radius:10px;padding:12px 16px">
-<b>新闻面小结：</b>近期5条资讯中正面消息占主导（0条利好/0条利空），基本面催化剂较多。今日下跌与负面消息相互印证，建议等待消息面稳定后再评估建仓时机。建议持续关注公司公告和行业政策动态，利好消息若能配合成交量放大，则具备较强的上行驱动力。
+<b>新闻面小结：</b>近期5条资讯中正面消息占主导（0条利好/0条利空），基本面催化剂较多。今日价格走势与消息面方向一致，消息面对股价形成正向驱动。建议持续关注公司公告和行业政策动态，利好消息若能配合成交量放大，则具备较强的上行驱动力。
 </div>
 </div>
 </div>
 
 <div class="sr-section"><div class="sr-section-title">七、平均筹码成本与价格位置</div><div class="sr-section-body" style="color:var(--sr-sub)">港股/ETF/指数暂无筹码数据。请结合均线和成交量判断市场持仓成本分布。</div></div>
 
-<div class="sr-section"><div class="sr-section-title">八、未来走势预估</div><div class="sr-section-body"><div class="sr-grid3"><div style="background:#e8f5e9;border-left:4px solid #43a047;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">短期（1-2周）</div><div style="font-size:14px;font-weight:800;color:#27ae60;margin-bottom:8px">超卖反弹</div><div style="font-size:12px;color:#5f6368;line-height:1.8">KDJ-J(2)和RSI(34)均进入超卖区域，历史统计此区域出现技术性反弹的概率较高。短线若放量站上505.9，有望反弹至503.9-500.3区间。注意：超卖反弹不等于趋势反转，若成交量未明显放大，反弹力度可能有限。</div></div><div style="background:#e8f5e9;border-left:4px solid #43a047;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">中期（1-3个月）</div><div style="font-size:14px;font-weight:800;color:#27ae60;margin-bottom:8px">区间震荡偏多</div><div style="font-size:12px;color:#5f6368;line-height:1.8">综合技术与资金面，中期在HK$0（布林下轨）~HK$550.3（MA20上方10%）区间震荡。业绩催化剂（季报、年报）可能成为中期突破的契机，关注HK$500.3能否企稳。</div></div><div style="background:#fff8e1;border-left:4px solid #ffb300;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">长期（6-12个月）</div><div style="font-size:14px;font-weight:800;color:#f57c00;margin-bottom:8px">长期走势取决于基本面</div><div style="font-size:12px;color:#5f6368;line-height:1.8">长期表现的核心取决于公司核心竞争力和行业景气度的可持续性。建议每季度根据财报数据重新评估基本面，动态调整仓位。</div></div></div><div class="sr-danger-box" style="margin-top:14px"><b>主要风险：</b><br>① 技术面：若成交量持续萎缩无法配合，即使价格上涨也难以形成有效突破<br>② 资金面：外资系统性减仓港股风险，中美贸易摩擦升温可能加大外资流出压力<br>③ 趋势风险：近60日跌幅18.2%，中期下行趋势未止，反弹力度和持续性有待验证<br>④ 宏观风险：美联储持续高利率环境压制港股估值，港元联汇制无法宽松对冲，外部风险难以规避<br>⑤ 仓位风险：任何单一标的的仓位不宜超过总仓位20%，严格执行止损纪律，防止单笔损失过大</div></div></div>
+<div class="sr-section"><div class="sr-section-title">八、未来走势预估</div><div class="sr-section-body"><div class="sr-grid3"><div style="background:#e8f5e9;border-left:4px solid #43a047;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">短期（1-2周）</div><div style="font-size:14px;font-weight:800;color:#27ae60;margin-bottom:8px">超卖反弹</div><div style="font-size:12px;color:#5f6368;line-height:1.8">KDJ-J(0)和RSI(40)均进入超卖区域，历史统计此区域出现技术性反弹的概率较高。短线若放量站上36.44，有望反弹至37.39-36.79区间。注意：超卖反弹不等于趋势反转，若成交量未明显放大，反弹力度可能有限。</div></div><div style="background:#e8f5e9;border-left:4px solid #43a047;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">中期（1-3个月）</div><div style="font-size:14px;font-weight:800;color:#27ae60;margin-bottom:8px">区间震荡偏多</div><div style="font-size:12px;color:#5f6368;line-height:1.8">综合技术与资金面，中期在HK$0（布林下轨）~HK$40.47（MA20上方10%）区间震荡。业绩催化剂（季报、年报）可能成为中期突破的契机，关注HK$36.79能否企稳。</div></div><div style="background:#fff8e1;border-left:4px solid #ffb300;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">长期（6-12个月）</div><div style="font-size:14px;font-weight:800;color:#f57c00;margin-bottom:8px">长期走势取决于基本面</div><div style="font-size:12px;color:#5f6368;line-height:1.8">长期表现的核心取决于公司核心竞争力和行业景气度的可持续性。建议每季度根据财报数据重新评估基本面，动态调整仓位。</div></div></div><div class="sr-danger-box" style="margin-top:14px"><b>主要风险：</b><br>① 技术面：若成交量持续萎缩无法配合，即使价格上涨也难以形成有效突破<br>② 资金面：外资系统性减仓港股风险，中美贸易摩擦升温可能加大外资流出压力<br>③ 业绩风险：季报/年报业绩不及预期可能引发机构下调目标价，造成补跌压力<br>④ 宏观风险：美联储持续高利率环境压制港股估值，港元联汇制无法宽松对冲，外部风险难以规避<br>⑤ 仓位风险：任何单一标的的仓位不宜超过总仓位20%，严格执行止损纪律，防止单笔损失过大</div></div></div>
 
 <div class="sr-section">
 <div class="sr-section-title">九、综合投资建议</div>
 <div class="sr-section-body">
-<div class="sr-advice-sell sr-advice-block">
-<div class="sr-advice-title">综合评分 5.4/10 — 谨慎观望，控制仓位</div>
-<p style="font-size:13px;line-height:1.8;color:var(--sr-text)">综合来看，腾讯控股当前风险偏大，建议轻仓观望或适当减仓控制风险。
-均线系统多头排列，趋势偏强。
-资金面：主力今日净流入+7793.6万元。
+<div class="sr-advice-watch sr-advice-block">
+<div class="sr-advice-title">综合评分 6.2/10 — 中性持有，关注量价</div>
+<p style="font-size:13px;line-height:1.8;color:var(--sr-text)">综合评估，中国宏桥处于中性观望区间，建议等待更明确的信号后再行动。
+均线系统均线纠缠，方向待明朗。
+资金面：主力今日净流出+797.1万元。
 
 </p>
 </div>
-<div class="sr-price-row" style="margin-top:14px"><div class="sr-price-box"><div class="sr-pk">激进建仓</div><div class="sr-pv sr-val-green">HK$474.1</div><div style="font-size:11px;color:var(--sr-sub)">MA/BOLL支撑区</div></div><div class="sr-price-box"><div class="sr-pk">稳健建仓</div><div class="sr-pv sr-val-green">HK$454.2</div><div style="font-size:11px;color:var(--sr-sub)">MA20+BOLL下轨区</div></div><div class="sr-price-box"><div class="sr-pk">中期目标价</div><div class="sr-pv sr-val-blue">HK$562.1</div><div style="font-size:11px;color:var(--sr-sub)">趋势延续前提</div></div><div class="sr-price-box"><div class="sr-pk">止损价</div><div class="sr-pv sr-val-red">HK$440.9</div><div style="font-size:11px;color:var(--sr-sub)">跌破则离场</div></div></div>
+<div class="sr-price-row" style="margin-top:14px"><div class="sr-price-box"><div class="sr-pk">激进建仓</div><div class="sr-pv sr-val-green">HK$34.94</div><div style="font-size:11px;color:var(--sr-sub)">MA/BOLL支撑区</div></div><div class="sr-price-box"><div class="sr-pk">稳健建仓</div><div class="sr-pv sr-val-green">HK$33.47</div><div style="font-size:11px;color:var(--sr-sub)">MA20+BOLL下轨区</div></div><div class="sr-price-box"><div class="sr-pk">中期目标价</div><div class="sr-pv sr-val-blue">HK$40.53</div><div style="font-size:11px;color:var(--sr-sub)">趋势延续前提</div></div><div class="sr-price-box"><div class="sr-pk">止损价</div><div class="sr-pv sr-val-red">HK$32.49</div><div style="font-size:11px;color:var(--sr-sub)">跌破则离场</div></div></div>
 <div style="margin-top:14px">
 <b style="font-size:13px;display:block;margin-bottom:8px">能否加仓？分情况建议</b>
-<table class="sr-table"><tr><th>投资者类型</th><th>建议</th><th>操作策略</th></tr><tr><td>已持仓（浮盈20%+）</td><td><span class="sr-badge sr-badge-orange">暂缓追加</span></td><td>不追高，等待回调至HK$474.1再加仓</td></tr><tr><td>已持仓（微亏/微盈）</td><td><span class="sr-badge sr-badge-orange">谨慎观望</span></td><td>等待均线金叉或量能放大信号</td></tr><tr><td>新入场（长线3年+）</td><td><span class="sr-badge sr-badge-red">暂缓，等待信号</span></td><td>等待技术面企稳后再介入</td></tr><tr><td>短线交易者</td><td><span class="sr-badge sr-badge-gray">严设止损</span></td><td>止损HK$440.9，目标HK$562.1，风险比≥1:2</td></tr></table>
+<table class="sr-table"><tr><th>投资者类型</th><th>建议</th><th>操作策略</th></tr><tr><td>已持仓（浮盈20%+）</td><td><span class="sr-badge sr-badge-orange">暂缓追加</span></td><td>不追高，等待回调至HK$34.94再加仓</td></tr><tr><td>已持仓（微亏/微盈）</td><td><span class="sr-badge sr-badge-orange">谨慎观望</span></td><td>等待均线金叉或量能放大信号</td></tr><tr><td>新入场（长线3年+）</td><td><span class="sr-badge sr-badge-green">可分批布局</span></td><td>分3批在HK$34.94/HK$33.14/HK$32.49建仓</td></tr><tr><td>短线交易者</td><td><span class="sr-badge sr-badge-gray">严设止损</span></td><td>止损HK$32.49，目标HK$40.53，风险比≥1:2</td></tr></table>
 </div>
 </div>
 </div>
