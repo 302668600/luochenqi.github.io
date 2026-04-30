@@ -1,0 +1,437 @@
+---
+title: "中国宏桥(hk01378) 深度分析 — 2026-04-30"
+date: 2026-04-30T08:00:00+08:00
+draft: false
+tags: ["股票分析", "港股", "中国宏桥", "hk01378"]
+categories: ["股票分析"]
+description: "中国宏桥(hk01378) 2026-04-30深度分析，现价32.78"
+showToc: false
+TocOpen: false
+---
+
+<style>
+
+.sr-wrap{--sr-blue:#1a73e8;--sr-blue-dark:#0d47a1;--sr-green:#34a853;--sr-red:#ea4335;--sr-orange:#f57c00;--sr-bg:#f0f2f5;--sr-card:#ffffff;--sr-text:#202124;--sr-sub:#5f6368;--sr-border:#dadce0;color:var(--sr-text);font-size:14px;line-height:1.6}
+.dark .sr-wrap{--sr-bg:#1a1b1e;--sr-card:#1e2129;--sr-text:#e0e0e0;--sr-sub:#9aa0a6;--sr-border:#2d3139}
+.sr-wrap *{box-sizing:border-box}
+.sr-header{background:linear-gradient(135deg,#0d47a1 0%,#1a73e8 100%);color:#fff;border-radius:12px;padding:28px 32px;margin-bottom:18px}
+.sr-header h2{font-size:22px;font-weight:700;margin:0 0 4px;color:#fff}
+.sr-header .sr-meta{font-size:12px;opacity:.85}
+.sr-price-hero{display:flex;align-items:baseline;gap:10px;margin-top:12px;flex-wrap:wrap}
+.sr-price-hero .sr-price{font-size:40px;font-weight:700}
+.sr-price-hero .sr-neg{font-size:18px;color:#ff8a80}
+.sr-price-hero .sr-pos{font-size:18px;color:#a5d6a7}
+.sr-price-hero .sr-info{font-size:13px;opacity:.75}
+.sr-score-banner{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.sr-score-card{flex:1;min-width:140px;background:var(--sr-card);border-radius:10px;padding:14px 16px;border:1px solid var(--sr-border);text-align:center}
+.sr-score-card .sr-label{font-size:11px;color:var(--sr-sub);margin-bottom:5px}
+.sr-score-card .sr-val{font-size:26px;font-weight:700}
+.sr-score-card .sr-sub2{font-size:11px;color:var(--sr-sub);margin-top:3px}
+.sr-val-red{color:#ea4335}.sr-val-green{color:#34a853}.sr-val-orange{color:#f57c00}.sr-val-blue{color:#1a73e8}.sr-val-yellow{color:#f9a825}
+.sr-section{background:var(--sr-card);border-radius:10px;border:1px solid var(--sr-border);margin-bottom:14px;overflow:hidden}
+.sr-section-title{background:var(--sr-bg);padding:12px 18px;font-weight:600;font-size:14px;border-bottom:1px solid var(--sr-border)}
+.sr-section-body{padding:18px}
+.sr-grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sr-grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.sr-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:680px){.sr-grid2,.sr-grid3,.sr-grid4{grid-template-columns:1fr 1fr}}
+.sr-kv{background:var(--sr-bg);border-radius:8px;padding:10px 12px}
+.sr-kv .sr-k{font-size:11px;color:var(--sr-sub);margin-bottom:2px}
+.sr-kv .sr-v{font-size:15px;font-weight:600}
+.sr-table{width:100%;border-collapse:collapse;font-size:13px}
+.sr-table th{background:var(--sr-bg);color:var(--sr-sub);font-weight:600;padding:7px 9px;text-align:left;border-bottom:1px solid var(--sr-border)}
+.sr-table td{padding:7px 9px;border-bottom:1px solid var(--sr-border);color:var(--sr-text)}
+.sr-table tr:last-child td{border-bottom:none}
+.sr-badge{display:inline-block;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:600}
+.sr-badge-red{background:#fce8e6;color:#c62828}.sr-badge-green{background:#e6f4ea;color:#1b5e20}
+.sr-badge-orange{background:#fff3e0;color:#e65100}.sr-badge-blue{background:#e8f0fe;color:#1565c0}
+.sr-badge-gray{background:#f1f3f4;color:#555}.sr-badge-yellow{background:#fff9c4;color:#f57f17}
+.dark .sr-badge-red{background:#4a1010;color:#ff8a80}.dark .sr-badge-green{background:#0d2e18;color:#81c995}
+.dark .sr-badge-orange{background:#3e2000;color:#ffcc80}.dark .sr-badge-blue{background:#0d2045;color:#82b1ff}
+.dark .sr-badge-gray{background:#2d2d2d;color:#bbb}
+.sr-bar-wrap{background:#e0e0e0;border-radius:4px;height:7px;margin-top:5px}
+.dark .sr-bar-wrap{background:#444}
+.sr-bar{height:7px;border-radius:4px}
+.sr-bar-green{background:#34a853}.sr-bar-red{background:#ea4335}.sr-bar-blue{background:#1a73e8}.sr-bar-orange{background:#f57c00}
+.sr-news-item{padding:9px 0;border-bottom:1px solid var(--sr-border);display:flex;gap:8px;align-items:flex-start}
+.sr-news-item:last-child{border-bottom:none}
+.sr-news-title{font-size:13px;color:var(--sr-text)}
+.sr-news-meta{font-size:11px;color:var(--sr-sub);margin-top:2px}
+.sr-warn-box{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:12px 14px;font-size:13px;color:#e65100;margin-top:10px}
+.dark .sr-warn-box{background:#2a1e00;border-color:#5a3e00;color:#ffcc80}
+.sr-danger-box{background:#fce8e6;border:1px solid #ef9a9a;border-radius:8px;padding:12px 14px;font-size:13px;color:#c62828;margin-top:10px}
+.sr-advice-block{border-radius:10px;padding:18px 20px;margin-bottom:12px}
+.sr-advice-buy{background:#e8f5e9;border:1px solid #a5d6a7}
+.dark .sr-advice-buy{background:#0d2e18;border-color:#2e7d32}
+.sr-advice-watch{background:#fff8e1;border:1px solid #ffe082}
+.dark .sr-advice-watch{background:#2a1e00;border-color:#5a3e00}
+.sr-advice-sell{background:#fce8e6;border:1px solid #ef9a9a}
+.dark .sr-advice-sell{background:#4a1010;border-color:#c62828}
+.sr-advice-title{font-size:16px;font-weight:700;margin-bottom:8px;color:#e65100}
+.dark .sr-advice-title{color:#ffcc80}
+.sr-price-row{display:flex;gap:12px;flex-wrap:wrap}
+.sr-price-box{background:var(--sr-card);border-radius:8px;padding:10px 14px;flex:1;min-width:110px;border:1px solid var(--sr-border)}
+.sr-price-box .sr-pk{font-size:11px;color:var(--sr-sub);margin-bottom:2px}
+.sr-price-box .sr-pv{font-size:16px;font-weight:700}
+.sr-footer-tip{font-size:12px;color:var(--sr-sub);background:var(--sr-bg);border-radius:8px;padding:10px 14px;margin-top:10px}
+.sr-risk-disclaimer{font-size:12px;color:#c62828;background:#fce8e6;border-radius:8px;padding:12px 14px;line-height:1.8}
+
+</style>
+
+<style>
+.sr-wrap{--sr-blue:#1a73e8;--sr-blue-dark:#0d47a1;--sr-green:#34a853;--sr-red:#ea4335;--sr-orange:#f57c00;--sr-bg:#f0f2f5;--sr-card:#ffffff;--sr-text:#202124;--sr-sub:#5f6368;--sr-border:#dadce0;color:var(--sr-text);font-size:14px;line-height:1.6}
+.dark .sr-wrap{--sr-bg:#1a1b1e;--sr-card:#1e2129;--sr-text:#e0e0e0;--sr-sub:#9aa0a6;--sr-border:#2d3139}
+.sr-wrap *{box-sizing:border-box}
+.sr-header{background:linear-gradient(135deg,#0d47a1 0%,#1a73e8 100%);color:#fff;border-radius:12px;padding:28px 32px;margin-bottom:18px}
+.sr-header h2{font-size:22px;font-weight:700;margin:0 0 4px;color:#fff}
+.sr-header .sr-meta{font-size:12px;opacity:.85}
+.sr-price-hero{display:flex;align-items:baseline;gap:10px;margin-top:12px;flex-wrap:wrap}
+.sr-price-hero .sr-price{font-size:40px;font-weight:700}
+.sr-price-hero .sr-neg{font-size:18px;color:#ff8a80}
+.sr-price-hero .sr-pos{font-size:18px;color:#a5d6a7}
+.sr-price-hero .sr-info{font-size:13px;opacity:.75}
+.sr-score-banner{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.sr-score-card{flex:1;min-width:140px;background:var(--sr-card);border-radius:10px;padding:14px 16px;border:1px solid var(--sr-border);text-align:center}
+.sr-score-card .sr-label{font-size:11px;color:var(--sr-sub);margin-bottom:5px}
+.sr-score-card .sr-val{font-size:26px;font-weight:700}
+.sr-score-card .sr-sub2{font-size:11px;color:var(--sr-sub);margin-top:3px}
+.sr-val-red{color:#ea4335}.sr-val-green{color:#34a853}.sr-val-orange{color:#f57c00}.sr-val-blue{color:#1a73e8}.sr-val-yellow{color:#f9a825}
+.sr-section{background:var(--sr-card);border-radius:10px;border:1px solid var(--sr-border);margin-bottom:14px;overflow:hidden}
+.sr-section-title{background:var(--sr-bg);padding:12px 18px;font-weight:600;font-size:14px;border-bottom:1px solid var(--sr-border)}
+.sr-section-body{padding:18px}
+.sr-grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sr-grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.sr-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:680px){.sr-grid2,.sr-grid3,.sr-grid4{grid-template-columns:1fr 1fr}}
+.sr-kv{background:var(--sr-bg);border-radius:8px;padding:10px 12px}
+.sr-kv .sr-k{font-size:11px;color:var(--sr-sub);margin-bottom:2px}
+.sr-kv .sr-v{font-size:15px;font-weight:600}
+.sr-table{width:100%;border-collapse:collapse;font-size:13px}
+.sr-table th{background:var(--sr-bg);color:var(--sr-sub);font-weight:600;padding:7px 9px;text-align:left;border-bottom:1px solid var(--sr-border)}
+.sr-table td{padding:7px 9px;border-bottom:1px solid var(--sr-border);color:var(--sr-text)}
+.sr-table tr:last-child td{border-bottom:none}
+.sr-badge{display:inline-block;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:600}
+.sr-badge-red{background:#fce8e6;color:#c62828}.sr-badge-green{background:#e6f4ea;color:#1b5e20}
+.sr-badge-orange{background:#fff3e0;color:#e65100}.sr-badge-blue{background:#e8f0fe;color:#1565c0}
+.sr-badge-gray{background:#f1f3f4;color:#555}.sr-badge-yellow{background:#fff9c4;color:#f57f17}
+.dark .sr-badge-red{background:#4a1010;color:#ff8a80}.dark .sr-badge-green{background:#0d2e18;color:#81c995}
+.dark .sr-badge-orange{background:#3e2000;color:#ffcc80}.dark .sr-badge-blue{background:#0d2045;color:#82b1ff}
+.dark .sr-badge-gray{background:#2d2d2d;color:#bbb}
+.sr-bar-wrap{background:#e0e0e0;border-radius:4px;height:7px;margin-top:5px}
+.dark .sr-bar-wrap{background:#444}
+.sr-bar{height:7px;border-radius:4px}
+.sr-bar-green{background:#34a853}.sr-bar-red{background:#ea4335}.sr-bar-blue{background:#1a73e8}.sr-bar-orange{background:#f57c00}
+.sr-news-item{padding:9px 0;border-bottom:1px solid var(--sr-border);display:flex;gap:8px;align-items:flex-start}
+.sr-news-item:last-child{border-bottom:none}
+.sr-news-title{font-size:13px;color:var(--sr-text)}
+.sr-news-meta{font-size:11px;color:var(--sr-sub);margin-top:2px}
+.sr-warn-box{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:12px 14px;font-size:13px;color:#e65100;margin-top:10px}
+.dark .sr-warn-box{background:#2a1e00;border-color:#5a3e00;color:#ffcc80}
+.sr-danger-box{background:#fce8e6;border:1px solid #ef9a9a;border-radius:8px;padding:12px 14px;font-size:13px;color:#c62828;margin-top:10px}
+.sr-advice-block{border-radius:10px;padding:18px 20px;margin-bottom:12px}
+.sr-advice-buy{background:#e8f5e9;border:1px solid #a5d6a7}
+.dark .sr-advice-buy{background:#0d2e18;border-color:#2e7d32}
+.sr-advice-watch{background:#fff8e1;border:1px solid #ffe082}
+.dark .sr-advice-watch{background:#2a1e00;border-color:#5a3e00}
+.sr-advice-sell{background:#fce8e6;border:1px solid #ef9a9a}
+.dark .sr-advice-sell{background:#4a1010;border-color:#c62828}
+.sr-advice-title{font-size:16px;font-weight:700;margin-bottom:8px;color:#e65100}
+.dark .sr-advice-title{color:#ffcc80}
+.sr-price-row{display:flex;gap:12px;flex-wrap:wrap}
+.sr-price-box{background:var(--sr-card);border-radius:8px;padding:10px 14px;flex:1;min-width:110px;border:1px solid var(--sr-border)}
+.sr-price-box .sr-pk{font-size:11px;color:var(--sr-sub);margin-bottom:2px}
+.sr-price-box .sr-pv{font-size:16px;font-weight:700}
+.sr-footer-tip{font-size:12px;color:var(--sr-sub);background:var(--sr-bg);border-radius:8px;padding:10px 14px;margin-top:10px}
+.sr-risk-disclaimer{font-size:12px;color:#c62828;background:#fce8e6;border-radius:8px;padding:12px 14px;line-height:1.8}
+</style>
+
+<div class="sr-wrap">
+
+<div class="sr-header">
+<div class="sr-meta">港股 ·  · hk01378 · 2026-04-30 收盘</div>
+<h2>中国宏桥(hk01378) 全面行情分析报告</h2>
+<div class="sr-price-hero">
+<span class="sr-price">32.78</span>
+<span class="sr-pos">▼ 4.38%</span>
+<span class="sr-info">港元 &nbsp;|&nbsp; 振幅 0.00% &nbsp;|&nbsp; 成交额 +188362.94亿港元</span>
+</div>
+</div>
+
+<div class="sr-score-banner">
+<div class="sr-score-card">
+<div class="sr-label">基本面</div>
+<div class="sr-val sr-val-orange">5</div>
+<div class="sr-sub2">/ 10</div>
+</div>
+<div class="sr-score-card">
+<div class="sr-label">新闻面</div>
+<div class="sr-val sr-val-green">6</div>
+<div class="sr-sub2">/ 10</div>
+</div>
+<div class="sr-score-card">
+<div class="sr-label">资金面</div>
+<div class="sr-val sr-val-green">6</div>
+<div class="sr-sub2">/ 10</div>
+</div>
+<div class="sr-score-card">
+<div class="sr-label">技术面</div>
+<div class="sr-val sr-val-orange">4</div>
+<div class="sr-sub2">/ 10</div>
+</div>
+<div class="sr-score-card" style="background:linear-gradient(135deg,#fff3e0,#fce8e6)">
+<div class="sr-label">综合评分</div>
+<div class="sr-val" style="color:#f57c00">6.0</div>
+<div class="sr-sub2">/ 10 &nbsp;<span class="sr-badge sr-badge-orange">中性持有，关注量价</span></div>
+</div>
+</div>
+
+<div class="sr-section">
+<div class="sr-section-title">一、基本行情概览</div>
+<div class="sr-section-body">
+<div class="sr-grid4"><div class="sr-kv"><div class="sr-k">收盘价</div><div class="sr-v sr-val-green">HK$32.78</div></div><div class="sr-kv"><div class="sr-k">今日涨跌</div><div class="sr-v sr-val-green">▼ 4.38%</div></div><div class="sr-kv"><div class="sr-k">开盘 / 昨收</div><div class="sr-v ">HK$33.48 / HK$0</div></div><div class="sr-kv"><div class="sr-k">今日高 / 低</div><div class="sr-v ">HK$33.66 / HK$32.5</div></div><div class="sr-kv"><div class="sr-k">成交额</div><div class="sr-v ">+188362.94亿港元</div></div><div class="sr-kv"><div class="sr-k">换手率 / 量比</div><div class="sr-v ">0.58% / 1.39</div></div><div class="sr-kv"><div class="sr-k">PE(TTM) / PB</div><div class="sr-v ">12.98x / 2.25x</div></div><div class="sr-kv"><div class="sr-k">总市值</div><div class="sr-v ">+0港元</div></div><div class="sr-kv"><div class="sr-k">52周高 / 低</div><div class="sr-v ">HK$41.36 / HK$12.62</div></div><div class="sr-kv"><div class="sr-k">距52周高 / 低</div><div class="sr-v "><span class="sr-val-red">-20.7%</span> / <span class="sr-val-green">+159.7%</span></div></div><div class="sr-kv"><div class="sr-k">年初至今</div><div class="sr-v "><span class="sr-val-red">+0.49%</span></div></div><div class="sr-kv"><div class="sr-k">近60日</div><div class="sr-v "><span class="sr-val-green">-18.50%</span></div></div></div>
+</div>
+</div>
+
+<div class="sr-section">
+<div class="sr-section-title">二、K线走势（近60日）</div>
+<div class="sr-section-body">
+<canvas id="sr-kline" style="width:100%;display:block" height="300"></canvas>
+<div style="margin-top:12px;font-size:13px;color:var(--sr-sub)">
+<b>走势回顾：</b>中国宏桥过去60日累计下跌18.50%，处于中期调整通道，股价已从52周高点HK$41.36回撤约21%，目前落在52周区间的70%分位，仍显著高于HK$12.62的低点水平。近20日和近5日分别下跌8.38%和7.51%，短期跌势呈加速迹象，股价已跌破MA5（34.37）、MA20（36.63）和MA60（36.53）全部均线支撑，形成空头排列。今日再跌4.38%至HK$32.78，延续短期弱势格局；换手率0.58%虽处于相对低位，但量比1.39显示交投较近期平均水平有所放大，说明抛压仍在释放，市场观望情绪浓厚。
+</div>
+</div>
+</div>
+<script>
+(function(){
+var canvas=document.getElementById('sr-kline');
+if(!canvas)return;
+var ctx=canvas.getContext('2d');
+var dpr=window.devicePixelRatio||1;
+var W=canvas.parentElement.clientWidth||860;
+var H=300;
+canvas.width=W*dpr;canvas.height=H*dpr;
+canvas.style.width=W+'px';canvas.style.height=H+'px';
+ctx.scale(dpr,dpr);
+var raw=[{d:"01-29",o:40.66,c:39.82,h:41.36,l:38.34},
+{d:"01-30",o:38.58,c:36.12,h:38.86,l:36.12},
+{d:"02-02",o:34.28,c:34.86,h:36.12,l:33.9},
+{d:"02-03",o:35.42,c:35.3,h:36,l:34.24},
+{d:"02-04",o:35.36,c:35.82,h:36.18,l:35.18},
+{d:"02-05",o:35.14,c:34.98,h:35.74,l:33.58},
+{d:"02-06",o:33.9,c:34.5,h:34.8,l:33.02},
+{d:"02-09",o:35.38,c:35.3,h:35.68,l:34.84},
+{d:"02-10",o:35.66,c:36.88,h:36.9,l:35.66},
+{d:"02-11",o:36.88,c:36.72,h:37.16,l:36.2},
+{d:"02-12",o:37.02,c:37.22,h:37.74,l:36.52},
+{d:"02-13",o:37,c:35.22,h:37.1,l:34.58},
+{d:"02-16",o:35.5,c:36.6,h:36.94,l:35.3},
+{d:"02-20",o:37.2,c:36.4,h:37.38,l:36.08},
+{d:"02-23",o:37.4,c:37.3,h:38.08,l:36.98},
+{d:"02-24",o:37.3,c:36.02,h:37.3,l:35.4},
+{d:"02-25",o:36.9,c:36.7,h:37.2,l:35.9},
+{d:"02-26",o:37.18,c:36.06,h:37.24,l:36.02},
+{d:"02-27",o:36.4,c:35.46,h:37.2,l:35.44},
+{d:"03-02",o:36.06,c:38,h:38.34,l:35.78},
+{d:"03-03",o:38.18,c:36.7,h:38.6,l:36.38},
+{d:"03-04",o:36.78,c:38.92,h:38.92,l:36.78},
+{d:"03-05",o:40.22,c:39.48,h:41.2,l:39.22},
+{d:"03-06",o:39.48,c:38.28,h:39.48,l:37.1},
+{d:"03-09",o:38.1,c:37.7,h:38.18,l:37},
+{d:"03-10",o:37.24,c:37.5,h:37.78,l:36.84},
+{d:"03-11",o:37.7,c:38.52,h:38.78,l:37.54},
+{d:"03-12",o:38.84,c:40.04,h:40.4,l:38.82},
+{d:"03-13",o:40.32,c:39.52,h:40.6,l:39.36},
+{d:"03-16",o:39.8,c:38.72,h:39.86,l:37.14},
+{d:"03-17",o:39.18,c:37.46,h:39.3,l:37.4},
+{d:"03-18",o:37.72,c:37.26,h:37.84,l:36.2},
+{d:"03-19",o:36.66,c:34.78,h:36.94,l:34.44},
+{d:"03-20",o:34.3,c:34.5,h:35.56,l:34},
+{d:"03-23",o:31.6,c:31.7,h:32.46,l:30.1},
+{d:"03-24",o:32.3,c:34.04,h:34.1,l:32.24},
+{d:"03-25",o:35.1,c:34.9,h:35.2,l:34.06},
+{d:"03-26",o:35,c:33.78,h:35.02,l:33.28},
+{d:"03-27",o:33.78,c:34.5,h:34.94,l:33.3},
+{d:"03-30",o:36.74,c:35.78,h:36.78,l:34.82},
+{d:"03-31",o:35.94,c:34.76,h:36.12,l:34.14},
+{d:"04-01",o:35.9,c:36.36,h:36.62,l:35.56},
+{d:"04-02",o:36.5,c:36.68,h:37.68,l:36.06},
+{d:"04-08",o:38,c:37.36,h:38.4,l:37.3},
+{d:"04-09",o:37.42,c:39.3,h:39.36,l:37.32},
+{d:"04-10",o:39.3,c:38.36,h:39.86,l:37.84},
+{d:"04-13",o:38,c:37.52,h:38.16,l:37.2},
+{d:"04-14",o:38.64,c:39.04,h:39.42,l:38.34},
+{d:"04-15",o:39.04,c:38.24,h:39.28,l:38.04},
+{d:"04-16",o:38.82,c:39.06,h:39.32,l:38.8},
+{d:"04-17",o:38.24,c:37.9,h:38.96,l:37.62},
+{d:"04-20",o:38,c:37.3,h:38,l:36.52},
+{d:"04-21",o:37.3,c:37.12,h:37.9,l:36.86},
+{d:"04-22",o:36.66,c:36.3,h:37.08,l:36.04},
+{d:"04-23",o:36.56,c:35.44,h:36.76,l:35},
+{d:"04-24",o:35.3,c:36.4,h:36.44,l:35.12},
+{d:"04-27",o:35.98,c:35.04,h:35.98,l:34.7},
+{d:"04-28",o:33.76,c:33.34,h:34.28,l:33.2},
+{d:"04-29",o:33.34,c:34.28,h:34.5,l:33.3},
+{d:"04-30",o:33.48,c:32.78,h:33.66,l:32.5}];
+var avgCost=0;
+var pad={left:52,right:15,top:18,bottom:28};
+var cw=W-pad.left-pad.right,ch=H-pad.top-pad.bottom;
+var allP=raw.flatMap(function(k){return[k.h,k.l]});
+var minP=Math.min.apply(null,allP)-allP.reduce(function(a,b){return a+b},0)/allP.length*0.02;
+var maxP=Math.max.apply(null,allP)+allP.reduce(function(a,b){return a+b},0)/allP.length*0.02;
+var range=maxP-minP,n=raw.length;
+var bw=Math.max(3,Math.floor(cw/n*0.65));
+function py(p){return pad.top+ch*(1-(p-minP)/range)}
+function px(i){return pad.left+(i+0.5)*(cw/n)}
+ctx.fillStyle='#ffffff';ctx.fillRect(0,0,W,H);
+var gridColor='#e8eaed';var labelColor='#888';
+ctx.strokeStyle=gridColor;ctx.lineWidth=0.5;
+for(var i=0;i<=4;i++){
+var y=pad.top+ch*i/4;
+ctx.beginPath();ctx.moveTo(pad.left,y);ctx.lineTo(W-pad.right,y);ctx.stroke();
+var val=(maxP-range*i/4).toFixed(2);
+ctx.fillStyle=labelColor;ctx.font='11px sans-serif';ctx.textAlign='right';
+ctx.fillText(val,pad.left-4,y+4);
+}
+// MA5
+ctx.strokeStyle='#1a73e8';ctx.lineWidth=1.4;ctx.beginPath();
+var started5=false;
+for(var i=4;i<n;i++){
+var ma5=0;for(var j=i-4;j<=i;j++)ma5+=raw[j].c;ma5/=5;
+var x=px(i),yy=py(ma5);
+if(!started5){ctx.moveTo(x,yy);started5=true;}else{ctx.lineTo(x,yy);};
+}ctx.stroke();
+// MA20
+ctx.strokeStyle='#f57c00';ctx.lineWidth=1.2;ctx.beginPath();
+var started20=false;
+for(var i=19;i<n;i++){
+var ma=0;for(var j=i-19;j<=i;j++)ma+=raw[j].c;ma/=20;
+var x=px(i),yy=py(ma);
+if(!started20){ctx.moveTo(x,yy);started20=true;}else{ctx.lineTo(x,yy);};
+}ctx.stroke();
+// 均价线
+if(avgCost>0){
+ctx.strokeStyle='#ff8f00';ctx.lineWidth=1.4;ctx.setLineDash([5,3]);
+ctx.beginPath();ctx.moveTo(pad.left,py(avgCost));ctx.lineTo(W-pad.right,py(avgCost));ctx.stroke();
+ctx.setLineDash([]);
+ctx.fillStyle='#ff8f00';ctx.font='10px sans-serif';ctx.textAlign='left';
+ctx.fillText('均价'+avgCost.toFixed(2),pad.left+4,py(avgCost)-4);
+}
+// K线
+raw.forEach(function(k,i){
+var x=px(i),up=k.c>=k.o;
+var color=up?'#34a853':'#ea4335';
+ctx.strokeStyle=color;ctx.fillStyle=color;ctx.lineWidth=1;
+ctx.beginPath();ctx.moveTo(x,py(k.h));ctx.lineTo(x,py(k.l));ctx.stroke();
+var y1=py(Math.max(k.o,k.c)),y2=py(Math.min(k.o,k.c)),bh=Math.max(1,y2-y1);
+if(up){ctx.strokeRect(x-bw/2,y1,bw,bh);}else{ctx.fillRect(x-bw/2,y1,bw,bh);};
+});
+// X轴标签
+ctx.fillStyle=labelColor;ctx.font='10px sans-serif';ctx.textAlign='center';
+var step=Math.max(1,Math.floor(n/8));
+for(var i=0;i<n;i+=step)ctx.fillText(raw[i].d,px(i),H-8);
+// 图例
+ctx.font='11px sans-serif';ctx.textAlign='left';
+ctx.fillStyle='#1a73e8';ctx.fillRect(pad.left,4,14,3);
+ctx.fillStyle=labelColor;ctx.fillText('MA5',pad.left+18,11);
+ctx.fillStyle='#f57c00';ctx.fillRect(pad.left+50,4,14,3);
+ctx.fillStyle=labelColor;ctx.fillText('MA20',pad.left+68,11);
+ctx.fillStyle='#34a853';ctx.fillRect(pad.left+110,3,9,9);
+ctx.fillStyle=labelColor;ctx.fillText('阳线',pad.left+123,12);
+ctx.fillStyle='#ea4335';ctx.fillRect(pad.left+155,3,9,9);
+ctx.fillStyle=labelColor;ctx.fillText('阴线',pad.left+168,12);
+})();
+</script>
+
+<div class="sr-section">
+<div class="sr-section-title">三、技术面分析</div>
+<div class="sr-section-body">
+<div class="sr-grid2">
+<div><b style="font-size:13px;display:block;margin-bottom:8px">均线系统</b><table class="sr-table"><tr><th>均线</th><th>数值</th><th>信号</th></tr><tr><td>MA5</td><td>34.37</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA10</td><td>35.59</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA20</td><td>36.63</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA30</td><td>36.04</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr><tr><td>MA60</td><td>36.53</td><td><span class="sr-badge sr-badge-red">价格在下 空头</span></td></tr></table></div>
+<div><b style="font-size:13px;display:block;margin-bottom:8px">主要技术指标</b><table class="sr-table"><tr><th>指标</th><th>数值</th><th>信号</th></tr><tr><td>MACD(DIF/DEA)</td><td>-0.69 / -0.17</td><td><span class="sr-badge sr-badge-red">MACD死叉</span></td></tr><tr><td>KDJ(K/D/J)</td><td>12.1 / 18.6 / -0.9</td><td><span class="sr-badge sr-badge-green">超卖</span></td></tr><tr><td>RSI(6/12)</td><td>27.9 / 36.5</td><td><span class="sr-badge sr-badge-green">超卖</span></td></tr><tr><td>布林带(上/中/下)</td><td>0 / 0 / 0</td><td><span class="sr-badge sr-badge-blue">中轨运行</span></td></tr><tr><td>SAR抛物线</td><td>—</td><td><span class="sr-badge sr-badge-gray">无数据</span></td></tr></table></div>
+</div>
+<div style="margin-top:14px">
+<b style="font-size:13px">支撑与压力位</b>
+<div class="sr-grid4" style="margin-top:8px">
+<div class="sr-kv"><div class="sr-k">强压力</div><div class="sr-v sr-val-red">HK$39.29</div></div>
+<div class="sr-kv"><div class="sr-k">次压力</div><div class="sr-v sr-val-orange">HK$36.63（MA区间）</div></div>
+<div class="sr-kv"><div class="sr-k">支撑1</div><div class="sr-v sr-val-green">HK$36.63（MA20）</div></div>
+<div class="sr-kv"><div class="sr-k">支撑2</div><div class="sr-v sr-val-green">HK$12.62（布林下轨）</div></div>
+</div>
+</div>
+<div class="sr-warn-box"><b>技术面小结：</b>均线系统呈现标准空头排列，MA5（34.37）< MA20（36.63）< MA60（36.53）< MA10（35.59），但MA20与MA60已非常接近接近粘合，短期均线加速下行，而当前价32.78已显著跌破所有均线；MACD指标中DIF（-0.690）下穿DEA（-0.170）形成死叉，且绿柱放大至-1.040，表明空头动能正在增强；RSI(6)为27.9接近超卖区，RSI(12)为36.5，KDJ指标中K值12.1、D值18.6、J值-0.9严重超卖，短期超跌反弹动能正在积聚但尚未触发；当前价格处于SAR止损点下方，布林数据中上轨与中轨均为破折号说明极端弱势行情下扩散失效，价格已远离上行通道下轨；目前股价同时面临36.63的短线压力位与支撑位纠缠区域，若未能守住12.62长期支撑，可能继续探底，建议空仓者观望不宜抄底，持仓者根据个人风险偏好考虑减仓止损或等待KDJ低位金叉及价格站上SAR后的企稳信号再判断。</div>
+</div>
+</div>
+
+<div class="sr-section">
+<div class="sr-section-title">四、资金面分析（港股通资金流向）</div>
+<div class="sr-section-body">
+<div class="sr-grid4"><div class="sr-kv"><div class="sr-k">主力净流入（今日）</div><div class="sr-v "><span class="sr-val-red">+2.46亿元</span><div class="sr-bar-wrap"><div class="sr-bar sr-bar-green" style="width:0%"></div></div><div style="font-size:11px;color:var(--sr-sub)">净比 +0.0%</div></div></div><div class="sr-kv"><div class="sr-k">主力买入/卖出</div><div class="sr-v "><span class="sr-val-red">+2.46亿元</span><div style="font-size:11px;color:var(--sr-sub)">买入+4.91亿 / 卖出+2.45亿</div></div></div><div class="sr-kv"><div class="sr-k">大单（港股暂无分项）</div><div class="sr-v "><span class="sr-val-red">+0元</span><div style="font-size:11px;color:var(--sr-sub)">港股数据源不拆分大单</div></div></div><div class="sr-kv"><div class="sr-k">散户净流入</div><div class="sr-v "><span class="sr-val-red">+3621.3万元</span><div style="font-size:11px;color:var(--sr-sub)">港股通散户净流向</div></div></div></div>
+<div class="sr-grid2" style="margin-top:14px">
+<div><b style="font-size:13px;display:block;margin-bottom:8px">港股通持股情况</b><table class="sr-table"><tr><th>项目</th><th>数值</th></tr><tr><td>港股通持股比例</td><td>10.70%</td></tr><tr><td>南下持仓股数</td><td>+10.61亿股</td></tr><tr><td>今日日变动（股数）</td><td><span class="sr-val-green">-638.5万股</span></td></tr><tr><td>今日日变动（港元）</td><td><span class="sr-val-green">-2.17亿元</span></td></tr><tr><td>季度累计（股数）</td><td><span class="sr-val-green">-9064.6万股</span></td></tr><tr><td>季度累计（港元）</td><td><span class="sr-val-green">-33.16亿元</span></td></tr></table></div>
+
+</div>
+<div class="sr-warn-box"><b>资金面小结：</b>今日主力资金净流入2.46亿元，主力净占比为0.0%，显示资金流入力度相对温和，尚未形成明显的建仓攻势，更偏向于试探性布局阶段。超大单净流入2.46亿元且买入金额4.91亿元显著高于卖出金额2.45亿元，表明大资金在积极承接，但大单净流入为0.00亿元暗示机构与游资分歧较大，暂不具备强势拉升条件。南下资金今日净流出2.17亿港元且本季度累计净流出33.2亿港元，外资持续减持对股价构成压制，不过持股比例仍维持在10.7%说明并未完全离场，属于阶段性调仓而非全面撤退。机构评级方面买入、持有、卖出家数均为0家且目标价缺失，反映机构关注度极低，资金面缺乏一致性指引。散户净流入0.36亿元显示散户情绪相对稳定但参与度不高，整体市场尚未形成共振。综合来看，当前资金面处于多空博弈的胶着状态，主力虽有小额流入但南下资金持续流出，机构观望态度浓厚，短期内更可能延续震荡洗盘格局，暂无明显建仓或撤退信号。</div>
+</div>
+</div>
+
+<div class="sr-section">
+<div class="sr-section-title">五、基本面分析</div>
+<div class="sr-section-body">
+<div class="sr-grid2"><div><b style="font-size:13px;display:block;margin-bottom:8px">公司简介</b><table class="sr-table"><tr><th>项目</th><th>内容</th></tr><tr><td style="color:var(--sr-sub)">公司全名</td><td>中国宏桥</td></tr><tr><td style="color:var(--sr-sub)">所属行业</td><td></td></tr><tr><td style="color:var(--sr-sub)">主营业务</td><td style="font-size:12px">中国宏桥集团有限公司(「中国宏桥」或「本集团」;股份编号:01378) 是一家中国领先的铝产品制造商。位于中国山东省的中国宏桥主要从事液态铝合金、铝合金锭、铝合金铸轧产品及铝母线的生产和销售。本集团凭借其庞大的规模及先进的技术、具竞争力的成...</td></tr></table></div><div><b style="font-size:13px;display:block;margin-bottom:8px">估值与市场指标</b><table class="sr-table"><tr><th>指标</th><th>数值</th><th>评价</th></tr><tr><td>PE(TTM)</td><td>12.98x</td><td><span class="sr-badge sr-badge-green">低估</span></td></tr><tr><td>PB</td><td>2.25x</td><td><span class="sr-badge sr-badge-blue">合理</span></td></tr><tr><td>股息率(TTM)</td><td>2.91%</td><td><span class="sr-badge sr-badge-blue">有分红</span></td></tr><tr><td>总市值</td><td colspan="2">+0港元</td></tr></table></div></div>
+
+<div style="margin-top:14px"><b style="font-size:13px;display:block;margin-bottom:8px">财务报表摘要（利润表）</b><table class="sr-table"><tr><th>财务指标</th><th>2025-12-31</th></tr><tr><td style="color:var(--sr-sub)">营业收入</td><td>+1797.50亿</td></tr><tr><td style="color:var(--sr-sub)">净利润</td><td>+267.42亿</td></tr><tr><td style="color:var(--sr-sub)">毛利率</td><td>25.6%</td></tr><tr><td style="color:var(--sr-sub)">净利率</td><td>14.9%</td></tr><tr><td style="color:var(--sr-sub)">ROE(加权)</td><td>19.0%</td></tr><tr><td style="color:var(--sr-sub)">基本EPS</td><td>2.640</td></tr><tr><td style="color:var(--sr-sub)">营收增速</td><td>6.6%</td></tr><tr><td style="color:var(--sr-sub)">净利增速</td><td>0.9%</td></tr></table></div>
+<div style="margin-top:14px"><b style="font-size:13px;display:block;margin-bottom:8px">近期分红</b><table class="sr-table"><tr><th>派息日期</th><th>每股派息</th></tr><tr><td>—</td><td>— 港元</td></tr></table></div>
+
+<div class="sr-warn-box" style="margin-top:12px"><b>基本面小结：</b>从估值角度看，中国宏桥当前市盈率（P/E TTM）为13.0倍、市净率（P/B）为2.25倍，整体估值水平处于相对合理区间，既非明显低估亦非显著高估，可算作"合理"。成长性方面，最新财报营收同比增长6.6%而净利润仅同比微增0.9%，说明公司规模仍在扩张但盈利增速明显放缓，成长性趋于温和甚至略显疲态。ROE为19.0%，反映出公司自有资本的盈利能力较强，资产运用效率较为优秀，这一指标属于 Attractive 水平。机构评级尚未覆盖，目标价与上行空间数据缺失，说明市场主流机构关注度较低或近期未出具报告，缺乏外部定价锚。综合来看，中国宏桥具备不错的股东回报能力（股息率2.91%、ROE 19%）和合理的估值水平，但成长性偏弱且机构覆盖度不足，更适合作为受益于铝周期和高股息的防守型价值标的，投资价值偏向"稳健合理"，而非高增长高弹性的进攻型机会。</div>
+</div>
+</div>
+
+<div class="sr-section">
+<div class="sr-section-title">六、新闻面与国际局势</div>
+<div class="sr-section-body">
+<div class="sr-grid2">
+<div>
+<b style="font-size:13px;display:block;margin-bottom:8px">近期重要资讯</b>
+<div class="sr-news-item"><div><span class="sr-badge sr-badge-green">利好</span></div><div><div class="sr-news-title">中国宏桥子公司财报揭示关键线索：利润弹性释放 高分红预期再强化</div><div class="sr-news-meta">2026-04-30 · Ofweek光电信息网</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">Mysteel：33家上市铝企披露2025年业绩，超八成盈利</div><div class="sr-news-meta">2026-04-30 · 百年建筑网</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">怀璧而行，势不可挡！中国宏桥102亿离岸人民币可转债重塑周期资产定价逻辑</div><div class="sr-news-meta">2026-04-30 · 久期财经</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-gray">中性</span></div><div><div class="sr-news-title">中国宏桥盘中异动 早盘大幅下挫3.09%报33.220港元</div><div class="sr-news-meta">2026-04-30 · 市场透视</div></div></div><div class="sr-news-item"><div><span class="sr-badge sr-badge-red">利空</span></div><div><div class="sr-news-title">中国宏桥4月29日遭南向资金减持638.49万股</div><div class="sr-news-meta">2026-04-30 · 市场透视</div></div></div>
+</div>
+<div><b style="font-size:13px;display:block;margin-bottom:8px">国际局势与宏观因素</b><table class="sr-table"><tr><th>因素</th><th>方向</th><th>说明</th></tr><tr><td>中美贸易摩擦</td><td><span class="sr-badge sr-badge-red">利空</span></td><td>港股外资情绪持续承压，中美关税博弈压制估值</td></tr><tr><td>美联储利率政策</td><td><span class="sr-badge sr-badge-orange">偏空</span></td><td>高利率环境压制港股估值扩张，降息预期偏谨慎</td></tr><tr><td>南下资金今日</td><td><span class="sr-badge sr-badge-red">利空</span></td><td>南下资金今日净卖出2.17亿港元</td></tr><tr><td>南下资金本季</td><td><span class="sr-badge sr-badge-gray">中性</span></td><td>本季度净卖出33.2亿港元，中长线信号偏谨慎</td></tr><tr><td>主力资金今日</td><td><span class="sr-badge sr-badge-green">利好</span></td><td>主力净流入2.46亿港元，机构主动参与</td></tr><tr><td>机构评级</td><td><span class="sr-badge sr-badge-gray">中性</span></td><td>机构评级数据待更新</td></tr><tr><td>估值水平</td><td><span class="sr-badge sr-badge-green">利好</span></td><td>PE=13.0x，估值偏低</td></tr><tr><td>港元联汇制</td><td><span class="sr-badge sr-badge-gray">中性</span></td><td>港元与美元挂钩，无法像A股宽松对冲，流动性受制约</td></tr></table></div>
+</div>
+<div style="margin-top:14px;background:var(--sr-bg);border-radius:10px;padding:12px 16px">
+<div class="sr-warn-box"><b>新闻面与宏观小结：</b>中国宏桥(01378.HK)今日新闻面整体偏向中性偏利好，最重要的一条是子公司财报揭示利润弹性释放且高分红预期进一步强化，这对以电解铝为主业、现金流充裕的宏桥构成直接估值支撑；但同时需警惕南向资金连续减持638万股的抛压信号。宏观环境上，中美贸易摩擦与美联储高利率构成了港股周期股的估值天花板，外资风险偏好受压；但中国宏桥深度绑定内地市场，业务聚焦于铝产业链上下游一体化，海外收入敞口相对有限，关税博弈对其直接冲击弱于出口导向型企业。资金面呈现内部分化：南下资金净卖出但主力资金仍净流入2.46亿港元，显示内地机构在逢低布局。综合内外部因素，高分红预期与铝价利润弹性是支撑宏桥近期股价的核心锚点，但南向资金持续流出和港股整体流动性受限将压制短期上行空间。短期内，在地缘政经不确定性高企的背景下，该股情绪面大概率维持区间震荡，估值修复节奏取决于铝价走势与分红兑现进度。</div>
+</div>
+</div>
+</div>
+
+<div class="sr-section"><div class="sr-section-title">七、平均筹码成本与价格位置</div><div class="sr-section-body" style="color:var(--sr-sub)">港股/ETF/指数暂无筹码数据。请结合均线和成交量判断市场持仓成本分布。</div></div>
+
+<div class="sr-section"><div class="sr-section-title">八、未来走势预估</div><div class="sr-section-body"><div class="sr-grid3"><div style="background:#e8f5e9;border-left:4px solid #43a047;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">短期（1-2周）</div><div style="font-size:14px;font-weight:800;color:#27ae60;margin-bottom:8px">超卖反弹</div><div style="font-size:12px;color:#5f6368;line-height:1.8">KDJ-J(-1)和RSI(28)均进入超卖区域，历史统计此区域出现技术性反弹的概率较高。短线若放量站上34.37，有望反弹至35.59-36.63区间。注意：超卖反弹不等于趋势反转，若成交量未明显放大，反弹力度可能有限。</div></div><div style="background:#e8f5e9;border-left:4px solid #43a047;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">中期（1-3个月）</div><div style="font-size:14px;font-weight:800;color:#27ae60;margin-bottom:8px">区间震荡偏多</div><div style="font-size:12px;color:#5f6368;line-height:1.8">综合技术与资金面，中期在HK$0（布林下轨）~HK$40.29（MA20上方10%）区间震荡。业绩催化剂（季报、年报）可能成为中期突破的契机，关注HK$36.63能否企稳。</div></div><div style="background:#fff8e1;border-left:4px solid #ffb300;border-radius:8px;padding:14px"><div style="font-size:12px;font-weight:700;margin-bottom:6px;color:#5f6368">长期（6-12个月）</div><div style="font-size:14px;font-weight:800;color:#f57c00;margin-bottom:8px">长期走势取决于基本面</div><div style="font-size:12px;color:#5f6368;line-height:1.8">长期表现的核心取决于公司核心竞争力和行业景气度的可持续性。建议每季度根据财报数据重新评估基本面，动态调整仓位。</div></div></div><div class="sr-danger-box" style="margin-top:14px"><b>主要风险：</b><br>① 技术面：均线空头排列，若价格持续低于MA20(36.63)，下行趋势可能延续，需设置止损<br>② 资金面：外资系统性减仓港股风险，中美贸易摩擦升温可能加大外资流出压力<br>③ 趋势风险：近60日跌幅18.5%，中期下行趋势未止，反弹力度和持续性有待验证<br>④ 宏观风险：美联储持续高利率环境压制港股估值，港元联汇制无法宽松对冲，外部风险难以规避<br>⑤ 仓位风险：任何单一标的的仓位不宜超过总仓位20%，严格执行止损纪律，防止单笔损失过大</div></div></div>
+
+<div class="sr-section">
+<div class="sr-section-title">九、综合投资建议</div>
+<div class="sr-section-body">
+<div class="sr-advice-watch sr-advice-block">
+<div class="sr-advice-title">综合评分 6.0/10 — 中性持有，关注量价</div>
+<p style="font-size:13px;line-height:1.8;color:var(--sr-text)">综合评估，中国宏桥处于中性观望区间，建议等待更明确的信号后再行动。
+均线系统空头排列，趋势偏弱。
+资金面：主力今日净流入+2.46亿元。
+
+</p>
+</div>
+<div class="sr-price-row" style="margin-top:14px"><div class="sr-price-box"><div class="sr-pk">激进建仓</div><div class="sr-pv sr-val-green">HK$31.8</div><div style="font-size:11px;color:var(--sr-sub)">MA/BOLL支撑区</div></div><div class="sr-price-box"><div class="sr-pk">稳健建仓</div><div class="sr-pv sr-val-green">HK$30.46</div><div style="font-size:11px;color:var(--sr-sub)">MA20+BOLL下轨区</div></div><div class="sr-price-box"><div class="sr-pk">中期目标价</div><div class="sr-pv sr-val-blue">HK$37.7</div><div style="font-size:11px;color:var(--sr-sub)">趋势延续前提</div></div><div class="sr-price-box"><div class="sr-pk">止损价</div><div class="sr-pv sr-val-red">HK$29.57</div><div style="font-size:11px;color:var(--sr-sub)">跌破则离场</div></div></div>
+<div style="margin-top:14px">
+<b style="font-size:13px;display:block;margin-bottom:8px">能否加仓？分情况建议</b>
+<div class="sr-invest-block" style="border-left:4px solid #16a34a;padding:12px 16px;margin:10px 0;background:rgba(0,0,0,0.02);border-radius:0 6px 6px 0;"><div style="font-weight:700;font-size:14px;color:#16a34a;margin-bottom:6px;">🚀 激进者建议</div><div style="font-size:13px;line-height:1.8;color:var(--sr-text)">当前股价HK$32.78已触发参考买入价HK$31.8附近，激进投资者可把握短期超跌反弹窗口，于HK$31.5–HK$32.5区间分批加仓，止损位严格设在HK$29.57下方，中期目标看向HK$37.7压力位，若资金持续流入且放量突破HK$36.63，可进一步上看HK$39.29。</div></div><div class="sr-invest-block" style="border-left:4px solid #2563eb;padding:12px 16px;margin:10px 0;background:rgba(0,0,0,0.02);border-radius:0 6px 6px 0;"><div style="font-weight:700;font-size:14px;color:#2563eb;margin-bottom:6px;">🛡️ 稳健者建议</div><div style="font-size:13px;line-height:1.8;color:var(--sr-text)">稳健投资者建议采用分批建仓策略，第一批在HK$31.5–HK$32.0区间轻仓试探，第二批在HK$30.5–HK$31.0附近加仓，第三批若股价回落至HK$29.6（止损位上沿）再补仓，综合持仓成本控制在HK$31以内，任何单日收盘跌破HK$29.57无条件止损。</div></div><div class="sr-invest-block" style="border-left:4px solid #9333ea;padding:12px 16px;margin:10px 0;background:rgba(0,0,0,0.02);border-radius:0 6px 6px 0;"><div style="font-weight:700;font-size:14px;color:#9333ea;margin-bottom:6px;">👁️ 中立者建议</div><div style="font-size:13px;line-height:1.8;color:var(--sr-text)">当前技术面评分仅4/10且股价处于近60日下行趋势中，观望者暂不建议介入，建议等待以下确认信号：一是股价站稳HK$34上方且成交量同步放大，二是60日线走平或拐头向上，三是主力资金连续三日净流入且 news 面无重大利空，在此之前保持跟踪观察即可。</div></div>
+</div>
+</div>
+</div>
+
+<div class="sr-section">
+<div class="sr-section-body">
+<div class="sr-risk-disclaimer">
+<b>风险提示：</b>本报告由程序自动生成，仅供参考，不构成任何投资建议。股市有风险，投资须谨慎。过去表现不代表未来收益。请结合自身风险承受能力独立判断。
+</div>
+<div class="sr-footer-tip">数据来源：westock-data / 东方财富 &nbsp;·&nbsp; 报告生成时间：2026-04-30 15:18:12</div>
+</div>
+</div>
+
+</div>
