@@ -79,7 +79,6 @@ TocOpen: false
 .dark .sr-cost-line.my-cost{background:#0d2045;border-color:#1565c0}
 </style>
 <div class="sr-wrap">
-
 <!-- HEADER -->
 <div class="sr-header">
   <div class="sr-meta">A股 · 中信金属 · 601061 · 2026-05-08 收盘分析</div>
@@ -90,7 +89,6 @@ TocOpen: false
 <span class="sr-info">人民币 &nbsp;|&nbsp; 今日震幅 2.67% &nbsp;|&nbsp; 成交额 1.26亿 &nbsp;|&nbsp; 换手率 0.18%</span>
   </div>
 </div>
-
 <!-- 综合评分 -->
 <div class="sr-score-banner">
   <div class="sr-score-card">
@@ -119,7 +117,6 @@ TocOpen: false
 <div class="sr-sub2">/ 10 &nbsp;<b>谨慎观望</b></div>
   </div>
 </div>
-
 <!-- K线图 -->
 <div class="sr-section">
   <div class="sr-section-title">▦ K线走势图（近60日）</div>
@@ -233,10 +230,10 @@ TocOpen: false
   ctx.font = '11px Arial';
   ctx.textAlign = 'right';
   for(var gi=0;gi<5;gi++){
-    var gp = minP + (maxP-minP)*gi/4;
-    var gy = px(gp);
-    ctx.beginPath(); ctx.moveTo(padL, gy); ctx.lineTo(W-padR, gy); ctx.stroke();
-    ctx.fillText(gp.toFixed(2), padL-4, gy+4);
+var gp = minP + (maxP-minP)*gi/4;
+var gy = px(gp);
+ctx.beginPath(); ctx.moveTo(padL, gy); ctx.lineTo(W-padR, gy); ctx.stroke();
+ctx.fillText(gp.toFixed(2), padL-4, gy+4);
   }
 
   // 我的成本线 14.43
@@ -259,9 +256,9 @@ TocOpen: false
   ctx.lineWidth = 1.5;
   ctx.beginPath();
   for(var i=4;i<n;i++){
-    var sum=0; for(var j=i-4;j<=i;j++) sum+=kdata[j].c;
-    var maY = px(sum/5);
-    if(i===4) ctx.moveTo(cx(i), maY); else ctx.lineTo(cx(i), maY);
+var sum=0; for(var j=i-4;j<=i;j++) sum+=kdata[j].c;
+var maY = px(sum/5);
+if(i===4) ctx.moveTo(cx(i), maY); else ctx.lineTo(cx(i), maY);
   }
   ctx.stroke();
   ctx.restore();
@@ -273,28 +270,28 @@ TocOpen: false
   ctx.beginPath();
   var ma20Started = false;
   for(var i=19;i<n;i++){
-    var sum=0; for(var j=i-19;j<=i;j++) sum+=kdata[j].c;
-    var maY = px(sum/20);
-    if(!ma20Started){ctx.moveTo(cx(i),maY); ma20Started=true;} else ctx.lineTo(cx(i),maY);
+var sum=0; for(var j=i-19;j<=i;j++) sum+=kdata[j].c;
+var maY = px(sum/20);
+if(!ma20Started){ctx.moveTo(cx(i),maY); ma20Started=true;} else ctx.lineTo(cx(i),maY);
   }
   ctx.stroke();
   ctx.restore();
 
   // 蜡烛
   for(var i=0;i<n;i++){
-    var k=kdata[i];
-    var isUp = k.c >= k.o;
-    var x = cx(i);
-    var oY = px(k.o), cY = px(k.c), hY = px(k.h), lY = px(k.l);
-    ctx.strokeStyle = isUp ? '#ea4335' : '#34a853';
-    ctx.fillStyle   = isUp ? '#ea4335' : '#34a853';
+var k=kdata[i];
+var isUp = k.c >= k.o;
+var x = cx(i);
+var oY = px(k.o), cY = px(k.c), hY = px(k.h), lY = px(k.l);
+ctx.strokeStyle = isUp ? '#ea4335' : '#34a853';
+ctx.fillStyle   = isUp ? '#ea4335' : '#34a853';
     // 影线
-    ctx.lineWidth = 1;
-    ctx.beginPath(); ctx.moveTo(x, hY); ctx.lineTo(x, lY); ctx.stroke();
+ctx.lineWidth = 1;
+ctx.beginPath(); ctx.moveTo(x, hY); ctx.lineTo(x, lY); ctx.stroke();
     // 实体
-    var bodyTop = Math.min(oY, cY);
-    var bodyH   = Math.max(2, Math.abs(oY - cY));
-    ctx.fillRect(x - candleW/2, bodyTop, candleW, bodyH);
+var bodyTop = Math.min(oY, cY);
+var bodyH   = Math.max(2, Math.abs(oY - cY));
+ctx.fillRect(x - candleW/2, bodyTop, candleW, bodyH);
   }
 
   // X轴标签（每5根）
@@ -302,9 +299,9 @@ TocOpen: false
   ctx.font = '10px Arial';
   ctx.textAlign = 'center';
   for(var i=0;i<n;i++){
-    if(i%5===0){
-      ctx.fillText(kdata[i].d, cx(i), H-padB+14);
-    }
+if(i%5===0){
+ctx.fillText(kdata[i].d, cx(i), H-padB+14);
+}
   }
 
   // 图例
@@ -312,16 +309,15 @@ TocOpen: false
   var lx = padL;
   ctx.font = '11px Arial';
   legends.forEach(function(lg){
-    ctx.fillStyle = lg.c;
-    ctx.fillRect(lx, padT-18, 14, 8);
-    ctx.fillStyle = '#202124';
-    ctx.textAlign = 'left';
-    ctx.fillText(lg.t, lx+17, padT-11);
-    lx += (ctx.measureText(lg.t).width + 34);
+ctx.fillStyle = lg.c;
+ctx.fillRect(lx, padT-18, 14, 8);
+ctx.fillStyle = '#202124';
+ctx.textAlign = 'left';
+ctx.fillText(lg.t, lx+17, padT-11);
+lx += (ctx.measureText(lg.t).width + 34);
   });
 })();
 </script>
-
 <!-- 基本信息 -->
 <div class="sr-section">
   <div class="sr-section-title">▦ 基本信息</div>
@@ -345,7 +341,6 @@ TocOpen: false
 </div>
   </div>
 </div>
-
 <!-- 基本面分析 -->
 <div class="sr-section">
   <div class="sr-section-title">▦ 基本面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
@@ -425,7 +420,6 @@ TocOpen: false
 </div>
   </div>
 </div>
-
 <!-- 消息面 / 政策面 -->
 <div class="sr-section">
   <div class="sr-section-title">▦ 消息面 & 政策面分析 <span class="sr-badge sr-badge-orange" style="margin-left:8px">评分 5.5/10</span></div>
@@ -462,14 +456,13 @@ TocOpen: false
 </div>
 <div style="margin-top:14px;padding:12px;background:var(--sr-bg);border-radius:8px;font-size:13px">
 <b>政策面背景：</b><br>
-      1. <b>中美贸易关税谈判</b>：近期中美贸易摩擦缓和预期升温，大宗商品价格有望受益于需求预期改善；<br>
-      2. <b>铜价/铁矿石：</b>铜价在8,000-9,000美元/吨区间震荡，铁矿石价格受钢铁产能调控压制；<br>
-      3. <b>中信集团支持：</b>背靠中信集团资源，在矿业投资和国际大宗商品采购中具备政策通道优势；<br>
-      4. <b>新能源材料需求：</b>铜需求受新能源车/光伏拉动长期向好，利好主营铜贸易的中信金属。
+1. <b>中美贸易关税谈判</b>：近期中美贸易摩擦缓和预期升温，大宗商品价格有望受益于需求预期改善；<br>
+2. <b>铜价/铁矿石：</b>铜价在8,000-9,000美元/吨区间震荡，铁矿石价格受钢铁产能调控压制；<br>
+3. <b>中信集团支持：</b>背靠中信集团资源，在矿业投资和国际大宗商品采购中具备政策通道优势；<br>
+4. <b>新能源材料需求：</b>铜需求受新能源车/光伏拉动长期向好，利好主营铜贸易的中信金属。
 </div>
   </div>
 </div>
-
 <!-- 资金面分析 -->
 <div class="sr-section">
   <div class="sr-section-title">▦ 资金流向分析 <span class="sr-badge sr-badge-red" style="margin-left:8px">评分 4.0/10</span></div>
@@ -543,7 +536,6 @@ TocOpen: false
 </div>
   </div>
 </div>
-
 <!-- 筹码分析 -->
 <div class="sr-section">
   <div class="sr-section-title">▦ 筹码分析</div>
@@ -573,7 +565,6 @@ TocOpen: false
 <span class="sr-badge sr-badge-orange">核心筹码区</span> 70%筹码集中于 13.88~15.17，当前价处于筹码密集区中部<br>
 <span class="sr-badge sr-badge-red">压力区</span> 15.17元（70%筹码上轨）为短期压力，突破则打开上行空间
 </div>
-
 <!-- 筹码分布可视化 -->
 <div style="margin-top:16px;background:var(--sr-bg);border-radius:8px;padding:16px">
 <div style="font-size:12px;color:var(--sr-sub);margin-bottom:10px">筹码密度示意（横向越宽代表筹码越密集）</div>
@@ -592,7 +583,6 @@ TocOpen: false
 </div>
   </div>
 </div>
-
 <!-- 技术面分析 -->
 <div class="sr-section">
   <div class="sr-section-title">▦ 技术面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
@@ -684,7 +674,6 @@ TocOpen: false
 </div>
   </div>
 </div>
-
 <!-- 综合投资建议 -->
 <div class="sr-section">
   <div class="sr-section-title">▦ 综合投资建议</div>
@@ -766,11 +755,10 @@ TocOpen: false
 </div>
 <div style="margin-top:16px;padding:14px;background:#e8f5e9;border-radius:8px;border:1px solid #a5d6a7;font-size:13px">
 <b style="color:#1b5e20">中线逻辑（3-6个月）：</b><br>
-      中信金属基本面扎实，PE(FWD) 12.86倍具备估值吸引力；背靠中信集团、受益于新能源金属需求长期增长；矿业资产（206亿长期股权投资）是重要的隐性价值。若铜价维持高位、中美贸易摩擦缓和，中线看至17元（年内高点）仍有空间。建议<b>持有底仓不动，在回调至14元附近逢低加仓</b>，设好13.40止损。
+中信金属基本面扎实，PE(FWD) 12.86倍具备估值吸引力；背靠中信集团、受益于新能源金属需求长期增长；矿业资产（206亿长期股权投资）是重要的隐性价值。若铜价维持高位、中美贸易摩擦缓和，中线看至17元（年内高点）仍有空间。建议<b>持有底仓不动，在回调至14元附近逢低加仓</b>，设好13.40止损。
 </div>
   </div>
 </div>
-
 <!-- 风险提示 -->
 <div class="sr-footer-tip">
   <b>风险提示：</b>本报告仅供参考，不构成投资建议。股票投资有风险，入市需谨慎。商品价格波动、宏观经济变化、汇率风险、经营性现金流压力等均可能影响中信金属股价表现。请结合自身风险承受能力独立判断。数据来源：westock-data，截至2026-05-08收盘。
