@@ -10,7 +10,6 @@ TocOpen: false
 ---
 
 <style>
-
 .sr-wrap{--sr-blue:#1a73e8;--sr-blue-dark:#0d47a1;--sr-green:#34a853;--sr-red:#ea4335;--sr-orange:#f57c00;--sr-bg:#f0f2f5;--sr-card:#ffffff;--sr-text:#202124;--sr-sub:#5f6368;--sr-border:#dadce0;color:var(--sr-text);font-size:14px;line-height:1.6}
 .dark .sr-wrap{--sr-bg:#1a1b1e;--sr-card:#1e2129;--sr-text:#e0e0e0;--sr-sub:#9aa0a6;--sr-border:#2d3139}
 .sr-wrap *{box-sizing:border-box}
@@ -75,8 +74,6 @@ TocOpen: false
 .sr-price-box .sr-pv{font-size:16px;font-weight:700}
 .sr-footer-tip{font-size:12px;color:var(--sr-sub);background:var(--sr-bg);border-radius:8px;padding:10px 14px;margin-top:10px}
 .sr-risk-disclaimer{font-size:12px;color:#c62828;background:#fce8e6;border-radius:8px;padding:12px 14px;line-height:1.8}
-
-
 .page-wrap{max-width:1040px;margin:0 auto;padding:16px 12px 40px}
 .mkt-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
 .top3-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px}
@@ -85,7 +82,6 @@ TocOpen: false
 .sr-tbl td{padding:9px 8px;text-align:center;border-bottom:1px solid #f1f3f4;vertical-align:middle}
 .sr-tbl tr:hover td{background:#f8f9fa}
 .sr-tbl tr:last-child td{border-bottom:none}
-
 </style>
 
 <div class="page-wrap">

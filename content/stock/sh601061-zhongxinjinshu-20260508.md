@@ -81,51 +81,51 @@ TocOpen: false
 <div class="sr-wrap">
 <!-- HEADER -->
 <div class="sr-header">
-  <div class="sr-meta">A股 · 中信金属 · 601061 · 2026-05-08 收盘分析</div>
-  <h2>中信金属(601061) 全面行情分析报告</h2>
-  <div class="sr-price-hero">
+<div class="sr-meta">A股 · 中信金属 · 601061 · 2026-05-08 收盘分析</div>
+<h2>中信金属(601061) 全面行情分析报告</h2>
+<div class="sr-price-hero">
 <span class="sr-price">14.45</span>
 <span class="sr-neg">-0.16 (-1.10%)</span>
 <span class="sr-info">人民币 &nbsp;|&nbsp; 今日震幅 2.67% &nbsp;|&nbsp; 成交额 1.26亿 &nbsp;|&nbsp; 换手率 0.18%</span>
-  </div>
+</div>
 </div>
 <!-- 综合评分 -->
 <div class="sr-score-banner">
-  <div class="sr-score-card">
+<div class="sr-score-card">
 <div class="sr-label">基本面</div>
 <div class="sr-val sr-val-green">6.5</div>
 <div class="sr-sub2">/ 10 &nbsp;稳健成长</div>
-  </div>
-  <div class="sr-score-card">
+</div>
+<div class="sr-score-card">
 <div class="sr-label">新闻面</div>
 <div class="sr-val sr-val-orange">5.5</div>
 <div class="sr-sub2">/ 10 &nbsp;中性偏正</div>
-  </div>
-  <div class="sr-score-card">
+</div>
+<div class="sr-score-card">
 <div class="sr-label">资金面</div>
 <div class="sr-val sr-val-red">4.0</div>
 <div class="sr-sub2">/ 10 &nbsp;主力净流出</div>
-  </div>
-  <div class="sr-score-card">
+</div>
+<div class="sr-score-card">
 <div class="sr-label">技术面</div>
 <div class="sr-val sr-val-green">6.5</div>
 <div class="sr-sub2">/ 10 &nbsp;均线多头</div>
-  </div>
-  <div class="sr-score-card" style="background:linear-gradient(135deg,#e8f5e9,#f1f8e9);border-color:#a5d6a7">
+</div>
+<div class="sr-score-card" style="background:linear-gradient(135deg,#e8f5e9,#f1f8e9);border-color:#a5d6a7">
 <div class="sr-label">综合评分</div>
 <div class="sr-val sr-val-orange">5.8</div>
 <div class="sr-sub2">/ 10 &nbsp;<b>谨慎观望</b></div>
-  </div>
+</div>
 </div>
 <!-- K线图 -->
 <div class="sr-section">
-  <div class="sr-section-title">▦ K线走势图（近60日）</div>
-  <div class="sr-section-body" style="padding:10px">
+<div class="sr-section-title">▦ K线走势图（近60日）</div>
+<div class="sr-section-body" style="padding:10px">
 <canvas id="sr-kline" style="width:100%;height:320px;display:block"></canvas>
 <div class="sr-cost-line my-cost">
 <b style="color:#1565c0">我的持仓成本：14.43元</b> &nbsp;|&nbsp; 当前价 14.45 元，浮盈约 <b style="color:#34a853">+0.14%</b>
 </div>
-  </div>
+</div>
 </div>
 <script>
 (function(){
@@ -309,8 +309,8 @@ lx += (ctx.measureText(lg.t).width + 34);
 </script>
 <!-- 基本信息 -->
 <div class="sr-section">
-  <div class="sr-section-title">▦ 基本信息</div>
-  <div class="sr-section-body">
+<div class="sr-section-title">▦ 基本信息</div>
+<div class="sr-section-body">
 <div class="sr-grid4">
 <div class="sr-kv"><div class="sr-k">股票代码</div><div class="sr-v">601061</div></div>
 <div class="sr-kv"><div class="sr-k">股票名称</div><div class="sr-v">中信金属</div></div>
@@ -328,12 +328,12 @@ lx += (ctx.measureText(lg.t).width + 34);
 <div style="margin-top:14px;font-size:13px;color:var(--sr-sub)">
 <b style="color:var(--sr-text)">公司简介：</b>中信金属是中信集团旗下的大宗金属及矿产品贸易旗舰平台，主营铁矿石、铜、铝等大宗金属贸易及矿业投资，背靠中信集团资源网络，在全球矿业资源领域具有重要布局。
 </div>
-  </div>
+</div>
 </div>
 <!-- 基本面分析 -->
 <div class="sr-section">
-  <div class="sr-section-title">▦ 基本面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
-  <div class="sr-section-body">
+<div class="sr-section-title">▦ 基本面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
+<div class="sr-section-body">
 <div class="sr-grid3">
 <div class="sr-kv">
 <div class="sr-k">2025全年营收</div>
@@ -407,12 +407,12 @@ lx += (ctx.measureText(lg.t).width + 34);
 <div class="sr-warn-box" style="margin-top:12px">
 <b>关键风险：</b>经营性现金流长期为负（-56.5亿），高度依赖短期借款融资（69.3亿），商品价格波动将直接冲击利润。铜/铝/铁矿石价格走势是中信金属核心Beta。
 </div>
-  </div>
+</div>
 </div>
 <!-- 消息面 / 政策面 -->
 <div class="sr-section">
-  <div class="sr-section-title">▦ 消息面 & 政策面分析 <span class="sr-badge sr-badge-orange" style="margin-left:8px">评分 5.5/10</span></div>
-  <div class="sr-section-body">
+<div class="sr-section-title">▦ 消息面 & 政策面分析 <span class="sr-badge sr-badge-orange" style="margin-left:8px">评分 5.5/10</span></div>
+<div class="sr-section-body">
 <div class="sr-news-item">
 <div>
 <div class="sr-news-title"><span class="sr-badge sr-badge-green">利好</span> 4月24日业绩说明会：锚定大宗商品贸易与矿业投资战略，多家机构参与</div>
@@ -450,12 +450,12 @@ lx += (ctx.measureText(lg.t).width + 34);
 3. <b>中信集团支持：</b>背靠中信集团资源，在矿业投资和国际大宗商品采购中具备政策通道优势；<br>
 4. <b>新能源材料需求：</b>铜需求受新能源车/光伏拉动长期向好，利好主营铜贸易的中信金属。
 </div>
-  </div>
+</div>
 </div>
 <!-- 资金面分析 -->
 <div class="sr-section">
-  <div class="sr-section-title">▦ 资金流向分析 <span class="sr-badge sr-badge-red" style="margin-left:8px">评分 4.0/10</span></div>
-  <div class="sr-section-body">
+<div class="sr-section-title">▦ 资金流向分析 <span class="sr-badge sr-badge-red" style="margin-left:8px">评分 4.0/10</span></div>
+<div class="sr-section-body">
 <div class="sr-grid4">
 <div class="sr-kv">
 <div class="sr-k">今日主力净流入</div>
@@ -523,12 +523,12 @@ lx += (ctx.measureText(lg.t).width + 34);
 <div class="sr-warn-box" style="margin-top:12px">
 <b>资金面解读：</b>5日和10日均为净流出，主力资金整体以减仓为主。但20日累计净流入近亿，说明中线资金在14元附近仍有布局意愿。今日超大单净流出-981万，显示高位机构有兑现迹象。融资资金5月7日转为买入，是短期边际改善信号，需持续观察。
 </div>
-  </div>
+</div>
 </div>
 <!-- 筹码分析 -->
 <div class="sr-section">
-  <div class="sr-section-title">▦ 筹码分析</div>
-  <div class="sr-section-body">
+<div class="sr-section-title">▦ 筹码分析</div>
+<div class="sr-section-body">
 <div class="sr-grid4">
 <div class="sr-kv">
 <div class="sr-k">平均持仓成本</div>
@@ -570,12 +570,12 @@ lx += (ctx.measureText(lg.t).width + 34);
 <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">11.34</span><div style="width:8%;background:#c8e6c9;height:8px;border-radius:3px"></div><span style="font-size:11px;color:var(--sr-sub)">90%筹码下轨</span></div>
 </div>
 </div>
-  </div>
+</div>
 </div>
 <!-- 技术面分析 -->
 <div class="sr-section">
-  <div class="sr-section-title">▦ 技术面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
-  <div class="sr-section-body">
+<div class="sr-section-title">▦ 技术面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
+<div class="sr-section-body">
 <div class="sr-grid3">
 <div class="sr-kv">
 <div class="sr-k">MA5 / MA10</div>
@@ -661,12 +661,12 @@ lx += (ctx.measureText(lg.t).width + 34);
 <b style="color:#34a853">支撑位：</b> 14.21（5月7日低点）→ 14.04（筹码均值/MA5支撑）→ 13.88（70%筹码下轨）→ 13.68（SAR线/强支撑）<br>
 <b style="color:#ea4335">压力位：</b> 14.80（今日高点）→ 15.17（BOLL上轨/70%筹码上轨）→ 15.97（近期高点）→ 17.81（52周高位）
 </div>
-  </div>
+</div>
 </div>
 <!-- 综合投资建议 -->
 <div class="sr-section">
-  <div class="sr-section-title">▦ 综合投资建议</div>
-  <div class="sr-section-body">
+<div class="sr-section-title">▦ 综合投资建议</div>
+<div class="sr-section-body">
 <div class="sr-advice-block sr-advice-watch">
 <div class="sr-advice-title" style="color:#e65100">▶ 谨慎加仓，等待回调确认支撑后分批建仓</div>
 <p style="font-size:13px;margin:0 0 12px">综合评分 <b>5.8/10</b>，结合您成本 14.43 的底仓情况，当前价 14.45 几乎与成本持平，短期存在以下风险：</p>
@@ -746,10 +746,10 @@ lx += (ctx.measureText(lg.t).width + 34);
 <b style="color:#1b5e20">中线逻辑（3-6个月）：</b><br>
 中信金属基本面扎实，PE(FWD) 12.86倍具备估值吸引力；背靠中信集团、受益于新能源金属需求长期增长；矿业资产（206亿长期股权投资）是重要的隐性价值。若铜价维持高位、中美贸易摩擦缓和，中线看至17元（年内高点）仍有空间。建议<b>持有底仓不动，在回调至14元附近逢低加仓</b>，设好13.40止损。
 </div>
-  </div>
+</div>
 </div>
 <!-- 风险提示 -->
 <div class="sr-footer-tip">
-  <b>风险提示：</b>本报告仅供参考，不构成投资建议。股票投资有风险，入市需谨慎。商品价格波动、宏观经济变化、汇率风险、经营性现金流压力等均可能影响中信金属股价表现。请结合自身风险承受能力独立判断。数据来源：westock-data，截至2026-05-08收盘。
+<b>风险提示：</b>本报告仅供参考，不构成投资建议。股票投资有风险，入市需谨慎。商品价格波动、宏观经济变化、汇率风险、经营性现金流压力等均可能影响中信金属股价表现。请结合自身风险承受能力独立判断。数据来源：westock-data，截至2026-05-08收盘。
 </div>
 </div>
