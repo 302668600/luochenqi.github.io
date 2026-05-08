@@ -1,0 +1,795 @@
+---
+title: "中信金属(601061) 全面行情分析报告 — 2026-05-08"
+date: 2026-05-08
+draft: false
+tags: ["股票分析", "A股", "中信金属", "601061", "投资建议", "有色金属", "大宗商品"]
+categories: ["股票分析"]
+description: "2026年5月8日中信金属(601061)全维度行情分析：资金流向、平均筹码、K线技术、基本面与消息面综合研判，成本14.43加仓建议。"
+showToc: false
+TocOpen: false
+---
+
+<style>
+.sr-wrap{--sr-blue:#1a73e8;--sr-blue-dark:#0d47a1;--sr-green:#34a853;--sr-red:#ea4335;--sr-orange:#f57c00;--sr-bg:#f0f2f5;--sr-card:#ffffff;--sr-text:#202124;--sr-sub:#5f6368;--sr-border:#dadce0;color:var(--sr-text);font-size:14px;line-height:1.6}
+.dark .sr-wrap{--sr-bg:#1a1b1e;--sr-card:#1e2129;--sr-text:#e0e0e0;--sr-sub:#9aa0a6;--sr-border:#2d3139}
+.sr-wrap *{box-sizing:border-box}
+.sr-header{background:linear-gradient(135deg,#0d47a1 0%,#1a73e8 100%);color:#fff;border-radius:12px;padding:28px 32px;margin-bottom:18px}
+.sr-header h2{font-size:22px;font-weight:700;margin:0 0 4px;color:#fff}
+.sr-header .sr-meta{font-size:12px;opacity:.85}
+.sr-price-hero{display:flex;align-items:baseline;gap:10px;margin-top:12px;flex-wrap:wrap}
+.sr-price-hero .sr-price{font-size:40px;font-weight:700}
+.sr-price-hero .sr-neg{font-size:18px;color:#ff8a80}
+.sr-price-hero .sr-pos{font-size:18px;color:#a5d6a7}
+.sr-price-hero .sr-info{font-size:13px;opacity:.75}
+.sr-score-banner{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.sr-score-card{flex:1;min-width:140px;background:var(--sr-card);border-radius:10px;padding:14px 16px;border:1px solid var(--sr-border);text-align:center}
+.sr-score-card .sr-label{font-size:11px;color:var(--sr-sub);margin-bottom:5px}
+.sr-score-card .sr-val{font-size:26px;font-weight:700}
+.sr-score-card .sr-sub2{font-size:11px;color:var(--sr-sub);margin-top:3px}
+.sr-val-red{color:#ea4335}.sr-val-green{color:#34a853}.sr-val-orange{color:#f57c00}.sr-val-blue{color:#1a73e8}.sr-val-yellow{color:#f9a825}
+.sr-section{background:var(--sr-card);border-radius:10px;border:1px solid var(--sr-border);margin-bottom:14px;overflow:hidden}
+.sr-section-title{background:var(--sr-bg);padding:12px 18px;font-weight:600;font-size:14px;border-bottom:1px solid var(--sr-border)}
+.sr-section-body{padding:18px}
+.sr-grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sr-grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.sr-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:680px){.sr-grid2,.sr-grid3,.sr-grid4{grid-template-columns:1fr 1fr}}
+.sr-kv{background:var(--sr-bg);border-radius:8px;padding:10px 12px}
+.sr-kv .sr-k{font-size:11px;color:var(--sr-sub);margin-bottom:2px}
+.sr-kv .sr-v{font-size:15px;font-weight:600}
+.sr-table{width:100%;border-collapse:collapse;font-size:13px}
+.sr-table th{background:var(--sr-bg);color:var(--sr-sub);font-weight:600;padding:7px 9px;text-align:left;border-bottom:1px solid var(--sr-border)}
+.sr-table td{padding:7px 9px;border-bottom:1px solid var(--sr-border);color:var(--sr-text)}
+.sr-table tr:last-child td{border-bottom:none}
+.sr-badge{display:inline-block;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:600}
+.sr-badge-red{background:#fce8e6;color:#c62828}.sr-badge-green{background:#e6f4ea;color:#1b5e20}
+.sr-badge-orange{background:#fff3e0;color:#e65100}.sr-badge-blue{background:#e8f0fe;color:#1565c0}
+.sr-badge-gray{background:#f1f3f4;color:#555}.sr-badge-yellow{background:#fff9c4;color:#f57f17}
+.dark .sr-badge-red{background:#4a1010;color:#ff8a80}.dark .sr-badge-green{background:#0d2e18;color:#81c995}
+.dark .sr-badge-orange{background:#3e2000;color:#ffcc80}.dark .sr-badge-blue{background:#0d2045;color:#82b1ff}
+.dark .sr-badge-gray{background:#2d2d2d;color:#bbb}
+.sr-bar-wrap{background:#e0e0e0;border-radius:4px;height:7px;margin-top:5px}
+.dark .sr-bar-wrap{background:#444}
+.sr-bar{height:7px;border-radius:4px}
+.sr-bar-green{background:#34a853}.sr-bar-red{background:#ea4335}.sr-bar-blue{background:#1a73e8}.sr-bar-orange{background:#f57c00}
+.sr-news-item{padding:9px 0;border-bottom:1px solid var(--sr-border);display:flex;gap:8px;align-items:flex-start}
+.sr-news-item:last-child{border-bottom:none}
+.sr-news-title{font-size:13px;color:var(--sr-text)}
+.sr-news-meta{font-size:11px;color:var(--sr-sub);margin-top:2px}
+.sr-warn-box{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:12px 14px;font-size:13px;color:#e65100;margin-top:10px}
+.dark .sr-warn-box{background:#2a1e00;border-color:#5a3e00;color:#ffcc80}
+.sr-danger-box{background:#fce8e6;border:1px solid #ef9a9a;border-radius:8px;padding:12px 14px;font-size:13px;color:#c62828;margin-top:10px}
+.sr-advice-block{border-radius:10px;padding:18px 20px;margin-bottom:12px}
+.sr-advice-buy{background:#e8f5e9;border:1px solid #a5d6a7}
+.dark .sr-advice-buy{background:#0d2e18;border-color:#2e7d32}
+.sr-advice-watch{background:#fff8e1;border:1px solid #ffe082}
+.dark .sr-advice-watch{background:#2a1e00;border-color:#5a3e00}
+.sr-advice-sell{background:#fce8e6;border:1px solid #ef9a9a}
+.dark .sr-advice-sell{background:#4a1010;border-color:#c62828}
+.sr-advice-title{font-size:16px;font-weight:700;margin-bottom:8px}
+.dark .sr-advice-title{color:#ffcc80}
+.sr-price-row{display:flex;gap:12px;flex-wrap:wrap}
+.sr-price-box{background:var(--sr-card);border-radius:8px;padding:10px 14px;flex:1;min-width:110px;border:1px solid var(--sr-border)}
+.sr-price-box .sr-pk{font-size:11px;color:var(--sr-sub);margin-bottom:2px}
+.sr-price-box .sr-pv{font-size:16px;font-weight:700}
+.sr-footer-tip{font-size:12px;color:var(--sr-sub);background:var(--sr-bg);border-radius:8px;padding:10px 14px;margin-top:10px}
+.sr-kline-wrap{position:relative;width:100%;background:var(--sr-card)}
+.sr-cost-line{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;font-size:13px;margin-top:8px}
+.sr-cost-line.my-cost{background:#e3f2fd;border:1px solid #90caf9}
+.dark .sr-cost-line.my-cost{background:#0d2045;border-color:#1565c0}
+</style>
+
+<div class="sr-wrap">
+
+<!-- HEADER -->
+<div class="sr-header">
+  <div class="sr-meta">A股 · 中信金属 · 601061 · 2026-05-08 收盘分析</div>
+  <h2>中信金属(601061) 全面行情分析报告</h2>
+  <div class="sr-price-hero">
+    <span class="sr-price">14.45</span>
+    <span class="sr-neg">-0.16 (-1.10%)</span>
+    <span class="sr-info">人民币 &nbsp;|&nbsp; 今日震幅 2.67% &nbsp;|&nbsp; 成交额 1.26亿 &nbsp;|&nbsp; 换手率 0.18%</span>
+  </div>
+</div>
+
+<!-- 综合评分 -->
+<div class="sr-score-banner">
+  <div class="sr-score-card">
+    <div class="sr-label">基本面</div>
+    <div class="sr-val sr-val-green">6.5</div>
+    <div class="sr-sub2">/ 10 &nbsp;稳健成长</div>
+  </div>
+  <div class="sr-score-card">
+    <div class="sr-label">新闻面</div>
+    <div class="sr-val sr-val-orange">5.5</div>
+    <div class="sr-sub2">/ 10 &nbsp;中性偏正</div>
+  </div>
+  <div class="sr-score-card">
+    <div class="sr-label">资金面</div>
+    <div class="sr-val sr-val-red">4.0</div>
+    <div class="sr-sub2">/ 10 &nbsp;主力净流出</div>
+  </div>
+  <div class="sr-score-card">
+    <div class="sr-label">技术面</div>
+    <div class="sr-val sr-val-green">6.5</div>
+    <div class="sr-sub2">/ 10 &nbsp;均线多头</div>
+  </div>
+  <div class="sr-score-card" style="background:linear-gradient(135deg,#e8f5e9,#f1f8e9);border-color:#a5d6a7">
+    <div class="sr-label">综合评分</div>
+    <div class="sr-val sr-val-orange">5.8</div>
+    <div class="sr-sub2">/ 10 &nbsp;<b>谨慎观望</b></div>
+  </div>
+</div>
+
+<!-- K线图 -->
+<div class="sr-section">
+  <div class="sr-section-title">▦ K线走势图（近60日）</div>
+  <div class="sr-section-body" style="padding:10px">
+    <canvas id="sr-kline" style="width:100%;height:320px;display:block"></canvas>
+    <div class="sr-cost-line my-cost">
+      <b style="color:#1565c0">我的持仓成本：14.43元</b> &nbsp;|&nbsp; 当前价 14.45 元，浮盈约 <b style="color:#34a853">+0.14%</b>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var canvas = document.getElementById('sr-kline');
+  if(!canvas) return;
+  var dpr = window.devicePixelRatio || 1;
+  var W = canvas.offsetWidth || canvas.parentElement.offsetWidth || 800;
+  var H = 320;
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+  var ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  var kdata = [
+    {d:'12-04',o:14.69,c:14.03,h:14.86,l:13.95,v:219694},
+    {d:'12-05',o:13.94,c:14.43,h:14.66,l:13.93,v:249392},
+    {d:'12-08',o:14.49,c:14.23,h:14.64,l:14.04,v:257298},
+    {d:'12-09',o:14.12,c:13.85,h:14.17,l:13.78,v:215163},
+    {d:'12-10',o:13.79,c:13.63,h:13.93,l:13.57,v:197848},
+    {d:'12-11',o:13.76,c:13.57,h:13.80,l:13.55,v:167339},
+    {d:'12-12',o:13.63,c:13.78,h:13.98,l:13.48,v:176972},
+    {d:'12-15',o:13.60,c:14.09,h:14.31,l:13.60,v:219602},
+    {d:'12-16',o:14.07,c:13.53,h:14.07,l:13.49,v:189138},
+    {d:'12-17',o:13.58,c:13.50,h:13.70,l:13.30,v:221999},
+    {d:'12-18',o:13.49,c:13.49,h:13.67,l:13.43,v:134788},
+    {d:'12-19',o:13.62,c:13.84,h:13.93,l:13.49,v:245840},
+    {d:'12-22',o:13.91,c:13.98,h:14.13,l:13.78,v:217628},
+    {d:'12-23',o:14.14,c:14.06,h:14.44,l:13.97,v:271442},
+    {d:'12-24',o:14.34,c:14.22,h:14.36,l:13.91,v:207013},
+    {d:'12-25',o:14.02,c:13.87,h:14.08,l:13.59,v:273098},
+    {d:'12-26',o:14.00,c:14.50,h:14.69,l:14.00,v:379604},
+    {d:'12-29',o:14.87,c:14.52,h:14.97,l:14.21,v:374657},
+    {d:'12-30',o:13.81,c:14.17,h:14.38,l:13.76,v:275767},
+    {d:'12-31',o:14.11,c:14.28,h:14.52,l:14.11,v:198190},
+    {d:'01-05',o:14.24,c:14.97,h:15.34,l:14.24,v:353961},
+    {d:'01-06',o:15.13,c:15.17,h:15.36,l:14.83,v:285443},
+    {d:'01-07',o:15.20,c:15.01,h:15.23,l:14.89,v:231590},
+    {d:'01-08',o:14.89,c:14.96,h:15.38,l:14.80,v:231085},
+    {d:'01-09',o:14.87,c:15.17,h:15.35,l:14.86,v:228113},
+    {d:'01-12',o:15.37,c:14.95,h:15.48,l:14.84,v:349185},
+    {d:'01-13',o:14.95,c:15.03,h:15.31,l:14.84,v:294260},
+    {d:'01-14',o:15.20,c:15.46,h:15.94,l:15.08,v:395493},
+    {d:'01-15',o:15.46,c:15.51,h:15.86,l:15.01,v:377840},
+    {d:'01-16',o:15.46,c:15.51,h:16.04,l:15.40,v:311981},
+    {d:'01-19',o:15.41,c:15.13,h:15.43,l:14.88,v:298821},
+    {d:'01-20',o:15.21,c:15.05,h:15.32,l:14.36,v:362980},
+    {d:'01-21',o:14.98,c:15.47,h:15.62,l:14.93,v:321787},
+    {d:'01-22',o:15.45,c:15.30,h:15.45,l:15.04,v:214380},
+    {d:'01-23',o:15.57,c:15.97,h:16.17,l:15.48,v:441711},
+    {d:'01-26',o:16.35,c:16.03,h:16.54,l:15.81,v:447780},
+    {d:'01-27',o:15.89,c:15.73,h:15.97,l:15.28,v:343335},
+    {d:'01-28',o:15.78,c:16.93,h:17.16,l:15.53,v:581828},
+    {d:'01-29',o:17.36,c:16.31,h:17.37,l:15.95,v:636539},
+    {d:'01-30',o:15.54,c:14.94,h:15.80,l:14.68,v:452948},
+    {d:'02-02',o:14.21,c:14.09,h:14.71,l:14.08,v:335700},
+    {d:'02-03',o:14.36,c:14.54,h:14.62,l:14.12,v:193005},
+    {d:'02-04',o:14.78,c:14.65,h:14.89,l:14.48,v:187115},
+    {d:'02-05',o:14.41,c:14.15,h:14.51,l:14.02,v:148322},
+    {d:'02-06',o:13.75,c:14.23,h:14.43,l:13.56,v:148264},
+    {d:'02-09',o:14.59,c:14.21,h:14.59,l:14.15,v:128571},
+    {d:'02-10',o:14.22,c:13.94,h:14.22,l:13.90,v:143099},
+    {d:'02-11',o:13.99,c:14.49,h:14.75,l:13.90,v:219423},
+    {d:'02-12',o:14.52,c:14.42,h:14.70,l:14.40,v:150997},
+    {d:'02-13',o:14.24,c:14.40,h:14.70,l:14.24,v:145186},
+    {d:'03-06',o:14.55,c:14.46,h:14.80,l:14.44,v:131572},
+    {d:'03-09',o:14.06,c:14.01,h:14.18,l:13.58,v:194501},
+    {d:'03-10',o:14.15,c:14.18,h:14.48,l:13.96,v:153208},
+    {d:'04-22',o:13.74,c:14.28,h:14.28,l:13.57,v:214981},
+    {d:'04-23',o:14.78,c:13.99,h:14.85,l:13.72,v:572713},
+    {d:'04-24',o:13.92,c:14.03,h:14.49,l:13.82,v:388062},
+    {d:'04-27',o:13.95,c:14.16,h:14.37,l:13.86,v:284868},
+    {d:'04-28',o:14.04,c:13.77,h:14.16,l:13.71,v:210620},
+    {d:'04-29',o:13.68,c:14.04,h:14.13,l:13.68,v:184338},
+    {d:'04-30',o:14.02,c:13.86,h:14.23,l:13.76,v:207915},
+    {d:'05-06',o:13.93,c:14.25,h:14.34,l:13.90,v:259803},
+    {d:'05-07',o:14.30,c:14.61,h:14.68,l:14.21,v:224038},
+    {d:'05-08',o:14.59,c:14.45,h:14.80,l:14.41,v:86690}
+  ];
+
+  var n = kdata.length;
+  var prices = kdata.reduce(function(a,k){return a.concat([k.h,k.l]);},[]);
+  var minP = Math.min.apply(null,prices);
+  var maxP = Math.max.apply(null,prices);
+  var padL=50, padR=20, padT=30, padB=80;
+  var chartW = W - padL - padR;
+  var chartH = H - padT - padB;
+  var candleW = Math.max(3, Math.floor(chartW / n) - 2);
+
+  function px(p){ return padT + chartH - (p - minP)/(maxP - minP)*chartH; }
+  function cx(i){ return padL + (i + 0.5) * chartW / n; }
+
+  // 背景
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 0, W, H);
+
+  // 网格线 + 价格标签
+  ctx.strokeStyle = '#e8eaed';
+  ctx.lineWidth = 0.5;
+  ctx.fillStyle = '#5f6368';
+  ctx.font = '11px Arial';
+  ctx.textAlign = 'right';
+  for(var gi=0;gi<5;gi++){
+    var gp = minP + (maxP-minP)*gi/4;
+    var gy = px(gp);
+    ctx.beginPath(); ctx.moveTo(padL, gy); ctx.lineTo(W-padR, gy); ctx.stroke();
+    ctx.fillText(gp.toFixed(2), padL-4, gy+4);
+  }
+
+  // 我的成本线 14.43
+  var costY = px(14.43);
+  ctx.save();
+  ctx.strokeStyle = '#1565c0';
+  ctx.lineWidth = 1.5;
+  ctx.setLineDash([5,3]);
+  ctx.beginPath(); ctx.moveTo(padL, costY); ctx.lineTo(W-padR, costY); ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle = '#1565c0';
+  ctx.font = 'bold 11px Arial';
+  ctx.textAlign = 'left';
+  ctx.fillText('成本 14.43', padL+4, costY-3);
+  ctx.restore();
+
+  // 均线 MA5
+  ctx.save();
+  ctx.strokeStyle = '#1a73e8';
+  ctx.lineWidth = 1.5;
+  ctx.beginPath();
+  for(var i=4;i<n;i++){
+    var sum=0; for(var j=i-4;j<=i;j++) sum+=kdata[j].c;
+    var maY = px(sum/5);
+    if(i===4) ctx.moveTo(cx(i), maY); else ctx.lineTo(cx(i), maY);
+  }
+  ctx.stroke();
+  ctx.restore();
+
+  // 均线 MA20
+  ctx.save();
+  ctx.strokeStyle = '#e65100';
+  ctx.lineWidth = 1.2;
+  ctx.beginPath();
+  var ma20Started = false;
+  for(var i=19;i<n;i++){
+    var sum=0; for(var j=i-19;j<=i;j++) sum+=kdata[j].c;
+    var maY = px(sum/20);
+    if(!ma20Started){ctx.moveTo(cx(i),maY); ma20Started=true;} else ctx.lineTo(cx(i),maY);
+  }
+  ctx.stroke();
+  ctx.restore();
+
+  // 蜡烛
+  for(var i=0;i<n;i++){
+    var k=kdata[i];
+    var isUp = k.c >= k.o;
+    var x = cx(i);
+    var oY = px(k.o), cY = px(k.c), hY = px(k.h), lY = px(k.l);
+    ctx.strokeStyle = isUp ? '#ea4335' : '#34a853';
+    ctx.fillStyle   = isUp ? '#ea4335' : '#34a853';
+    // 影线
+    ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(x, hY); ctx.lineTo(x, lY); ctx.stroke();
+    // 实体
+    var bodyTop = Math.min(oY, cY);
+    var bodyH   = Math.max(2, Math.abs(oY - cY));
+    ctx.fillRect(x - candleW/2, bodyTop, candleW, bodyH);
+  }
+
+  // X轴标签（每5根）
+  ctx.fillStyle = '#5f6368';
+  ctx.font = '10px Arial';
+  ctx.textAlign = 'center';
+  for(var i=0;i<n;i++){
+    if(i%5===0){
+      ctx.fillText(kdata[i].d, cx(i), H-padB+14);
+    }
+  }
+
+  // 图例
+  var legends = [{c:'#ea4335',t:'阳线'},{c:'#34a853',t:'阴线'},{c:'#1a73e8',t:'MA5'},{c:'#e65100',t:'MA20'},{c:'#1565c0',t:'成本14.43'}];
+  var lx = padL;
+  ctx.font = '11px Arial';
+  legends.forEach(function(lg){
+    ctx.fillStyle = lg.c;
+    ctx.fillRect(lx, padT-18, 14, 8);
+    ctx.fillStyle = '#202124';
+    ctx.textAlign = 'left';
+    ctx.fillText(lg.t, lx+17, padT-11);
+    lx += (ctx.measureText(lg.t).width + 34);
+  });
+})();
+</script>
+
+<!-- 基本信息 -->
+<div class="sr-section">
+  <div class="sr-section-title">▦ 基本信息</div>
+  <div class="sr-section-body">
+    <div class="sr-grid4">
+      <div class="sr-kv"><div class="sr-k">股票代码</div><div class="sr-v">601061</div></div>
+      <div class="sr-kv"><div class="sr-k">股票名称</div><div class="sr-v">中信金属</div></div>
+      <div class="sr-kv"><div class="sr-k">所属行业</div><div class="sr-v">商贸零售（大宗金属贸易）</div></div>
+      <div class="sr-kv"><div class="sr-k">上市日期</div><div class="sr-v">2023-04-10</div></div>
+      <div class="sr-kv"><div class="sr-k">市值</div><div class="sr-v">708亿</div></div>
+      <div class="sr-kv"><div class="sr-k">PE(TTM)</div><div class="sr-v">20.26</div></div>
+      <div class="sr-kv"><div class="sr-k">PE(FWD)</div><div class="sr-v">12.86</div></div>
+      <div class="sr-kv"><div class="sr-k">PB</div><div class="sr-v">2.92</div></div>
+      <div class="sr-kv"><div class="sr-k">52周高/低</div><div class="sr-v">17.81 / 7.21</div></div>
+      <div class="sr-kv"><div class="sr-k">换手率</div><div class="sr-v">0.18%</div></div>
+      <div class="sr-kv"><div class="sr-k">量比</div><div class="sr-v">1.18</div></div>
+      <div class="sr-kv"><div class="sr-k">股息率(TTM)</div><div class="sr-v">1.99%</div></div>
+    </div>
+    <div style="margin-top:14px;font-size:13px;color:var(--sr-sub)">
+      <b style="color:var(--sr-text)">公司简介：</b>中信金属是中信集团旗下的大宗金属及矿产品贸易旗舰平台，主营铁矿石、铜、铝等大宗金属贸易及矿业投资，背靠中信集团资源网络，在全球矿业资源领域具有重要布局。
+    </div>
+  </div>
+</div>
+
+<!-- 基本面分析 -->
+<div class="sr-section">
+  <div class="sr-section-title">▦ 基本面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
+  <div class="sr-section-body">
+    <div class="sr-grid3">
+      <div class="sr-kv">
+        <div class="sr-k">2025全年营收</div>
+        <div class="sr-v">1,418亿元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">归母净利润</div>
+        <div class="sr-v">26.9亿元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">EPS(基本)</div>
+        <div class="sr-v">0.55元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">总资产</div>
+        <div class="sr-v">577.5亿元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">净资产(归母)</div>
+        <div class="sr-v">232.4亿元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">毛利润(TTM)</div>
+        <div class="sr-v">21.3亿元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">经营性现金流</div>
+        <div class="sr-v">-56.5亿元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">长期股权投资</div>
+        <div class="sr-v">206.4亿元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">短期借款</div>
+        <div class="sr-v">69.3亿元</div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px">
+      <table class="sr-table">
+        <thead><tr><th>评估维度</th><th>指标</th><th>结论</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>估值水平</td>
+            <td>PE(FWD) 12.86 / PB 2.92</td>
+            <td><span class="sr-badge sr-badge-green">合理偏低</span> 远期估值仅12.86倍，低于历史中枢</td>
+          </tr>
+          <tr>
+            <td>盈利能力</td>
+            <td>归母净利 26.9亿 / 毛利率约1.5%</td>
+            <td><span class="sr-badge sr-badge-orange">贸易商属性</span> 大宗贸易毛利率天然较低，利润厚度有限</td>
+          </tr>
+          <tr>
+            <td>成长性</td>
+            <td>PE(FWD) 12.86 vs PE(LYR) 26.33</td>
+            <td><span class="sr-badge sr-badge-green">高增长预期</span> 机构预期利润将大幅增长，成长空间明显</td>
+          </tr>
+          <tr>
+            <td>财务健康</td>
+            <td>经营性现金流 -56.5亿</td>
+            <td><span class="sr-badge sr-badge-red">需关注</span> 营运资金占用大，经营性现金流持续为负</td>
+          </tr>
+          <tr>
+            <td>资产质量</td>
+            <td>长期股权投资206亿/总资产577亿</td>
+            <td><span class="sr-badge sr-badge-blue">矿业资产丰厚</span> 长期股权投资占总资产35%，矿业战略布局扎实</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="sr-warn-box" style="margin-top:12px">
+      <b>关键风险：</b>经营性现金流长期为负（-56.5亿），高度依赖短期借款融资（69.3亿），商品价格波动将直接冲击利润。铜/铝/铁矿石价格走势是中信金属核心Beta。
+    </div>
+  </div>
+</div>
+
+<!-- 消息面 / 政策面 -->
+<div class="sr-section">
+  <div class="sr-section-title">▦ 消息面 & 政策面分析 <span class="sr-badge sr-badge-orange" style="margin-left:8px">评分 5.5/10</span></div>
+  <div class="sr-section-body">
+    <div class="sr-news-item">
+      <div>
+        <div class="sr-news-title"><span class="sr-badge sr-badge-green">利好</span> 4月24日业绩说明会：锚定大宗商品贸易与矿业投资战略，多家机构参与</div>
+        <div class="sr-news-meta">2026-04-24 · 证券时报网 &nbsp;|&nbsp; 公司战略清晰，矿业资产布局扎实，获机构关注</div>
+      </div>
+    </div>
+    <div class="sr-news-item">
+      <div>
+        <div class="sr-news-title"><span class="sr-badge sr-badge-green">利好</span> 中标西昌钢钒铁粉矿采购项目，券商增持评级</div>
+        <div class="sr-news-meta">2026-04-24 · 自选股中标信息 &nbsp;|&nbsp; 大单中标展示渠道竞争力</div>
+      </div>
+    </div>
+    <div class="sr-news-item">
+      <div>
+        <div class="sr-news-title"><span class="sr-badge sr-badge-blue">中性</span> 兴澄特钢与中信金属开启风电新材料研发合作</div>
+        <div class="sr-news-meta">2026-04-30 · 江苏省冶金行业协会 &nbsp;|&nbsp; 布局新能源材料赛道，战略价值待验证</div>
+      </div>
+    </div>
+    <div class="sr-news-item">
+      <div>
+        <div class="sr-news-title"><span class="sr-badge sr-badge-blue">中性</span> 5月7日获融资净买入2619万元</div>
+        <div class="sr-news-meta">2026-05-08 · 市场透视 &nbsp;|&nbsp; 融资资金近期转为净买入，短期情绪边际改善</div>
+      </div>
+    </div>
+    <div class="sr-news-item">
+      <div>
+        <div class="sr-news-title"><span class="sr-badge sr-badge-orange">关注</span> 5月6日被融资净卖出860万元，前期多日主力资金持续净流出</div>
+        <div class="sr-news-meta">2026-04-27~05-06 · 市场透视 &nbsp;|&nbsp; 4月下旬以来主力资金以流出为主，短期承压</div>
+      </div>
+    </div>
+
+    <div style="margin-top:14px;padding:12px;background:var(--sr-bg);border-radius:8px;font-size:13px">
+      <b>政策面背景：</b><br>
+      1. <b>中美贸易关税谈判</b>：近期中美贸易摩擦缓和预期升温，大宗商品价格有望受益于需求预期改善；<br>
+      2. <b>铜价/铁矿石：</b>铜价在8,000-9,000美元/吨区间震荡，铁矿石价格受钢铁产能调控压制；<br>
+      3. <b>中信集团支持：</b>背靠中信集团资源，在矿业投资和国际大宗商品采购中具备政策通道优势；<br>
+      4. <b>新能源材料需求：</b>铜需求受新能源车/光伏拉动长期向好，利好主营铜贸易的中信金属。
+    </div>
+  </div>
+</div>
+
+<!-- 资金面分析 -->
+<div class="sr-section">
+  <div class="sr-section-title">▦ 资金流向分析 <span class="sr-badge sr-badge-red" style="margin-left:8px">评分 4.0/10</span></div>
+  <div class="sr-section-body">
+    <div class="sr-grid4">
+      <div class="sr-kv">
+        <div class="sr-k">今日主力净流入</div>
+        <div class="sr-v sr-val-red">-1,096万</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">超大单净流入</div>
+        <div class="sr-v sr-val-red">-981万</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">大单净流入</div>
+        <div class="sr-v sr-val-red">-114万</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">小单净流入</div>
+        <div class="sr-v sr-val-green">+1,051万</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">主力净比</div>
+        <div class="sr-v sr-val-red">-0.87%</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">5日主力累计</div>
+        <div class="sr-v sr-val-red">-7,226万</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">10日主力累计</div>
+        <div class="sr-v sr-val-red">-1.65亿</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">20日主力累计</div>
+        <div class="sr-v sr-val-green">+9,725万</div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px">
+      <div style="font-size:13px;margin-bottom:8px;font-weight:600">资金流向趋势（近5日）</div>
+      <table class="sr-table">
+        <thead><tr><th>日期</th><th>主力流向</th><th>收盘价</th><th>涨跌幅</th></tr></thead>
+        <tbody>
+          <tr><td>05-08</td><td><span class="sr-badge sr-badge-red">净流出 -1,096万</span></td><td>14.45</td><td style="color:#ea4335">-1.10%</td></tr>
+          <tr><td>05-07</td><td><span class="sr-badge sr-badge-green">净流入 +2,574万</span></td><td>14.61</td><td style="color:#ea4335">+2.25%</td></tr>
+          <tr><td>05-06</td><td><span class="sr-badge sr-badge-red">净流出 -1,108万</span></td><td>14.25</td><td style="color:#ea4335">+2.81%</td></tr>
+          <tr><td>04-30</td><td><span class="sr-badge sr-badge-red">净流出 -1,898万</span></td><td>13.86</td><td style="color:#ea4335">-1.28%</td></tr>
+          <tr><td>04-29</td><td><span class="sr-badge sr-badge-red">净流出 -1,012万</span></td><td>14.04</td><td style="color:#ea4335">+1.96%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:16px">
+      <div style="font-size:13px;margin-bottom:8px;font-weight:600">融资融券状况</div>
+      <div class="sr-grid3">
+        <div class="sr-kv">
+          <div class="sr-k">融资余额</div>
+          <div class="sr-v">5.93亿元</div>
+        </div>
+        <div class="sr-kv">
+          <div class="sr-k">融资净买入(5/7)</div>
+          <div class="sr-v sr-val-green">+2,619万</div>
+        </div>
+        <div class="sr-kv">
+          <div class="sr-k">融资余额日变动</div>
+          <div class="sr-v sr-val-red">-1.43%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sr-warn-box" style="margin-top:12px">
+      <b>资金面解读：</b>5日和10日均为净流出，主力资金整体以减仓为主。但20日累计净流入近亿，说明中线资金在14元附近仍有布局意愿。今日超大单净流出-981万，显示高位机构有兑现迹象。融资资金5月7日转为买入，是短期边际改善信号，需持续观察。
+    </div>
+  </div>
+</div>
+
+<!-- 筹码分析 -->
+<div class="sr-section">
+  <div class="sr-section-title">▦ 筹码分析</div>
+  <div class="sr-section-body">
+    <div class="sr-grid4">
+      <div class="sr-kv">
+        <div class="sr-k">平均持仓成本</div>
+        <div class="sr-v sr-val-blue">14.04元</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">当前获利盘比例</div>
+        <div class="sr-v sr-val-green">61.87%</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">90%筹码集中区</div>
+        <div class="sr-v">11.34 ~ 16.76</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">70%筹码集中区</div>
+        <div class="sr-v">13.88 ~ 15.17</div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px;font-size:13px;line-height:1.8">
+      <b>筹码解读：</b><br>
+      <span class="sr-badge sr-badge-green">关键支撑</span> 平均成本 <b>14.04元</b>，当前价 14.45 高于平均成本，整体浮盈约 <b>+2.92%</b><br>
+      <span class="sr-badge sr-badge-blue">您的成本</span> 14.43元，与市场平均成本 14.04 相近，处于有效支撑区上方<br>
+      <span class="sr-badge sr-badge-orange">核心筹码区</span> 70%筹码集中于 13.88~15.17，当前价处于筹码密集区中部<br>
+      <span class="sr-badge sr-badge-red">压力区</span> 15.17元（70%筹码上轨）为短期压力，突破则打开上行空间
+    </div>
+
+    <!-- 筹码分布可视化 -->
+    <div style="margin-top:16px;background:var(--sr-bg);border-radius:8px;padding:16px">
+      <div style="font-size:12px;color:var(--sr-sub);margin-bottom:10px">筹码密度示意（横向越宽代表筹码越密集）</div>
+      <div style="font-size:12px;display:flex;flex-direction:column;gap:5px">
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">16.76</span><div style="width:8%;background:#ef9a9a;height:10px;border-radius:3px"></div><span style="font-size:11px;color:var(--sr-sub)">压力区上轨</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">15.50</span><div style="width:18%;background:#ffcc80;height:10px;border-radius:3px"></div></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">15.17</span><div style="width:35%;background:#ffcc80;height:12px;border-radius:3px"></div><span style="font-size:11px;color:#e65100">短期压力位</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:#ea4335">14.80</span><div style="width:60%;background:#ef9a9a;height:14px;border-radius:3px"></div><span style="font-size:11px;color:#ea4335">今日高点/阻力</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;font-weight:bold;color:#1a73e8">14.45</span><div style="width:65%;background:#90caf9;height:16px;border-radius:3px"></div><span style="font-size:11px;color:#1a73e8">当前价</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;font-weight:bold;color:#1565c0">14.43</span><div style="width:65%;background:#bbdefb;height:13px;border-radius:3px"></div><span style="font-size:11px;color:#1565c0">我的成本</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">14.04</span><div style="width:70%;background:#a5d6a7;height:16px;border-radius:3px"></div><span style="font-size:11px;color:#34a853">市场平均成本</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">13.88</span><div style="width:55%;background:#a5d6a7;height:14px;border-radius:3px"></div><span style="font-size:11px;color:#34a853">强支撑区下轨</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">13.25</span><div style="width:20%;background:#c8e6c9;height:10px;border-radius:3px"></div></div>
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">11.34</span><div style="width:8%;background:#c8e6c9;height:8px;border-radius:3px"></div><span style="font-size:11px;color:var(--sr-sub)">90%筹码下轨</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 技术面分析 -->
+<div class="sr-section">
+  <div class="sr-section-title">▦ 技术面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
+  <div class="sr-section-body">
+    <div class="sr-grid3">
+      <div class="sr-kv">
+        <div class="sr-k">MA5 / MA10</div>
+        <div class="sr-v sr-val-green">14.24 / 14.14</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">MA20 / MA30</div>
+        <div class="sr-v">13.25 / 12.72</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">MA60 / MA120</div>
+        <div class="sr-v">13.42 / 14.15</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">MACD DIF/DEA</div>
+        <div class="sr-v sr-val-green">0.46 / 0.29</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">MACD柱(×2)</div>
+        <div class="sr-v sr-val-green">+0.34</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">KDJ(K/D/J)</div>
+        <div class="sr-v">69.8 / 70.4 / 68.5</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">RSI6 / RSI12</div>
+        <div class="sr-v sr-val-orange">68.7 / 66.4</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">BOLL上/中/下</div>
+        <div class="sr-v">15.17 / 13.25 / 11.34</div>
+      </div>
+      <div class="sr-kv">
+        <div class="sr-k">SAR</div>
+        <div class="sr-v sr-val-green">13.68（多头）</div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px">
+      <table class="sr-table">
+        <thead><tr><th>技术指标</th><th>当前状态</th><th>信号解读</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>均线系统</td>
+            <td>价格 > MA5 > MA10 > MA20</td>
+            <td><span class="sr-badge sr-badge-green">多头排列</span> 短中期均线多头，趋势向上</td>
+          </tr>
+          <tr>
+            <td>MACD</td>
+            <td>DIF 0.46 > DEA 0.29，柱状向上</td>
+            <td><span class="sr-badge sr-badge-green">金叉持续</span> 动能维持，上方空间仍有</td>
+          </tr>
+          <tr>
+            <td>KDJ</td>
+            <td>K≈70 D≈70，高位</td>
+            <td><span class="sr-badge sr-badge-orange">高位偏热</span> KDJ高位死叉风险，短期需回调</td>
+          </tr>
+          <tr>
+            <td>RSI</td>
+            <td>RSI6=68.7，RSI12=66.4</td>
+            <td><span class="sr-badge sr-badge-orange">偏热</span> 接近超买区(70)，上行动力减弱</td>
+          </tr>
+          <tr>
+            <td>BOLL</td>
+            <td>中轨13.25，上轨15.17</td>
+            <td><span class="sr-badge sr-badge-blue">中轨上方运行</span> 价格处于BOLL中上轨间，有上行空间</td>
+          </tr>
+          <tr>
+            <td>SAR</td>
+            <td>13.68，当前价在SAR上方</td>
+            <td><span class="sr-badge sr-badge-green">多头信号</span> 抛物线多头，趋势未逆转</td>
+          </tr>
+          <tr>
+            <td>5日涨幅</td>
+            <td>+5.01%</td>
+            <td><span class="sr-badge sr-badge-orange">短期冲高</span> 5日涨超5%，有短线回调需求</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:14px;background:var(--sr-bg);border-radius:8px;padding:12px;font-size:13px">
+      <b>关键价位：</b><br>
+      <b style="color:#34a853">支撑位：</b> 14.21（5月7日低点）→ 14.04（筹码均值/MA5支撑）→ 13.88（70%筹码下轨）→ 13.68（SAR线/强支撑）<br>
+      <b style="color:#ea4335">压力位：</b> 14.80（今日高点）→ 15.17（BOLL上轨/70%筹码上轨）→ 15.97（近期高点）→ 17.81（52周高位）
+    </div>
+  </div>
+</div>
+
+<!-- 综合投资建议 -->
+<div class="sr-section">
+  <div class="sr-section-title">▦ 综合投资建议</div>
+  <div class="sr-section-body">
+
+    <div class="sr-advice-block sr-advice-watch">
+      <div class="sr-advice-title" style="color:#e65100">▶ 谨慎加仓，等待回调确认支撑后分批建仓</div>
+      <p style="font-size:13px;margin:0 0 12px">综合评分 <b>5.8/10</b>，结合您成本 14.43 的底仓情况，当前价 14.45 几乎与成本持平，短期存在以下风险：</p>
+      <ul style="font-size:13px;margin:0;padding-left:18px;line-height:1.9">
+        <li><b>主力资金</b>5日累计净流出 -7,226万，10日净流出 -1.65亿，机构减仓压力明显</li>
+        <li><b>技术面</b>KDJ高位（约70），RSI接近超买，5日涨幅已达5.01%，短线有回调需求</li>
+        <li><b>今日行情</b>冲高14.80后回落至14.45，量能萎缩（换手率仅0.18%），上攻乏力信号明显</li>
+        <li><b>筹码压力</b>14.80-15.17区间筹码密集，向上突破需要强主力配合</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:14px;font-size:13px">
+      <b>针对您成本14.43底仓的建议操作方案：</b>
+    </div>
+
+    <div class="sr-price-row" style="margin-top:10px">
+      <div class="sr-price-box">
+        <div class="sr-pk">您的持仓成本</div>
+        <div class="sr-pv" style="color:#1565c0">14.43元</div>
+      </div>
+      <div class="sr-price-box">
+        <div class="sr-pk">当前浮盈</div>
+        <div class="sr-pv" style="color:#34a853">+0.14%</div>
+      </div>
+      <div class="sr-price-box">
+        <div class="sr-pk">加仓1档（首选）</div>
+        <div class="sr-pv" style="color:#34a853">14.00~14.10</div>
+      </div>
+      <div class="sr-price-box">
+        <div class="sr-pk">加仓2档（超跌）</div>
+        <div class="sr-pv" style="color:#1a73e8">13.68~13.88</div>
+      </div>
+      <div class="sr-price-box">
+        <div class="sr-pk">目标价（短期）</div>
+        <div class="sr-pv" style="color:#f57c00">15.50元</div>
+      </div>
+      <div class="sr-price-box">
+        <div class="sr-pk">目标价（中期）</div>
+        <div class="sr-pv" style="color:#ea4335">17.00元</div>
+      </div>
+      <div class="sr-price-box">
+        <div class="sr-pk">止损参考</div>
+        <div class="sr-pv" style="color:#ea4335">13.40元</div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px">
+      <table class="sr-table">
+        <thead><tr><th>操作方案</th><th>条件</th><th>建议</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>当前价14.45 不加仓</b></td>
+            <td>资金面持续净流出，KDJ高位</td>
+            <td>持有底仓，等待更优入场点，<b>不建议现价追仓</b></td>
+          </tr>
+          <tr>
+            <td><b>回落14.00-14.10 加仓</b></td>
+            <td>回踩筹码均值+MA5支撑区</td>
+            <td><span class="sr-badge sr-badge-green">首选加仓区间</span> 此区域筹码密集支撑强，量能缩量则更佳</td>
+          </tr>
+          <tr>
+            <td><b>深回调13.68-13.88 加仓</b></td>
+            <td>跌至SAR线/70%筹码下轨</td>
+            <td><span class="sr-badge sr-badge-blue">超跌加仓区</span> 如大盘调整导致超跌，可分批重仓</td>
+          </tr>
+          <tr>
+            <td><b>放量突破14.80 追仓</b></td>
+            <td>成交量>30万手，突破今日高点</td>
+            <td><span class="sr-badge sr-badge-orange">突破确认后可适量追</span> 需配合资金流入信号</td>
+          </tr>
+          <tr>
+            <td><b>止损</b></td>
+            <td>跌破13.40</td>
+            <td><span class="sr-badge sr-badge-red">止损离场</span> 破位则趋势逆转，执行止损</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:16px;padding:14px;background:#e8f5e9;border-radius:8px;border:1px solid #a5d6a7;font-size:13px">
+      <b style="color:#1b5e20">中线逻辑（3-6个月）：</b><br>
+      中信金属基本面扎实，PE(FWD) 12.86倍具备估值吸引力；背靠中信集团、受益于新能源金属需求长期增长；矿业资产（206亿长期股权投资）是重要的隐性价值。若铜价维持高位、中美贸易摩擦缓和，中线看至17元（年内高点）仍有空间。建议<b>持有底仓不动，在回调至14元附近逢低加仓</b>，设好13.40止损。
+    </div>
+  </div>
+</div>
+
+<!-- 风险提示 -->
+<div class="sr-footer-tip">
+  <b>风险提示：</b>本报告仅供参考，不构成投资建议。股票投资有风险，入市需谨慎。商品价格波动、宏观经济变化、汇率风险、经营性现金流压力等均可能影响中信金属股价表现。请结合自身风险承受能力独立判断。数据来源：westock-data，截至2026-05-08收盘。
+</div>
+
+</div>
