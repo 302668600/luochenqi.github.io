@@ -140,7 +140,6 @@ TocOpen: false
   canvas.style.height = H + 'px';
   var ctx = canvas.getContext('2d');
   ctx.scale(dpr, dpr);
-
   var kdata = [
     {d:'12-04',o:14.69,c:14.03,h:14.86,l:13.95,v:219694},
     {d:'12-05',o:13.94,c:14.43,h:14.66,l:13.93,v:249392},
@@ -206,7 +205,6 @@ TocOpen: false
     {d:'05-07',o:14.30,c:14.61,h:14.68,l:14.21,v:224038},
     {d:'05-08',o:14.59,c:14.45,h:14.80,l:14.41,v:86690}
   ];
-
   var n = kdata.length;
   var prices = kdata.reduce(function(a,k){return a.concat([k.h,k.l]);},[]);
   var minP = Math.min.apply(null,prices);
@@ -215,14 +213,11 @@ TocOpen: false
   var chartW = W - padL - padR;
   var chartH = H - padT - padB;
   var candleW = Math.max(3, Math.floor(chartW / n) - 2);
-
   function px(p){ return padT + chartH - (p - minP)/(maxP - minP)*chartH; }
   function cx(i){ return padL + (i + 0.5) * chartW / n; }
-
   // 背景
   ctx.fillStyle = '#ffffff';
   ctx.fillRect(0, 0, W, H);
-
   // 网格线 + 价格标签
   ctx.strokeStyle = '#e8eaed';
   ctx.lineWidth = 0.5;
@@ -235,7 +230,6 @@ var gy = px(gp);
 ctx.beginPath(); ctx.moveTo(padL, gy); ctx.lineTo(W-padR, gy); ctx.stroke();
 ctx.fillText(gp.toFixed(2), padL-4, gy+4);
   }
-
   // 我的成本线 14.43
   var costY = px(14.43);
   ctx.save();
@@ -249,7 +243,6 @@ ctx.fillText(gp.toFixed(2), padL-4, gy+4);
   ctx.textAlign = 'left';
   ctx.fillText('成本 14.43', padL+4, costY-3);
   ctx.restore();
-
   // 均线 MA5
   ctx.save();
   ctx.strokeStyle = '#1a73e8';
@@ -262,7 +255,6 @@ if(i===4) ctx.moveTo(cx(i), maY); else ctx.lineTo(cx(i), maY);
   }
   ctx.stroke();
   ctx.restore();
-
   // 均线 MA20
   ctx.save();
   ctx.strokeStyle = '#e65100';
@@ -276,7 +268,6 @@ if(!ma20Started){ctx.moveTo(cx(i),maY); ma20Started=true;} else ctx.lineTo(cx(i)
   }
   ctx.stroke();
   ctx.restore();
-
   // 蜡烛
   for(var i=0;i<n;i++){
 var k=kdata[i];
@@ -293,7 +284,6 @@ var bodyTop = Math.min(oY, cY);
 var bodyH   = Math.max(2, Math.abs(oY - cY));
 ctx.fillRect(x - candleW/2, bodyTop, candleW, bodyH);
   }
-
   // X轴标签（每5根）
   ctx.fillStyle = '#5f6368';
   ctx.font = '10px Arial';
@@ -303,7 +293,6 @@ if(i%5===0){
 ctx.fillText(kdata[i].d, cx(i), H-padB+14);
 }
   }
-
   // 图例
   var legends = [{c:'#ea4335',t:'阳线'},{c:'#34a853',t:'阴线'},{c:'#1a73e8',t:'MA5'},{c:'#e65100',t:'MA20'},{c:'#1565c0',t:'成本14.43'}];
   var lx = padL;
