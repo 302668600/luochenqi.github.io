@@ -631,12 +631,12 @@ lx += (ctx.measureText(lg.t).width + 34);
 <tbody>
 <tr>
 <td>均线系统</td>
-<td>价格 > MA5 > MA10 > MA20</td>
+<td>价格 &gt; MA5 &gt; MA10 &gt; MA20</td>
 <td><span class="sr-badge sr-badge-green">多头排列</span> 短中期均线多头，趋势向上</td>
 </tr>
 <tr>
 <td>MACD</td>
-<td>DIF 0.46 > DEA 0.29，柱状向上</td>
+<td>DIF 0.46 &gt; DEA 0.29，柱状向上</td>
 <td><span class="sr-badge sr-badge-green">金叉持续</span> 动能维持，上方空间仍有</td>
 </tr>
 <tr>
@@ -742,7 +742,7 @@ lx += (ctx.measureText(lg.t).width + 34);
 </tr>
 <tr>
 <td><b>放量突破14.80 追仓</b></td>
-<td>成交量>30万手，突破今日高点</td>
+<td>成交量&gt;30万手，突破今日高点</td>
 <td><span class="sr-badge sr-badge-orange">突破确认后可适量追</span> 需配合资金流入信号</td>
 </tr>
 <tr>
