@@ -78,7 +78,6 @@ TocOpen: false
 .sr-cost-line.my-cost{background:#e3f2fd;border:1px solid #90caf9}
 .dark .sr-cost-line.my-cost{background:#0d2045;border-color:#1565c0}
 </style>
-
 <div class="sr-wrap">
 
 <!-- HEADER -->
@@ -86,38 +85,38 @@ TocOpen: false
   <div class="sr-meta">A股 · 中信金属 · 601061 · 2026-05-08 收盘分析</div>
   <h2>中信金属(601061) 全面行情分析报告</h2>
   <div class="sr-price-hero">
-    <span class="sr-price">14.45</span>
-    <span class="sr-neg">-0.16 (-1.10%)</span>
-    <span class="sr-info">人民币 &nbsp;|&nbsp; 今日震幅 2.67% &nbsp;|&nbsp; 成交额 1.26亿 &nbsp;|&nbsp; 换手率 0.18%</span>
+<span class="sr-price">14.45</span>
+<span class="sr-neg">-0.16 (-1.10%)</span>
+<span class="sr-info">人民币 &nbsp;|&nbsp; 今日震幅 2.67% &nbsp;|&nbsp; 成交额 1.26亿 &nbsp;|&nbsp; 换手率 0.18%</span>
   </div>
 </div>
 
 <!-- 综合评分 -->
 <div class="sr-score-banner">
   <div class="sr-score-card">
-    <div class="sr-label">基本面</div>
-    <div class="sr-val sr-val-green">6.5</div>
-    <div class="sr-sub2">/ 10 &nbsp;稳健成长</div>
+<div class="sr-label">基本面</div>
+<div class="sr-val sr-val-green">6.5</div>
+<div class="sr-sub2">/ 10 &nbsp;稳健成长</div>
   </div>
   <div class="sr-score-card">
-    <div class="sr-label">新闻面</div>
-    <div class="sr-val sr-val-orange">5.5</div>
-    <div class="sr-sub2">/ 10 &nbsp;中性偏正</div>
+<div class="sr-label">新闻面</div>
+<div class="sr-val sr-val-orange">5.5</div>
+<div class="sr-sub2">/ 10 &nbsp;中性偏正</div>
   </div>
   <div class="sr-score-card">
-    <div class="sr-label">资金面</div>
-    <div class="sr-val sr-val-red">4.0</div>
-    <div class="sr-sub2">/ 10 &nbsp;主力净流出</div>
+<div class="sr-label">资金面</div>
+<div class="sr-val sr-val-red">4.0</div>
+<div class="sr-sub2">/ 10 &nbsp;主力净流出</div>
   </div>
   <div class="sr-score-card">
-    <div class="sr-label">技术面</div>
-    <div class="sr-val sr-val-green">6.5</div>
-    <div class="sr-sub2">/ 10 &nbsp;均线多头</div>
+<div class="sr-label">技术面</div>
+<div class="sr-val sr-val-green">6.5</div>
+<div class="sr-sub2">/ 10 &nbsp;均线多头</div>
   </div>
   <div class="sr-score-card" style="background:linear-gradient(135deg,#e8f5e9,#f1f8e9);border-color:#a5d6a7">
-    <div class="sr-label">综合评分</div>
-    <div class="sr-val sr-val-orange">5.8</div>
-    <div class="sr-sub2">/ 10 &nbsp;<b>谨慎观望</b></div>
+<div class="sr-label">综合评分</div>
+<div class="sr-val sr-val-orange">5.8</div>
+<div class="sr-sub2">/ 10 &nbsp;<b>谨慎观望</b></div>
   </div>
 </div>
 
@@ -125,13 +124,12 @@ TocOpen: false
 <div class="sr-section">
   <div class="sr-section-title">▦ K线走势图（近60日）</div>
   <div class="sr-section-body" style="padding:10px">
-    <canvas id="sr-kline" style="width:100%;height:320px;display:block"></canvas>
-    <div class="sr-cost-line my-cost">
-      <b style="color:#1565c0">我的持仓成本：14.43元</b> &nbsp;|&nbsp; 当前价 14.45 元，浮盈约 <b style="color:#34a853">+0.14%</b>
-    </div>
+<canvas id="sr-kline" style="width:100%;height:320px;display:block"></canvas>
+<div class="sr-cost-line my-cost">
+<b style="color:#1565c0">我的持仓成本：14.43元</b> &nbsp;|&nbsp; 当前价 14.45 元，浮盈约 <b style="color:#34a853">+0.14%</b>
+</div>
   </div>
 </div>
-
 <script>
 (function(){
   var canvas = document.getElementById('sr-kline');
@@ -328,23 +326,23 @@ TocOpen: false
 <div class="sr-section">
   <div class="sr-section-title">▦ 基本信息</div>
   <div class="sr-section-body">
-    <div class="sr-grid4">
-      <div class="sr-kv"><div class="sr-k">股票代码</div><div class="sr-v">601061</div></div>
-      <div class="sr-kv"><div class="sr-k">股票名称</div><div class="sr-v">中信金属</div></div>
-      <div class="sr-kv"><div class="sr-k">所属行业</div><div class="sr-v">商贸零售（大宗金属贸易）</div></div>
-      <div class="sr-kv"><div class="sr-k">上市日期</div><div class="sr-v">2023-04-10</div></div>
-      <div class="sr-kv"><div class="sr-k">市值</div><div class="sr-v">708亿</div></div>
-      <div class="sr-kv"><div class="sr-k">PE(TTM)</div><div class="sr-v">20.26</div></div>
-      <div class="sr-kv"><div class="sr-k">PE(FWD)</div><div class="sr-v">12.86</div></div>
-      <div class="sr-kv"><div class="sr-k">PB</div><div class="sr-v">2.92</div></div>
-      <div class="sr-kv"><div class="sr-k">52周高/低</div><div class="sr-v">17.81 / 7.21</div></div>
-      <div class="sr-kv"><div class="sr-k">换手率</div><div class="sr-v">0.18%</div></div>
-      <div class="sr-kv"><div class="sr-k">量比</div><div class="sr-v">1.18</div></div>
-      <div class="sr-kv"><div class="sr-k">股息率(TTM)</div><div class="sr-v">1.99%</div></div>
-    </div>
-    <div style="margin-top:14px;font-size:13px;color:var(--sr-sub)">
-      <b style="color:var(--sr-text)">公司简介：</b>中信金属是中信集团旗下的大宗金属及矿产品贸易旗舰平台，主营铁矿石、铜、铝等大宗金属贸易及矿业投资，背靠中信集团资源网络，在全球矿业资源领域具有重要布局。
-    </div>
+<div class="sr-grid4">
+<div class="sr-kv"><div class="sr-k">股票代码</div><div class="sr-v">601061</div></div>
+<div class="sr-kv"><div class="sr-k">股票名称</div><div class="sr-v">中信金属</div></div>
+<div class="sr-kv"><div class="sr-k">所属行业</div><div class="sr-v">商贸零售（大宗金属贸易）</div></div>
+<div class="sr-kv"><div class="sr-k">上市日期</div><div class="sr-v">2023-04-10</div></div>
+<div class="sr-kv"><div class="sr-k">市值</div><div class="sr-v">708亿</div></div>
+<div class="sr-kv"><div class="sr-k">PE(TTM)</div><div class="sr-v">20.26</div></div>
+<div class="sr-kv"><div class="sr-k">PE(FWD)</div><div class="sr-v">12.86</div></div>
+<div class="sr-kv"><div class="sr-k">PB</div><div class="sr-v">2.92</div></div>
+<div class="sr-kv"><div class="sr-k">52周高/低</div><div class="sr-v">17.81 / 7.21</div></div>
+<div class="sr-kv"><div class="sr-k">换手率</div><div class="sr-v">0.18%</div></div>
+<div class="sr-kv"><div class="sr-k">量比</div><div class="sr-v">1.18</div></div>
+<div class="sr-kv"><div class="sr-k">股息率(TTM)</div><div class="sr-v">1.99%</div></div>
+</div>
+<div style="margin-top:14px;font-size:13px;color:var(--sr-sub)">
+<b style="color:var(--sr-text)">公司简介：</b>中信金属是中信集团旗下的大宗金属及矿产品贸易旗舰平台，主营铁矿石、铜、铝等大宗金属贸易及矿业投资，背靠中信集团资源网络，在全球矿业资源领域具有重要布局。
+</div>
   </div>
 </div>
 
@@ -352,81 +350,79 @@ TocOpen: false
 <div class="sr-section">
   <div class="sr-section-title">▦ 基本面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
   <div class="sr-section-body">
-    <div class="sr-grid3">
-      <div class="sr-kv">
-        <div class="sr-k">2025全年营收</div>
-        <div class="sr-v">1,418亿元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">归母净利润</div>
-        <div class="sr-v">26.9亿元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">EPS(基本)</div>
-        <div class="sr-v">0.55元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">总资产</div>
-        <div class="sr-v">577.5亿元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">净资产(归母)</div>
-        <div class="sr-v">232.4亿元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">毛利润(TTM)</div>
-        <div class="sr-v">21.3亿元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">经营性现金流</div>
-        <div class="sr-v">-56.5亿元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">长期股权投资</div>
-        <div class="sr-v">206.4亿元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">短期借款</div>
-        <div class="sr-v">69.3亿元</div>
-      </div>
-    </div>
-
-    <div style="margin-top:16px">
-      <table class="sr-table">
-        <thead><tr><th>评估维度</th><th>指标</th><th>结论</th></tr></thead>
-        <tbody>
-          <tr>
-            <td>估值水平</td>
-            <td>PE(FWD) 12.86 / PB 2.92</td>
-            <td><span class="sr-badge sr-badge-green">合理偏低</span> 远期估值仅12.86倍，低于历史中枢</td>
-          </tr>
-          <tr>
-            <td>盈利能力</td>
-            <td>归母净利 26.9亿 / 毛利率约1.5%</td>
-            <td><span class="sr-badge sr-badge-orange">贸易商属性</span> 大宗贸易毛利率天然较低，利润厚度有限</td>
-          </tr>
-          <tr>
-            <td>成长性</td>
-            <td>PE(FWD) 12.86 vs PE(LYR) 26.33</td>
-            <td><span class="sr-badge sr-badge-green">高增长预期</span> 机构预期利润将大幅增长，成长空间明显</td>
-          </tr>
-          <tr>
-            <td>财务健康</td>
-            <td>经营性现金流 -56.5亿</td>
-            <td><span class="sr-badge sr-badge-red">需关注</span> 营运资金占用大，经营性现金流持续为负</td>
-          </tr>
-          <tr>
-            <td>资产质量</td>
-            <td>长期股权投资206亿/总资产577亿</td>
-            <td><span class="sr-badge sr-badge-blue">矿业资产丰厚</span> 长期股权投资占总资产35%，矿业战略布局扎实</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="sr-warn-box" style="margin-top:12px">
-      <b>关键风险：</b>经营性现金流长期为负（-56.5亿），高度依赖短期借款融资（69.3亿），商品价格波动将直接冲击利润。铜/铝/铁矿石价格走势是中信金属核心Beta。
-    </div>
+<div class="sr-grid3">
+<div class="sr-kv">
+<div class="sr-k">2025全年营收</div>
+<div class="sr-v">1,418亿元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">归母净利润</div>
+<div class="sr-v">26.9亿元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">EPS(基本)</div>
+<div class="sr-v">0.55元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">总资产</div>
+<div class="sr-v">577.5亿元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">净资产(归母)</div>
+<div class="sr-v">232.4亿元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">毛利润(TTM)</div>
+<div class="sr-v">21.3亿元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">经营性现金流</div>
+<div class="sr-v">-56.5亿元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">长期股权投资</div>
+<div class="sr-v">206.4亿元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">短期借款</div>
+<div class="sr-v">69.3亿元</div>
+</div>
+</div>
+<div style="margin-top:16px">
+<table class="sr-table">
+<thead><tr><th>评估维度</th><th>指标</th><th>结论</th></tr></thead>
+<tbody>
+<tr>
+<td>估值水平</td>
+<td>PE(FWD) 12.86 / PB 2.92</td>
+<td><span class="sr-badge sr-badge-green">合理偏低</span> 远期估值仅12.86倍，低于历史中枢</td>
+</tr>
+<tr>
+<td>盈利能力</td>
+<td>归母净利 26.9亿 / 毛利率约1.5%</td>
+<td><span class="sr-badge sr-badge-orange">贸易商属性</span> 大宗贸易毛利率天然较低，利润厚度有限</td>
+</tr>
+<tr>
+<td>成长性</td>
+<td>PE(FWD) 12.86 vs PE(LYR) 26.33</td>
+<td><span class="sr-badge sr-badge-green">高增长预期</span> 机构预期利润将大幅增长，成长空间明显</td>
+</tr>
+<tr>
+<td>财务健康</td>
+<td>经营性现金流 -56.5亿</td>
+<td><span class="sr-badge sr-badge-red">需关注</span> 营运资金占用大，经营性现金流持续为负</td>
+</tr>
+<tr>
+<td>资产质量</td>
+<td>长期股权投资206亿/总资产577亿</td>
+<td><span class="sr-badge sr-badge-blue">矿业资产丰厚</span> 长期股权投资占总资产35%，矿业战略布局扎实</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sr-warn-box" style="margin-top:12px">
+<b>关键风险：</b>经营性现金流长期为负（-56.5亿），高度依赖短期借款融资（69.3亿），商品价格波动将直接冲击利润。铜/铝/铁矿石价格走势是中信金属核心Beta。
+</div>
   </div>
 </div>
 
@@ -434,44 +430,43 @@ TocOpen: false
 <div class="sr-section">
   <div class="sr-section-title">▦ 消息面 & 政策面分析 <span class="sr-badge sr-badge-orange" style="margin-left:8px">评分 5.5/10</span></div>
   <div class="sr-section-body">
-    <div class="sr-news-item">
-      <div>
-        <div class="sr-news-title"><span class="sr-badge sr-badge-green">利好</span> 4月24日业绩说明会：锚定大宗商品贸易与矿业投资战略，多家机构参与</div>
-        <div class="sr-news-meta">2026-04-24 · 证券时报网 &nbsp;|&nbsp; 公司战略清晰，矿业资产布局扎实，获机构关注</div>
-      </div>
-    </div>
-    <div class="sr-news-item">
-      <div>
-        <div class="sr-news-title"><span class="sr-badge sr-badge-green">利好</span> 中标西昌钢钒铁粉矿采购项目，券商增持评级</div>
-        <div class="sr-news-meta">2026-04-24 · 自选股中标信息 &nbsp;|&nbsp; 大单中标展示渠道竞争力</div>
-      </div>
-    </div>
-    <div class="sr-news-item">
-      <div>
-        <div class="sr-news-title"><span class="sr-badge sr-badge-blue">中性</span> 兴澄特钢与中信金属开启风电新材料研发合作</div>
-        <div class="sr-news-meta">2026-04-30 · 江苏省冶金行业协会 &nbsp;|&nbsp; 布局新能源材料赛道，战略价值待验证</div>
-      </div>
-    </div>
-    <div class="sr-news-item">
-      <div>
-        <div class="sr-news-title"><span class="sr-badge sr-badge-blue">中性</span> 5月7日获融资净买入2619万元</div>
-        <div class="sr-news-meta">2026-05-08 · 市场透视 &nbsp;|&nbsp; 融资资金近期转为净买入，短期情绪边际改善</div>
-      </div>
-    </div>
-    <div class="sr-news-item">
-      <div>
-        <div class="sr-news-title"><span class="sr-badge sr-badge-orange">关注</span> 5月6日被融资净卖出860万元，前期多日主力资金持续净流出</div>
-        <div class="sr-news-meta">2026-04-27~05-06 · 市场透视 &nbsp;|&nbsp; 4月下旬以来主力资金以流出为主，短期承压</div>
-      </div>
-    </div>
-
-    <div style="margin-top:14px;padding:12px;background:var(--sr-bg);border-radius:8px;font-size:13px">
-      <b>政策面背景：</b><br>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-green">利好</span> 4月24日业绩说明会：锚定大宗商品贸易与矿业投资战略，多家机构参与</div>
+<div class="sr-news-meta">2026-04-24 · 证券时报网 &nbsp;|&nbsp; 公司战略清晰，矿业资产布局扎实，获机构关注</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-green">利好</span> 中标西昌钢钒铁粉矿采购项目，券商增持评级</div>
+<div class="sr-news-meta">2026-04-24 · 自选股中标信息 &nbsp;|&nbsp; 大单中标展示渠道竞争力</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-blue">中性</span> 兴澄特钢与中信金属开启风电新材料研发合作</div>
+<div class="sr-news-meta">2026-04-30 · 江苏省冶金行业协会 &nbsp;|&nbsp; 布局新能源材料赛道，战略价值待验证</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-blue">中性</span> 5月7日获融资净买入2619万元</div>
+<div class="sr-news-meta">2026-05-08 · 市场透视 &nbsp;|&nbsp; 融资资金近期转为净买入，短期情绪边际改善</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-orange">关注</span> 5月6日被融资净卖出860万元，前期多日主力资金持续净流出</div>
+<div class="sr-news-meta">2026-04-27~05-06 · 市场透视 &nbsp;|&nbsp; 4月下旬以来主力资金以流出为主，短期承压</div>
+</div>
+</div>
+<div style="margin-top:14px;padding:12px;background:var(--sr-bg);border-radius:8px;font-size:13px">
+<b>政策面背景：</b><br>
       1. <b>中美贸易关税谈判</b>：近期中美贸易摩擦缓和预期升温，大宗商品价格有望受益于需求预期改善；<br>
       2. <b>铜价/铁矿石：</b>铜价在8,000-9,000美元/吨区间震荡，铁矿石价格受钢铁产能调控压制；<br>
       3. <b>中信集团支持：</b>背靠中信集团资源，在矿业投资和国际大宗商品采购中具备政策通道优势；<br>
       4. <b>新能源材料需求：</b>铜需求受新能源车/光伏拉动长期向好，利好主营铜贸易的中信金属。
-    </div>
+</div>
   </div>
 </div>
 
@@ -479,76 +474,73 @@ TocOpen: false
 <div class="sr-section">
   <div class="sr-section-title">▦ 资金流向分析 <span class="sr-badge sr-badge-red" style="margin-left:8px">评分 4.0/10</span></div>
   <div class="sr-section-body">
-    <div class="sr-grid4">
-      <div class="sr-kv">
-        <div class="sr-k">今日主力净流入</div>
-        <div class="sr-v sr-val-red">-1,096万</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">超大单净流入</div>
-        <div class="sr-v sr-val-red">-981万</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">大单净流入</div>
-        <div class="sr-v sr-val-red">-114万</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">小单净流入</div>
-        <div class="sr-v sr-val-green">+1,051万</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">主力净比</div>
-        <div class="sr-v sr-val-red">-0.87%</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">5日主力累计</div>
-        <div class="sr-v sr-val-red">-7,226万</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">10日主力累计</div>
-        <div class="sr-v sr-val-red">-1.65亿</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">20日主力累计</div>
-        <div class="sr-v sr-val-green">+9,725万</div>
-      </div>
-    </div>
-
-    <div style="margin-top:16px">
-      <div style="font-size:13px;margin-bottom:8px;font-weight:600">资金流向趋势（近5日）</div>
-      <table class="sr-table">
-        <thead><tr><th>日期</th><th>主力流向</th><th>收盘价</th><th>涨跌幅</th></tr></thead>
-        <tbody>
-          <tr><td>05-08</td><td><span class="sr-badge sr-badge-red">净流出 -1,096万</span></td><td>14.45</td><td style="color:#ea4335">-1.10%</td></tr>
-          <tr><td>05-07</td><td><span class="sr-badge sr-badge-green">净流入 +2,574万</span></td><td>14.61</td><td style="color:#ea4335">+2.25%</td></tr>
-          <tr><td>05-06</td><td><span class="sr-badge sr-badge-red">净流出 -1,108万</span></td><td>14.25</td><td style="color:#ea4335">+2.81%</td></tr>
-          <tr><td>04-30</td><td><span class="sr-badge sr-badge-red">净流出 -1,898万</span></td><td>13.86</td><td style="color:#ea4335">-1.28%</td></tr>
-          <tr><td>04-29</td><td><span class="sr-badge sr-badge-red">净流出 -1,012万</span></td><td>14.04</td><td style="color:#ea4335">+1.96%</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div style="margin-top:16px">
-      <div style="font-size:13px;margin-bottom:8px;font-weight:600">融资融券状况</div>
-      <div class="sr-grid3">
-        <div class="sr-kv">
-          <div class="sr-k">融资余额</div>
-          <div class="sr-v">5.93亿元</div>
-        </div>
-        <div class="sr-kv">
-          <div class="sr-k">融资净买入(5/7)</div>
-          <div class="sr-v sr-val-green">+2,619万</div>
-        </div>
-        <div class="sr-kv">
-          <div class="sr-k">融资余额日变动</div>
-          <div class="sr-v sr-val-red">-1.43%</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sr-warn-box" style="margin-top:12px">
-      <b>资金面解读：</b>5日和10日均为净流出，主力资金整体以减仓为主。但20日累计净流入近亿，说明中线资金在14元附近仍有布局意愿。今日超大单净流出-981万，显示高位机构有兑现迹象。融资资金5月7日转为买入，是短期边际改善信号，需持续观察。
-    </div>
+<div class="sr-grid4">
+<div class="sr-kv">
+<div class="sr-k">今日主力净流入</div>
+<div class="sr-v sr-val-red">-1,096万</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">超大单净流入</div>
+<div class="sr-v sr-val-red">-981万</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">大单净流入</div>
+<div class="sr-v sr-val-red">-114万</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">小单净流入</div>
+<div class="sr-v sr-val-green">+1,051万</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">主力净比</div>
+<div class="sr-v sr-val-red">-0.87%</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">5日主力累计</div>
+<div class="sr-v sr-val-red">-7,226万</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">10日主力累计</div>
+<div class="sr-v sr-val-red">-1.65亿</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">20日主力累计</div>
+<div class="sr-v sr-val-green">+9,725万</div>
+</div>
+</div>
+<div style="margin-top:16px">
+<div style="font-size:13px;margin-bottom:8px;font-weight:600">资金流向趋势（近5日）</div>
+<table class="sr-table">
+<thead><tr><th>日期</th><th>主力流向</th><th>收盘价</th><th>涨跌幅</th></tr></thead>
+<tbody>
+<tr><td>05-08</td><td><span class="sr-badge sr-badge-red">净流出 -1,096万</span></td><td>14.45</td><td style="color:#ea4335">-1.10%</td></tr>
+<tr><td>05-07</td><td><span class="sr-badge sr-badge-green">净流入 +2,574万</span></td><td>14.61</td><td style="color:#ea4335">+2.25%</td></tr>
+<tr><td>05-06</td><td><span class="sr-badge sr-badge-red">净流出 -1,108万</span></td><td>14.25</td><td style="color:#ea4335">+2.81%</td></tr>
+<tr><td>04-30</td><td><span class="sr-badge sr-badge-red">净流出 -1,898万</span></td><td>13.86</td><td style="color:#ea4335">-1.28%</td></tr>
+<tr><td>04-29</td><td><span class="sr-badge sr-badge-red">净流出 -1,012万</span></td><td>14.04</td><td style="color:#ea4335">+1.96%</td></tr>
+</tbody>
+</table>
+</div>
+<div style="margin-top:16px">
+<div style="font-size:13px;margin-bottom:8px;font-weight:600">融资融券状况</div>
+<div class="sr-grid3">
+<div class="sr-kv">
+<div class="sr-k">融资余额</div>
+<div class="sr-v">5.93亿元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">融资净买入(5/7)</div>
+<div class="sr-v sr-val-green">+2,619万</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">融资余额日变动</div>
+<div class="sr-v sr-val-red">-1.43%</div>
+</div>
+</div>
+</div>
+<div class="sr-warn-box" style="margin-top:12px">
+<b>资金面解读：</b>5日和10日均为净流出，主力资金整体以减仓为主。但20日累计净流入近亿，说明中线资金在14元附近仍有布局意愿。今日超大单净流出-981万，显示高位机构有兑现迹象。融资资金5月7日转为买入，是短期边际改善信号，需持续观察。
+</div>
   </div>
 </div>
 
@@ -556,49 +548,48 @@ TocOpen: false
 <div class="sr-section">
   <div class="sr-section-title">▦ 筹码分析</div>
   <div class="sr-section-body">
-    <div class="sr-grid4">
-      <div class="sr-kv">
-        <div class="sr-k">平均持仓成本</div>
-        <div class="sr-v sr-val-blue">14.04元</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">当前获利盘比例</div>
-        <div class="sr-v sr-val-green">61.87%</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">90%筹码集中区</div>
-        <div class="sr-v">11.34 ~ 16.76</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">70%筹码集中区</div>
-        <div class="sr-v">13.88 ~ 15.17</div>
-      </div>
-    </div>
+<div class="sr-grid4">
+<div class="sr-kv">
+<div class="sr-k">平均持仓成本</div>
+<div class="sr-v sr-val-blue">14.04元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">当前获利盘比例</div>
+<div class="sr-v sr-val-green">61.87%</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">90%筹码集中区</div>
+<div class="sr-v">11.34 ~ 16.76</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">70%筹码集中区</div>
+<div class="sr-v">13.88 ~ 15.17</div>
+</div>
+</div>
+<div style="margin-top:16px;font-size:13px;line-height:1.8">
+<b>筹码解读：</b><br>
+<span class="sr-badge sr-badge-green">关键支撑</span> 平均成本 <b>14.04元</b>，当前价 14.45 高于平均成本，整体浮盈约 <b>+2.92%</b><br>
+<span class="sr-badge sr-badge-blue">您的成本</span> 14.43元，与市场平均成本 14.04 相近，处于有效支撑区上方<br>
+<span class="sr-badge sr-badge-orange">核心筹码区</span> 70%筹码集中于 13.88~15.17，当前价处于筹码密集区中部<br>
+<span class="sr-badge sr-badge-red">压力区</span> 15.17元（70%筹码上轨）为短期压力，突破则打开上行空间
+</div>
 
-    <div style="margin-top:16px;font-size:13px;line-height:1.8">
-      <b>筹码解读：</b><br>
-      <span class="sr-badge sr-badge-green">关键支撑</span> 平均成本 <b>14.04元</b>，当前价 14.45 高于平均成本，整体浮盈约 <b>+2.92%</b><br>
-      <span class="sr-badge sr-badge-blue">您的成本</span> 14.43元，与市场平均成本 14.04 相近，处于有效支撑区上方<br>
-      <span class="sr-badge sr-badge-orange">核心筹码区</span> 70%筹码集中于 13.88~15.17，当前价处于筹码密集区中部<br>
-      <span class="sr-badge sr-badge-red">压力区</span> 15.17元（70%筹码上轨）为短期压力，突破则打开上行空间
-    </div>
-
-    <!-- 筹码分布可视化 -->
-    <div style="margin-top:16px;background:var(--sr-bg);border-radius:8px;padding:16px">
-      <div style="font-size:12px;color:var(--sr-sub);margin-bottom:10px">筹码密度示意（横向越宽代表筹码越密集）</div>
-      <div style="font-size:12px;display:flex;flex-direction:column;gap:5px">
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">16.76</span><div style="width:8%;background:#ef9a9a;height:10px;border-radius:3px"></div><span style="font-size:11px;color:var(--sr-sub)">压力区上轨</span></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">15.50</span><div style="width:18%;background:#ffcc80;height:10px;border-radius:3px"></div></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">15.17</span><div style="width:35%;background:#ffcc80;height:12px;border-radius:3px"></div><span style="font-size:11px;color:#e65100">短期压力位</span></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:#ea4335">14.80</span><div style="width:60%;background:#ef9a9a;height:14px;border-radius:3px"></div><span style="font-size:11px;color:#ea4335">今日高点/阻力</span></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;font-weight:bold;color:#1a73e8">14.45</span><div style="width:65%;background:#90caf9;height:16px;border-radius:3px"></div><span style="font-size:11px;color:#1a73e8">当前价</span></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;font-weight:bold;color:#1565c0">14.43</span><div style="width:65%;background:#bbdefb;height:13px;border-radius:3px"></div><span style="font-size:11px;color:#1565c0">我的成本</span></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">14.04</span><div style="width:70%;background:#a5d6a7;height:16px;border-radius:3px"></div><span style="font-size:11px;color:#34a853">市场平均成本</span></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">13.88</span><div style="width:55%;background:#a5d6a7;height:14px;border-radius:3px"></div><span style="font-size:11px;color:#34a853">强支撑区下轨</span></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">13.25</span><div style="width:20%;background:#c8e6c9;height:10px;border-radius:3px"></div></div>
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">11.34</span><div style="width:8%;background:#c8e6c9;height:8px;border-radius:3px"></div><span style="font-size:11px;color:var(--sr-sub)">90%筹码下轨</span></div>
-      </div>
-    </div>
+<!-- 筹码分布可视化 -->
+<div style="margin-top:16px;background:var(--sr-bg);border-radius:8px;padding:16px">
+<div style="font-size:12px;color:var(--sr-sub);margin-bottom:10px">筹码密度示意（横向越宽代表筹码越密集）</div>
+<div style="font-size:12px;display:flex;flex-direction:column;gap:5px">
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">16.76</span><div style="width:8%;background:#ef9a9a;height:10px;border-radius:3px"></div><span style="font-size:11px;color:var(--sr-sub)">压力区上轨</span></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">15.50</span><div style="width:18%;background:#ffcc80;height:10px;border-radius:3px"></div></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">15.17</span><div style="width:35%;background:#ffcc80;height:12px;border-radius:3px"></div><span style="font-size:11px;color:#e65100">短期压力位</span></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:#ea4335">14.80</span><div style="width:60%;background:#ef9a9a;height:14px;border-radius:3px"></div><span style="font-size:11px;color:#ea4335">今日高点/阻力</span></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;font-weight:bold;color:#1a73e8">14.45</span><div style="width:65%;background:#90caf9;height:16px;border-radius:3px"></div><span style="font-size:11px;color:#1a73e8">当前价</span></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;font-weight:bold;color:#1565c0">14.43</span><div style="width:65%;background:#bbdefb;height:13px;border-radius:3px"></div><span style="font-size:11px;color:#1565c0">我的成本</span></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">14.04</span><div style="width:70%;background:#a5d6a7;height:16px;border-radius:3px"></div><span style="font-size:11px;color:#34a853">市场平均成本</span></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">13.88</span><div style="width:55%;background:#a5d6a7;height:14px;border-radius:3px"></div><span style="font-size:11px;color:#34a853">强支撑区下轨</span></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">13.25</span><div style="width:20%;background:#c8e6c9;height:10px;border-radius:3px"></div></div>
+<div style="display:flex;align-items:center;gap:8px"><span style="width:56px;text-align:right;color:var(--sr-sub)">11.34</span><div style="width:8%;background:#c8e6c9;height:8px;border-radius:3px"></div><span style="font-size:11px;color:var(--sr-sub)">90%筹码下轨</span></div>
+</div>
+</div>
   </div>
 </div>
 
@@ -606,93 +597,91 @@ TocOpen: false
 <div class="sr-section">
   <div class="sr-section-title">▦ 技术面分析 <span class="sr-badge sr-badge-green" style="margin-left:8px">评分 6.5/10</span></div>
   <div class="sr-section-body">
-    <div class="sr-grid3">
-      <div class="sr-kv">
-        <div class="sr-k">MA5 / MA10</div>
-        <div class="sr-v sr-val-green">14.24 / 14.14</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">MA20 / MA30</div>
-        <div class="sr-v">13.25 / 12.72</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">MA60 / MA120</div>
-        <div class="sr-v">13.42 / 14.15</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">MACD DIF/DEA</div>
-        <div class="sr-v sr-val-green">0.46 / 0.29</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">MACD柱(×2)</div>
-        <div class="sr-v sr-val-green">+0.34</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">KDJ(K/D/J)</div>
-        <div class="sr-v">69.8 / 70.4 / 68.5</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">RSI6 / RSI12</div>
-        <div class="sr-v sr-val-orange">68.7 / 66.4</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">BOLL上/中/下</div>
-        <div class="sr-v">15.17 / 13.25 / 11.34</div>
-      </div>
-      <div class="sr-kv">
-        <div class="sr-k">SAR</div>
-        <div class="sr-v sr-val-green">13.68（多头）</div>
-      </div>
-    </div>
-
-    <div style="margin-top:16px">
-      <table class="sr-table">
-        <thead><tr><th>技术指标</th><th>当前状态</th><th>信号解读</th></tr></thead>
-        <tbody>
-          <tr>
-            <td>均线系统</td>
-            <td>价格 > MA5 > MA10 > MA20</td>
-            <td><span class="sr-badge sr-badge-green">多头排列</span> 短中期均线多头，趋势向上</td>
-          </tr>
-          <tr>
-            <td>MACD</td>
-            <td>DIF 0.46 > DEA 0.29，柱状向上</td>
-            <td><span class="sr-badge sr-badge-green">金叉持续</span> 动能维持，上方空间仍有</td>
-          </tr>
-          <tr>
-            <td>KDJ</td>
-            <td>K≈70 D≈70，高位</td>
-            <td><span class="sr-badge sr-badge-orange">高位偏热</span> KDJ高位死叉风险，短期需回调</td>
-          </tr>
-          <tr>
-            <td>RSI</td>
-            <td>RSI6=68.7，RSI12=66.4</td>
-            <td><span class="sr-badge sr-badge-orange">偏热</span> 接近超买区(70)，上行动力减弱</td>
-          </tr>
-          <tr>
-            <td>BOLL</td>
-            <td>中轨13.25，上轨15.17</td>
-            <td><span class="sr-badge sr-badge-blue">中轨上方运行</span> 价格处于BOLL中上轨间，有上行空间</td>
-          </tr>
-          <tr>
-            <td>SAR</td>
-            <td>13.68，当前价在SAR上方</td>
-            <td><span class="sr-badge sr-badge-green">多头信号</span> 抛物线多头，趋势未逆转</td>
-          </tr>
-          <tr>
-            <td>5日涨幅</td>
-            <td>+5.01%</td>
-            <td><span class="sr-badge sr-badge-orange">短期冲高</span> 5日涨超5%，有短线回调需求</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div style="margin-top:14px;background:var(--sr-bg);border-radius:8px;padding:12px;font-size:13px">
-      <b>关键价位：</b><br>
-      <b style="color:#34a853">支撑位：</b> 14.21（5月7日低点）→ 14.04（筹码均值/MA5支撑）→ 13.88（70%筹码下轨）→ 13.68（SAR线/强支撑）<br>
-      <b style="color:#ea4335">压力位：</b> 14.80（今日高点）→ 15.17（BOLL上轨/70%筹码上轨）→ 15.97（近期高点）→ 17.81（52周高位）
-    </div>
+<div class="sr-grid3">
+<div class="sr-kv">
+<div class="sr-k">MA5 / MA10</div>
+<div class="sr-v sr-val-green">14.24 / 14.14</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">MA20 / MA30</div>
+<div class="sr-v">13.25 / 12.72</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">MA60 / MA120</div>
+<div class="sr-v">13.42 / 14.15</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">MACD DIF/DEA</div>
+<div class="sr-v sr-val-green">0.46 / 0.29</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">MACD柱(×2)</div>
+<div class="sr-v sr-val-green">+0.34</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">KDJ(K/D/J)</div>
+<div class="sr-v">69.8 / 70.4 / 68.5</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">RSI6 / RSI12</div>
+<div class="sr-v sr-val-orange">68.7 / 66.4</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">BOLL上/中/下</div>
+<div class="sr-v">15.17 / 13.25 / 11.34</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">SAR</div>
+<div class="sr-v sr-val-green">13.68（多头）</div>
+</div>
+</div>
+<div style="margin-top:16px">
+<table class="sr-table">
+<thead><tr><th>技术指标</th><th>当前状态</th><th>信号解读</th></tr></thead>
+<tbody>
+<tr>
+<td>均线系统</td>
+<td>价格 > MA5 > MA10 > MA20</td>
+<td><span class="sr-badge sr-badge-green">多头排列</span> 短中期均线多头，趋势向上</td>
+</tr>
+<tr>
+<td>MACD</td>
+<td>DIF 0.46 > DEA 0.29，柱状向上</td>
+<td><span class="sr-badge sr-badge-green">金叉持续</span> 动能维持，上方空间仍有</td>
+</tr>
+<tr>
+<td>KDJ</td>
+<td>K≈70 D≈70，高位</td>
+<td><span class="sr-badge sr-badge-orange">高位偏热</span> KDJ高位死叉风险，短期需回调</td>
+</tr>
+<tr>
+<td>RSI</td>
+<td>RSI6=68.7，RSI12=66.4</td>
+<td><span class="sr-badge sr-badge-orange">偏热</span> 接近超买区(70)，上行动力减弱</td>
+</tr>
+<tr>
+<td>BOLL</td>
+<td>中轨13.25，上轨15.17</td>
+<td><span class="sr-badge sr-badge-blue">中轨上方运行</span> 价格处于BOLL中上轨间，有上行空间</td>
+</tr>
+<tr>
+<td>SAR</td>
+<td>13.68，当前价在SAR上方</td>
+<td><span class="sr-badge sr-badge-green">多头信号</span> 抛物线多头，趋势未逆转</td>
+</tr>
+<tr>
+<td>5日涨幅</td>
+<td>+5.01%</td>
+<td><span class="sr-badge sr-badge-orange">短期冲高</span> 5日涨超5%，有短线回调需求</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-top:14px;background:var(--sr-bg);border-radius:8px;padding:12px;font-size:13px">
+<b>关键价位：</b><br>
+<b style="color:#34a853">支撑位：</b> 14.21（5月7日低点）→ 14.04（筹码均值/MA5支撑）→ 13.88（70%筹码下轨）→ 13.68（SAR线/强支撑）<br>
+<b style="color:#ea4335">压力位：</b> 14.80（今日高点）→ 15.17（BOLL上轨/70%筹码上轨）→ 15.97（近期高点）→ 17.81（52周高位）
+</div>
   </div>
 </div>
 
@@ -700,90 +689,85 @@ TocOpen: false
 <div class="sr-section">
   <div class="sr-section-title">▦ 综合投资建议</div>
   <div class="sr-section-body">
-
-    <div class="sr-advice-block sr-advice-watch">
-      <div class="sr-advice-title" style="color:#e65100">▶ 谨慎加仓，等待回调确认支撑后分批建仓</div>
-      <p style="font-size:13px;margin:0 0 12px">综合评分 <b>5.8/10</b>，结合您成本 14.43 的底仓情况，当前价 14.45 几乎与成本持平，短期存在以下风险：</p>
-      <ul style="font-size:13px;margin:0;padding-left:18px;line-height:1.9">
-        <li><b>主力资金</b>5日累计净流出 -7,226万，10日净流出 -1.65亿，机构减仓压力明显</li>
-        <li><b>技术面</b>KDJ高位（约70），RSI接近超买，5日涨幅已达5.01%，短线有回调需求</li>
-        <li><b>今日行情</b>冲高14.80后回落至14.45，量能萎缩（换手率仅0.18%），上攻乏力信号明显</li>
-        <li><b>筹码压力</b>14.80-15.17区间筹码密集，向上突破需要强主力配合</li>
-      </ul>
-    </div>
-
-    <div style="margin-top:14px;font-size:13px">
-      <b>针对您成本14.43底仓的建议操作方案：</b>
-    </div>
-
-    <div class="sr-price-row" style="margin-top:10px">
-      <div class="sr-price-box">
-        <div class="sr-pk">您的持仓成本</div>
-        <div class="sr-pv" style="color:#1565c0">14.43元</div>
-      </div>
-      <div class="sr-price-box">
-        <div class="sr-pk">当前浮盈</div>
-        <div class="sr-pv" style="color:#34a853">+0.14%</div>
-      </div>
-      <div class="sr-price-box">
-        <div class="sr-pk">加仓1档（首选）</div>
-        <div class="sr-pv" style="color:#34a853">14.00~14.10</div>
-      </div>
-      <div class="sr-price-box">
-        <div class="sr-pk">加仓2档（超跌）</div>
-        <div class="sr-pv" style="color:#1a73e8">13.68~13.88</div>
-      </div>
-      <div class="sr-price-box">
-        <div class="sr-pk">目标价（短期）</div>
-        <div class="sr-pv" style="color:#f57c00">15.50元</div>
-      </div>
-      <div class="sr-price-box">
-        <div class="sr-pk">目标价（中期）</div>
-        <div class="sr-pv" style="color:#ea4335">17.00元</div>
-      </div>
-      <div class="sr-price-box">
-        <div class="sr-pk">止损参考</div>
-        <div class="sr-pv" style="color:#ea4335">13.40元</div>
-      </div>
-    </div>
-
-    <div style="margin-top:16px">
-      <table class="sr-table">
-        <thead><tr><th>操作方案</th><th>条件</th><th>建议</th></tr></thead>
-        <tbody>
-          <tr>
-            <td><b>当前价14.45 不加仓</b></td>
-            <td>资金面持续净流出，KDJ高位</td>
-            <td>持有底仓，等待更优入场点，<b>不建议现价追仓</b></td>
-          </tr>
-          <tr>
-            <td><b>回落14.00-14.10 加仓</b></td>
-            <td>回踩筹码均值+MA5支撑区</td>
-            <td><span class="sr-badge sr-badge-green">首选加仓区间</span> 此区域筹码密集支撑强，量能缩量则更佳</td>
-          </tr>
-          <tr>
-            <td><b>深回调13.68-13.88 加仓</b></td>
-            <td>跌至SAR线/70%筹码下轨</td>
-            <td><span class="sr-badge sr-badge-blue">超跌加仓区</span> 如大盘调整导致超跌，可分批重仓</td>
-          </tr>
-          <tr>
-            <td><b>放量突破14.80 追仓</b></td>
-            <td>成交量>30万手，突破今日高点</td>
-            <td><span class="sr-badge sr-badge-orange">突破确认后可适量追</span> 需配合资金流入信号</td>
-          </tr>
-          <tr>
-            <td><b>止损</b></td>
-            <td>跌破13.40</td>
-            <td><span class="sr-badge sr-badge-red">止损离场</span> 破位则趋势逆转，执行止损</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div style="margin-top:16px;padding:14px;background:#e8f5e9;border-radius:8px;border:1px solid #a5d6a7;font-size:13px">
-      <b style="color:#1b5e20">中线逻辑（3-6个月）：</b><br>
+<div class="sr-advice-block sr-advice-watch">
+<div class="sr-advice-title" style="color:#e65100">▶ 谨慎加仓，等待回调确认支撑后分批建仓</div>
+<p style="font-size:13px;margin:0 0 12px">综合评分 <b>5.8/10</b>，结合您成本 14.43 的底仓情况，当前价 14.45 几乎与成本持平，短期存在以下风险：</p>
+<ul style="font-size:13px;margin:0;padding-left:18px;line-height:1.9">
+<li><b>主力资金</b>5日累计净流出 -7,226万，10日净流出 -1.65亿，机构减仓压力明显</li>
+<li><b>技术面</b>KDJ高位（约70），RSI接近超买，5日涨幅已达5.01%，短线有回调需求</li>
+<li><b>今日行情</b>冲高14.80后回落至14.45，量能萎缩（换手率仅0.18%），上攻乏力信号明显</li>
+<li><b>筹码压力</b>14.80-15.17区间筹码密集，向上突破需要强主力配合</li>
+</ul>
+</div>
+<div style="margin-top:14px;font-size:13px">
+<b>针对您成本14.43底仓的建议操作方案：</b>
+</div>
+<div class="sr-price-row" style="margin-top:10px">
+<div class="sr-price-box">
+<div class="sr-pk">您的持仓成本</div>
+<div class="sr-pv" style="color:#1565c0">14.43元</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">当前浮盈</div>
+<div class="sr-pv" style="color:#34a853">+0.14%</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">加仓1档（首选）</div>
+<div class="sr-pv" style="color:#34a853">14.00~14.10</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">加仓2档（超跌）</div>
+<div class="sr-pv" style="color:#1a73e8">13.68~13.88</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">目标价（短期）</div>
+<div class="sr-pv" style="color:#f57c00">15.50元</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">目标价（中期）</div>
+<div class="sr-pv" style="color:#ea4335">17.00元</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">止损参考</div>
+<div class="sr-pv" style="color:#ea4335">13.40元</div>
+</div>
+</div>
+<div style="margin-top:16px">
+<table class="sr-table">
+<thead><tr><th>操作方案</th><th>条件</th><th>建议</th></tr></thead>
+<tbody>
+<tr>
+<td><b>当前价14.45 不加仓</b></td>
+<td>资金面持续净流出，KDJ高位</td>
+<td>持有底仓，等待更优入场点，<b>不建议现价追仓</b></td>
+</tr>
+<tr>
+<td><b>回落14.00-14.10 加仓</b></td>
+<td>回踩筹码均值+MA5支撑区</td>
+<td><span class="sr-badge sr-badge-green">首选加仓区间</span> 此区域筹码密集支撑强，量能缩量则更佳</td>
+</tr>
+<tr>
+<td><b>深回调13.68-13.88 加仓</b></td>
+<td>跌至SAR线/70%筹码下轨</td>
+<td><span class="sr-badge sr-badge-blue">超跌加仓区</span> 如大盘调整导致超跌，可分批重仓</td>
+</tr>
+<tr>
+<td><b>放量突破14.80 追仓</b></td>
+<td>成交量>30万手，突破今日高点</td>
+<td><span class="sr-badge sr-badge-orange">突破确认后可适量追</span> 需配合资金流入信号</td>
+</tr>
+<tr>
+<td><b>止损</b></td>
+<td>跌破13.40</td>
+<td><span class="sr-badge sr-badge-red">止损离场</span> 破位则趋势逆转，执行止损</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-top:16px;padding:14px;background:#e8f5e9;border-radius:8px;border:1px solid #a5d6a7;font-size:13px">
+<b style="color:#1b5e20">中线逻辑（3-6个月）：</b><br>
       中信金属基本面扎实，PE(FWD) 12.86倍具备估值吸引力；背靠中信集团、受益于新能源金属需求长期增长；矿业资产（206亿长期股权投资）是重要的隐性价值。若铜价维持高位、中美贸易摩擦缓和，中线看至17元（年内高点）仍有空间。建议<b>持有底仓不动，在回调至14元附近逢低加仓</b>，设好13.40止损。
-    </div>
+</div>
   </div>
 </div>
 
@@ -791,5 +775,4 @@ TocOpen: false
 <div class="sr-footer-tip">
   <b>风险提示：</b>本报告仅供参考，不构成投资建议。股票投资有风险，入市需谨慎。商品价格波动、宏观经济变化、汇率风险、经营性现金流压力等均可能影响中信金属股价表现。请结合自身风险承受能力独立判断。数据来源：westock-data，截至2026-05-08收盘。
 </div>
-
 </div>
