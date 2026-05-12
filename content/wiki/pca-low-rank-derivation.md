@@ -282,6 +282,76 @@ $$\min_{\tilde{U}} \frac{1}{N}\sum_i \|x_i - \tilde{U}\tilde{U}^\top x_i\|^2 = \
 
 ---
 
+## 🔑 特征值与特征向量——直觉复习
+
+在理解定理 2.1 之前，先复习一下这两个核心概念。
+
+### 矩阵是一个"变换机器"
+
+矩阵 $A$ 把一个向量 $\mathbf{v}$ 喂进去，会把它**旋转 + 拉伸**，输出一个新向量：
+
+$$A\mathbf{v} = \text{新向量（方向通常改变了）}$$
+
+但有一些**特殊向量**，经过变换后**方向完全不变**，只是被拉长或压缩了：
+
+$$A\mathbf{v} = \lambda \mathbf{v}$$
+
+- $\mathbf{v}$：就是**特征向量**（方向不变的那个特殊向量）
+- $\lambda$：就是**特征值**（被拉伸/压缩的倍数）
+
+### 具体数字例子
+
+取矩阵 $A = \begin{pmatrix} 3 & 1 \\ 0 & 2 \end{pmatrix}$，试两个向量：
+
+{{< rawhtml >}}
+<div>
+$$A \begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} 3 \\ 0 \end{pmatrix} = 3 \cdot \begin{pmatrix} 1 \\ 0 \end{pmatrix} \quad \Rightarrow \quad \lambda_1 = 3 \text{（方向不变，拉伸3倍）}$$
+</div>
+{{< /rawhtml >}}
+
+{{< rawhtml >}}
+<div>
+$$A \begin{pmatrix} 1 \\ -1 \end{pmatrix} = \begin{pmatrix} 2 \\ -2 \end{pmatrix} = 2 \cdot \begin{pmatrix} 1 \\ -1 \end{pmatrix} \quad \Rightarrow \quad \lambda_2 = 2 \text{（方向不变，拉伸2倍）}$$
+</div>
+{{< /rawhtml >}}
+
+而普通向量 $\begin{pmatrix}1\\1\end{pmatrix}$ 经过变换后变成 $\begin{pmatrix}4\\2\end{pmatrix}$，方向改变了——**不是特征向量**。
+
+### 特征值的直觉含义
+
+| 特征值 $\lambda$ | 含义 |
+|---------|------|
+| $\lambda > 1$ | 该方向被**拉长** |
+| $0 < \lambda < 1$ | 该方向被**压缩** |
+| $\lambda < 0$ | 该方向被**反转**再拉伸 |
+| $\lambda = 0$ | 该方向被**压成零**（信息消失） |
+
+> 💡 **橡皮筋类比**：把橡皮筋贴在纸上，对纸做某种形变。橡皮筋如果拉伸后**方向没变**，这就是特征向量方向；拉伸了多少倍，就是特征值 $\lambda$。
+
+### 和 PCA 的联系
+
+协方差矩阵 $S$ 的特征向量和特征值有非常直接的物理意义：
+
+```
+协方差矩阵 S 的特征向量
+  = 数据"天然的伸展方向"（变换后方向不变的特殊方向）
+
+特征值 λ 的大小
+  = 数据在这个方向上的方差（散布程度）
+
+最大特征值 λ₁ 对应的特征向量
+  = 数据散布最开的方向
+  = PCA 第一主成分！
+```
+
+求特征值的方法（了解即可）：由 $A\mathbf{v} = \lambda\mathbf{v}$ 推导出 $(A - \lambda I)\mathbf{v} = 0$，要有非零解需满足：
+
+$$\det(A - \lambda I) = 0 \quad \text{（特征方程）}$$
+
+解出 $\lambda$ 后代回即可求出对应特征向量 $\mathbf{v}$。
+
+---
+
 ## 📌 推导大逻辑总结
 
 | 步骤 | 操作 | 结果 |
