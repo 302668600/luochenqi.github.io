@@ -38,7 +38,11 @@ $$x_i = U z_i + \varepsilon_i \tag{2.1.1}$$
 
 ## 🎯 公式 2.1.2：我们要解决的优化问题
 
-$$\min_{\tilde{U}, \{\tilde{z}_i\}} \frac{1}{N} \sum_{i=1}^N \| x_i - \tilde{U}\tilde{z}_i \|_2^2 \tag{2.1.2}$$
+{{< rawhtml >}}
+<div>
+$$\min_{\tilde{U},\, \{\tilde{z}_i\}} \frac{1}{N} \sum_{i=1}^{N} \| x_i - \tilde{U}\tilde{z}_i \|_2^2 \tag{2.1.2}$$
+</div>
+{{< /rawhtml >}}
 
 **通俗翻译**：找一组"基础方向" $\tilde{U}$ 和每个数据对应的"低维坐标" $\tilde{z}_i$，使得**用低维坐标重建出来的数据**和**原始数据**之间的距离平方和最小。
 
@@ -50,10 +54,14 @@ $$\min_{\tilde{U}, \{\tilde{z}_i\}} \frac{1}{N} \sum_{i=1}^N \| x_i - \tilde{U}\
 
 ### 第一步（2.1.2 → 2.1.3）：分离问题
 
+{{< rawhtml >}}
+<div>
 $$\begin{aligned}
 &\min_{\tilde{U},\, \tilde{z}_1,\ldots,\tilde{z}_N} \frac{1}{N} \sum_i \| x_i - \tilde{U}\tilde{z}_i \|^2 \\[6pt]
 =\; &\frac{1}{N} \sum_i \min_{\tilde{z}_i} \| x_i - \tilde{U}\tilde{z}_i \|^2
 \end{aligned} \tag{2.1.3}$$
+</div>
+{{< /rawhtml >}}
 
 **为什么可以这样？**
 
@@ -111,7 +119,11 @@ $$\| x_i \|^2 = \| \tilde{U}^\top x_i \|^2 + \| x_i - \tilde{U}\tilde{U}^\top x_
 
 用三角形理解：
 
+{{< rawhtml >}}
+<div>
 $$\underbrace{\|x_i\|^2}_{\text{斜边}^2} = \underbrace{\|\tilde{U}^\top x_i\|^2}_{\text{底边}^2\ (\text{投影})} + \underbrace{\|x_i - \tilde{U}\tilde{U}^\top x_i\|^2}_{\text{竖边}^2\ (\text{误差})}$$
+</div>
+{{< /rawhtml >}}
 
 > 💡 因为 $\|x_i\|^2$ 是**常数**（数据点是固定的，它到原点的距离不变），所以：
 >
