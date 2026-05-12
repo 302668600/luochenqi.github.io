@@ -50,7 +50,7 @@ $$\min_{\tilde{U}, \{\tilde{z}_i\}} \frac{1}{N} \sum_{i=1}^N \| x_i - \tilde{U}\
 
 ### 第一步（2.1.2 → 2.1.3）：分离问题
 
-$$\min_{\tilde{U}, \{\tilde{z}_i\}} \frac{1}{N} \sum_i \| x_i - \tilde{U}\tilde{z}_i \|^2 = \frac{1}{N} \sum_i \min_{\tilde{z}_i} \| x_i - \tilde{U}\tilde{z}_i \|^2 \tag{2.1.3}$$
+$$\min_{\tilde{U},\, \tilde{z}_1,\ldots,\tilde{z}_N} \frac{1}{N} \sum_i \| x_i - \tilde{U}\tilde{z}_i \|^2 = \frac{1}{N} \sum_i \min_{\tilde{z}_i} \| x_i - \tilde{U}\tilde{z}_i \|^2 \tag{2.1.3}$$
 
 **为什么可以这样？**
 
@@ -100,15 +100,12 @@ $$\| x_i - \tilde{U}\tilde{U}^\top x_i \|^2 \tag{2.1.4}$$
 
 ## 📌 推导大逻辑总结
 
-```
-原始问题（同时找 U 和 z_i）
-        ↓ 把 z_i 的优化独立出来
-对每个 x_i 单独找最优 z_i
-        ↓ 正交矩阵的性质：最优投影 = U^T x_i
-消掉 z_i，问题只剩 U 了！
-        ↓
-min_U [ 1/N Σ ||x_i - UU^T x_i||² ]
-```
+| 步骤 | 操作 | 结果 |
+|------|------|------|
+| ① | 原始问题：同时对 $\tilde{U}$ 和所有 $\tilde{z}_i$ 优化 | $\min_{\tilde{U},\,\tilde{z}_i} \frac{1}{N}\sum_i \|x_i - \tilde{U}\tilde{z}_i\|^2$ |
+| ② | 每个 $\tilde{z}_i$ 互相独立 → 分离求和与最小化 | 对每个 $x_i$ 单独找最优 $\tilde{z}_i$ |
+| ③ | 利用正交矩阵性质：最优投影 $\tilde{z}_i^* = \tilde{U}^\top x_i$ | 消掉 $\tilde{z}_i$，问题只剩 $\tilde{U}$ |
+| ④ | 代入得最终目标 | $\min_{\tilde{U}} \frac{1}{N}\sum_i \|x_i - \tilde{U}\tilde{U}^\top x_i\|^2$ |
 
 **最终目标变成了**：找一个 $d$ 维子空间（由 $U$ 的列向量张成），使得所有数据点投影到这个子空间后，**重建误差最小**——这正是**PCA的几何意义**！
 
