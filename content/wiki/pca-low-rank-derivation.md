@@ -242,7 +242,11 @@ $$S = V \Lambda V^\top, \quad \Lambda = \operatorname{diag}(\lambda_1 \geq \lamb
 
 其中 $V$ 是正交矩阵（列向量是特征向量），$\lambda_j$ 是对应特征值。代入瑞利商：
 
-$$\tilde{u}^\top V\Lambda V^\top \tilde{u} = \underbrace{(V^\top\tilde{u})}_{:=\tilde{w}}{}^\top \Lambda\, \underbrace{(V^\top\tilde{u})}_{\tilde{w}} = \tilde{w}^\top \Lambda\, \tilde{w} = \sum_j \lambda_j w_j^2 \tag{2.1.11}$$
+{{< rawhtml >}}
+<div>
+$$\tilde{u}^\top V\Lambda V^\top \tilde{u} = \underbrace{(V^\top\tilde{u})}_{\displaystyle:=\tilde{w}}{}^\top \Lambda\, \underbrace{(V^\top\tilde{u})}_{\displaystyle\tilde{w}} = \tilde{w}^\top \Lambda\, \tilde{w} = \sum_j \lambda_j w_j^2 \tag{2.1.11}$$
+</div>
+{{< /rawhtml >}}
 
 > 💡 **换元 $\tilde{w} = V^\top \tilde{u}$ 的含义**：只是做了一个坐标旋转（转到特征向量方向），但长度不变（因为 $V$ 是正交矩阵，$\|\tilde{w}\|=\|\tilde{u}\|=1$）。
 >
@@ -332,17 +336,11 @@ $$A \begin{pmatrix} 1 \\ -1 \end{pmatrix} = \begin{pmatrix} 2 \\ -2 \end{pmatrix
 
 协方差矩阵 $S$ 的特征向量和特征值有非常直接的物理意义：
 
-```
-协方差矩阵 S 的特征向量
-  = 数据"天然的伸展方向"（变换后方向不变的特殊方向）
-
-特征值 λ 的大小
-  = 数据在这个方向上的方差（散布程度）
-
-最大特征值 λ₁ 对应的特征向量
-  = 数据散布最开的方向
-  = PCA 第一主成分！
-```
+| 概念 | 含义 |
+|------|------|
+| $S$ 的特征向量 | 数据"天然的伸展方向"（变换后方向不变的特殊方向） |
+| 特征值 $\lambda$ 的大小 | 数据在这个方向上的**方差**（散布程度） |
+| 最大特征值 $\lambda_1$ 对应的特征向量 | 数据散布**最开**的方向 = **PCA 第一主成分** |
 
 求特征值的方法（了解即可）：由 $A\mathbf{v} = \lambda\mathbf{v}$ 推导出 $(A - \lambda I)\mathbf{v} = 0$，要有非零解需满足：
 
