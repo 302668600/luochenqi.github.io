@@ -135,7 +135,7 @@ $$\min_{\tilde{U}} \frac{1}{N}\sum_i \|x_i - \tilde{U}\tilde{U}^\top x_i\|^2 \;\
 
 ---
 
-## 🖼️ 公式 2.1.7：几何直觉图解
+## 🖼️ 几何直觉图解：勾股三角形
 
 下图展示了这个关键关系——三条边构成一个直角三角形：
 
@@ -154,29 +154,131 @@ $$\min_{\tilde{U}} \frac{1}{N}\sum_i \|x_i - \tilde{U}\tilde{U}^\top x_i\|^2 \;\
 
 ---
 
-## 🔬 定理 2.1：最优解是协方差矩阵的特征向量
+## 🔄 编码-解码流水线
 
-将问题用迹运算展开：
+等价转化后，我们发现 PCA 其实就是一个最简单的**自编码器**雏形：
 
-$$\max_{\tilde{U}} \frac{1}{N}\sum_i \|\tilde{U}^\top x_i\|^2 = \max_{\tilde{U}} \operatorname{tr}\!\left(\tilde{U}^\top \underbrace{\frac{1}{N}\sum_i x_i x_i^\top}_{= S\ \text{（协方差矩阵）}} \tilde{U}\right) \tag{2.1.8}$$
+{{< rawhtml >}}
+<div>
+$$x \xrightarrow{\mathcal{E}=\tilde{U}^\top} z \xrightarrow{\mathcal{D}=\tilde{U}} \hat{x}$$
+</div>
+{{< /rawhtml >}}
 
-这是一个**瑞利商（Rayleigh Quotient）**问题。
+| 步骤 | 操作 | 类比 |
+|------|------|------|
+| 编码 $\mathcal{E}$ | $z = \tilde{U}^\top x$，高维 → 低维 | 把你的三维坐标"压缩"成二维摘要 |
+| 解码 $\mathcal{D}$ | $\hat{x} = \tilde{U} z$，低维 → 高维 | 用摘要"还原"你的大概位置 |
 
-对协方差矩阵 $S$ 做特征分解：
+$z$ 是数据的**低维潜在表征**，$\tilde{U}$ 是**最优码本**。误差 $x - \hat{x}$ 就是"压缩时丢掉的那部分"。
 
-$$S = V \Lambda V^\top, \quad \Lambda = \operatorname{diag}(\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_D)$$
+---
+
+## 📐 公式 2.1.7：最大化投影 → 协方差矩阵
+
+现在目标变成了：
+
+$$\max_{\tilde{U}} \frac{1}{N}\sum_i \|\tilde{U}^\top x_i\|^2 \tag{2.1.7}$$
+
+把 $\|\tilde{U}^\top x_i\|^2$ 展开：
+
+$$\|\tilde{U}^\top x_i\|^2 = (\tilde{U}^\top x_i)^\top (\tilde{U}^\top x_i) = x_i^\top \tilde{U}\tilde{U}^\top x_i$$
+
+利用**迹的轮换性质** $a^\top M a = \operatorname{tr}(M a a^\top)$，可以改写为：
+
+$$= \operatorname{tr}(\tilde{U}^\top x_i x_i^\top \tilde{U})$$
+
+对所有数据点求和之后，$\frac{1}{N}\sum_i$ 就自然地"钻进"了迹里面：
+
+{{< rawhtml >}}
+<div>
+$$\max_{\tilde{U}} \operatorname{tr}\!\left(\tilde{U}^\top \underbrace{\frac{1}{N}\sum_{i=1}^{N} x_i x_i^\top}_{\displaystyle= S\ \text{（协方差矩阵）}} \tilde{U}\right) \tag{2.1.8}$$
+</div>
+{{< /rawhtml >}}
+
+### 协方差矩阵 $S$ 是什么？
+
+假设数据已中心化（均值为 0），则：
+
+$$S = \frac{1}{N}\sum_i x_i x_i^\top$$
+
+$S$ 的每个元素 $S_{jk}$ 描述的是**第 $j$ 维和第 $k$ 维一起波动的程度**：
+
+| 矩阵元素 | 含义 |
+|---------|------|
+| 对角线 $S_{jj}$ | 第 $j$ 维自己的**方差**（散布有多大） |
+| 非对角 $S_{jk}$ | 第 $j$、$k$ 维的**协方差**（联动程度） |
+
+> 💡 **生活举例**：你观测 100 个人的 $(\text{身高}, \text{体重}, \text{鞋码})$：
+> - $S_{11}$（身高方差）：身高散得有多开
+> - $S_{12}$（身高-体重协方差）：身高高的人体重是否也倾向于更重
+>
+> 协方差矩阵就是数据"形状"的完整描述——它知道数据在哪个方向散得开，在哪个方向挤成一团。
+
+因此，**最大化投影长度** 就等价于 **最大化投影后数据的总方差（散布程度）**：
+
+> 💡 **为什么"最小误差"等于"最大散布"？**
+>
+> 一句话：斜边（$\|x\|$）固定，投影"影子"越长（方差越大）→ 垂直误差就越短。**PCA 就是找让数据"投影后最散开"的那个子空间。**
+
+---
+
+## 🎯 公式 2.1.9：简化到 $d=1$，引出瑞利商
+
+先考虑最简单的情况——只找**一个**最优方向向量 $\tilde{u}$：
+
+$$\max_{\tilde{u}:\|\tilde{u}\|_2=1}\ \tilde{u}^\top S\, \tilde{u} \tag{2.1.9}$$
+
+约束 $\|\tilde{u}\|=1$ 是必要的——不然可以无限拉长 $\tilde{u}$ 让目标值趋向无穷，就没有意义了。
+
+这正是数学上著名的 **瑞利商（Rayleigh Quotient）** 问题，其最大值恰好是 $S$ 的**最大特征值**，对应的方向就是**最大特征向量**。
+
+---
+
+## 🔧 公式 2.1.10 → 2.1.11：谱定理换元，看清最优解
+
+对协方差矩阵 $S$ 做**特征分解（谱定理）**：
+
+$$S = V \Lambda V^\top, \quad \Lambda = \operatorname{diag}(\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_D \geq 0) \tag{2.1.10}$$
+
+其中 $V$ 是正交矩阵（列向量是特征向量），$\lambda_j$ 是对应特征值。代入瑞利商：
+
+$$\tilde{u}^\top V\Lambda V^\top \tilde{u} = \underbrace{(V^\top\tilde{u})}_{:=\tilde{w}}{}^\top \Lambda\, \underbrace{(V^\top\tilde{u})}_{\tilde{w}} = \tilde{w}^\top \Lambda\, \tilde{w} = \sum_j \lambda_j w_j^2 \tag{2.1.11}$$
+
+> 💡 **换元 $\tilde{w} = V^\top \tilde{u}$ 的含义**：只是做了一个坐标旋转（转到特征向量方向），但长度不变（因为 $V$ 是正交矩阵，$\|\tilde{w}\|=\|\tilde{u}\|=1$）。
+>
+> 旋转之后问题变得清晰：在新坐标下，找哪个方向走得最远——就是**沿最长轴（最大特征值方向）走**！
+
+**约束 $\|\tilde{w}\|^2 = \sum_j w_j^2 = 1$ 下，如何最大化 $\sum_j \lambda_j w_j^2$？**
+
+答案非常直观：把全部权重都押在最大的 $\lambda_j$ 上！
+
+$$w^* = (1, 0, 0, \ldots)^\top \implies \tilde{u}^* = V w^* = v_1 \text{（最大特征值对应的特征向量）}$$
+
+> 💡 **投资类比**：你要把 1 元钱分配到多个项目，收益率分别是 $\lambda_1 > \lambda_2 > \cdots$，当然**全押最高收益率那个**！
+
+---
+
+## 🔬 定理 2.1：最优解是协方差矩阵的前 $d$ 个特征向量
+
+将上述结论从 $d=1$ 推广到一般情形：
 
 **定理 2.1（最优主成分）**：最优的 $d$ 维子空间 $\tilde{U}^*$ 由协方差矩阵 $S$ 的**前 $d$ 个最大特征值对应的特征向量**组成：
 
 $$\tilde{U}^* = [v_1, v_2, \ldots, v_d]$$
 
-最大化的目标值为：
+最大化的目标值（数据投影后的总方差）为：
 
 $$\max_{\tilde{U}} \operatorname{tr}(\tilde{U}^\top S \tilde{U}) = \lambda_1 + \lambda_2 + \cdots + \lambda_d$$
 
-> 💡 **通俗理解**：协方差矩阵 $S$ 记录了数据在各个方向上的"散布程度"。特征向量就是数据散布最大的那些方向，特征值就是对应方向上的方差大小。
+对应的最小重建误差为：
+
+$$\min_{\tilde{U}} \frac{1}{N}\sum_i \|x_i - \tilde{U}\tilde{U}^\top x_i\|^2 = \lambda_{d+1} + \lambda_{d+2} + \cdots + \lambda_D$$
+
+> 💡 **通俗理解**：
+> - $\lambda_1, \ldots, \lambda_d$ 是**保留下来**的方差（我们"看到"的信息）
+> - $\lambda_{d+1}, \ldots, \lambda_D$ 是**被丢掉**的方差（重建误差）
 >
-> **PCA = 找数据最"分散"的方向** → 投影到这些方向上，信息保留最多，误差最小。
+> **PCA = 找数据最"分散"的方向**，投影到这些方向上，信息保留最多，误差最小。
 
 ---
 
@@ -189,8 +291,10 @@ $$\max_{\tilde{U}} \operatorname{tr}(\tilde{U}^\top S \tilde{U}) = \lambda_1 + \
 | ③ | 利用正交矩阵性质：最优投影 $\tilde{z}_i^* = \tilde{U}^\top x_i$ | 消掉 $\tilde{z}_i$，问题只剩 $\tilde{U}$ |
 | ④ | 代入得最终目标 | $\min_{\tilde{U}} \frac{1}{N}\sum_i \|x_i - \tilde{U}\tilde{U}^\top x_i\|^2$ |
 | ⑤ | 勾股定理：$\|x\|^2 = \|\text{投影}\|^2 + \|\text{误差}\|^2$，$\|x\|^2$ 固定 | 最小化误差 ↔ 最大化投影长度 |
-| ⑥ | 用迹运算展开，识别为瑞利商问题 | $\max_{\tilde{U}} \operatorname{tr}(\tilde{U}^\top S \tilde{U})$ |
-| ⑦ | 协方差矩阵特征分解，定理 2.1 | 最优 $\tilde{U}^*$ = 前 $d$ 个特征向量 |
+| ⑥ | 展开 $\|\tilde{U}^\top x_i\|^2$，用迹的轮换性质求和 | $\max_{\tilde{U}} \operatorname{tr}(\tilde{U}^\top S \tilde{U})$，$S$ 是协方差矩阵 |
+| ⑦ | 最大化投影方差 = 找数据最散开的方向 | 问题转化为瑞利商（$d=1$ 时：$\max \tilde{u}^\top S \tilde{u}$） |
+| ⑧ | 谱定理对 $S$ 特征分解，换元 $\tilde{w}=V^\top\tilde{u}$ | 目标变为 $\max \sum_j \lambda_j w_j^2$，约束 $\sum w_j^2=1$ |
+| ⑨ | 全押最大特征值，定理 2.1 | 最优 $\tilde{U}^*$ = $S$ 的前 $d$ 个特征向量 |
 
 ---
 
