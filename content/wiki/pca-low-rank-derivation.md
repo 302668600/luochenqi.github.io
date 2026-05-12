@@ -481,7 +481,8 @@ $$\text{NN}(\boldsymbol{x}) = W^\star \circ \text{ReLU} \circ (U^\star)^\top \bo
 
 ### PCA = 最简单的自编码器
 
-```
+{{< rawhtml >}}
+<pre style="background:#f6f8fa;padding:1em;border-radius:6px;font-size:0.9em;line-height:1.6;">
 输入 x（高维，如 1000 维）
      ↓  第一层：(U*)ᵀ，压缩
   z（低维，如 10 维）
@@ -491,7 +492,8 @@ $$\text{NN}(\boldsymbol{x}) = W^\star \circ \text{ReLU} \circ (U^\star)^\top \bo
   z'（低维，10 维）
      ↓  第二层：解码
 输出 x̂（高维，1000 维）← 去噪后的重建
-```
+</pre>
+{{< /rawhtml >}}
 
 - **自**：自己重建自己（输入 $x$ → 输出 $\hat{x}$，目标是 $\hat{x} \approx x$）
 - **编码器**：$(U^\star)^\top x \approx z$，学到**低维表征** $z$
