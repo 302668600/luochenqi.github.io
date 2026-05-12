@@ -50,7 +50,10 @@ $$\min_{\tilde{U}, \{\tilde{z}_i\}} \frac{1}{N} \sum_{i=1}^N \| x_i - \tilde{U}\
 
 ### 第一步（2.1.2 → 2.1.3）：分离问题
 
-$$\min_{\tilde{U},\, \tilde{z}_1,\ldots,\tilde{z}_N} \frac{1}{N} \sum_i \| x_i - \tilde{U}\tilde{z}_i \|^2 = \frac{1}{N} \sum_i \min_{\tilde{z}_i} \| x_i - \tilde{U}\tilde{z}_i \|^2 \tag{2.1.3}$$
+$$\begin{aligned}
+&\min_{\tilde{U},\, \tilde{z}_1,\ldots,\tilde{z}_N} \frac{1}{N} \sum_i \| x_i - \tilde{U}\tilde{z}_i \|^2 \\[6pt]
+=\; &\frac{1}{N} \sum_i \min_{\tilde{z}_i} \| x_i - \tilde{U}\tilde{z}_i \|^2
+\end{aligned} \tag{2.1.3}$$
 
 **为什么可以这样？**
 
