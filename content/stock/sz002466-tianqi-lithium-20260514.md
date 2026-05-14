@@ -1,0 +1,583 @@
+---
+title: "天齐锂业(002466) 全面行情分析报告 — 2026-05-14"
+date: 2026-05-14
+draft: false
+tags: ["股票分析", "A股", "天齐锂业", "002466", "投资建议", "锂业", "新能源"]
+categories: ["股票分析"]
+description: "天齐锂业2026年5月14日全面行情分析，涵盖资金流向、平均筹码、K线技术面、基本面、消息面与政策面，含成本78元补仓建议。"
+showToc: false
+TocOpen: false
+---
+<style>
+.sr-wrap{--sr-blue:#1a73e8;--sr-blue-dark:#0d47a1;--sr-green:#34a853;--sr-red:#ea4335;--sr-orange:#f57c00;--sr-bg:#f0f2f5;--sr-card:#ffffff;--sr-text:#202124;--sr-sub:#5f6368;--sr-border:#dadce0;color:var(--sr-text);font-size:14px;line-height:1.6}
+.dark .sr-wrap{--sr-bg:#1a1b1e;--sr-card:#1e2129;--sr-text:#e0e0e0;--sr-sub:#9aa0a6;--sr-border:#2d3139}
+.sr-wrap *{box-sizing:border-box}
+.sr-header{background:linear-gradient(135deg,#0d47a1 0%,#1a73e8 100%);color:#fff;border-radius:12px;padding:28px 32px;margin-bottom:18px}
+.sr-header h2{font-size:22px;font-weight:700;margin:0 0 4px;color:#fff}
+.sr-header .sr-meta{font-size:12px;opacity:.85}
+.sr-price-hero{display:flex;align-items:baseline;gap:10px;margin-top:12px;flex-wrap:wrap}
+.sr-price-hero .sr-price{font-size:40px;font-weight:700}
+.sr-price-hero .sr-neg{font-size:18px;color:#ff8a80}
+.sr-price-hero .sr-pos{font-size:18px;color:#a5d6a7}
+.sr-price-hero .sr-info{font-size:13px;opacity:.75}
+.sr-score-banner{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.sr-score-card{flex:1;min-width:140px;background:var(--sr-card);border-radius:10px;padding:14px 16px;border:1px solid var(--sr-border);text-align:center}
+.sr-score-card .sr-label{font-size:11px;color:var(--sr-sub);margin-bottom:5px}
+.sr-score-card .sr-val{font-size:26px;font-weight:700}
+.sr-score-card .sr-sub2{font-size:11px;color:var(--sr-sub);margin-top:3px}
+.sr-val-red{color:#ea4335}.sr-val-green{color:#34a853}.sr-val-orange{color:#f57c00}.sr-val-blue{color:#1a73e8}.sr-val-yellow{color:#f9a825}
+.sr-section{background:var(--sr-card);border-radius:10px;border:1px solid var(--sr-border);margin-bottom:14px;overflow:hidden}
+.sr-section-title{background:var(--sr-bg);padding:12px 18px;font-weight:600;font-size:14px;border-bottom:1px solid var(--sr-border)}
+.sr-section-body{padding:18px}
+.sr-grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sr-grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.sr-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:680px){.sr-grid2,.sr-grid3,.sr-grid4{grid-template-columns:1fr 1fr}}
+.sr-kv{background:var(--sr-bg);border-radius:8px;padding:10px 12px}
+.sr-kv .sr-k{font-size:11px;color:var(--sr-sub);margin-bottom:2px}
+.sr-kv .sr-v{font-size:15px;font-weight:600}
+.sr-table{width:100%;border-collapse:collapse;font-size:13px}
+.sr-table th{background:var(--sr-bg);color:var(--sr-sub);font-weight:600;padding:7px 9px;text-align:left;border-bottom:1px solid var(--sr-border)}
+.sr-table td{padding:7px 9px;border-bottom:1px solid var(--sr-border);color:var(--sr-text)}
+.sr-table tr:last-child td{border-bottom:none}
+.sr-badge{display:inline-block;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:600}
+.sr-badge-red{background:#fce8e6;color:#c62828}.sr-badge-green{background:#e6f4ea;color:#1b5e20}
+.sr-badge-orange{background:#fff3e0;color:#e65100}.sr-badge-blue{background:#e8f0fe;color:#1565c0}
+.sr-badge-gray{background:#f1f3f4;color:#555}.sr-badge-yellow{background:#fff9c4;color:#f57f17}
+.dark .sr-badge-red{background:#4a1010;color:#ff8a80}.dark .sr-badge-green{background:#0d2e18;color:#81c995}
+.dark .sr-badge-orange{background:#3e2000;color:#ffcc80}.dark .sr-badge-blue{background:#0d2045;color:#82b1ff}
+.sr-bar-wrap{background:#e0e0e0;border-radius:4px;height:7px;margin-top:5px}
+.dark .sr-bar-wrap{background:#444}
+.sr-bar{height:7px;border-radius:4px}
+.sr-bar-green{background:#34a853}.sr-bar-red{background:#ea4335}.sr-bar-blue{background:#1a73e8}.sr-bar-orange{background:#f57c00}
+.sr-news-item{padding:9px 0;border-bottom:1px solid var(--sr-border);display:flex;gap:8px;align-items:flex-start}
+.sr-news-item:last-child{border-bottom:none}
+.sr-news-title{font-size:13px;color:var(--sr-text)}
+.sr-news-meta{font-size:11px;color:var(--sr-sub);margin-top:2px}
+.sr-warn-box{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:12px 14px;font-size:13px;color:#e65100;margin-top:10px}
+.dark .sr-warn-box{background:#2a1e00;border-color:#5a3e00;color:#ffcc80}
+.sr-danger-box{background:#fce8e6;border:1px solid #ef9a9a;border-radius:8px;padding:12px 14px;font-size:13px;color:#c62828;margin-top:10px}
+.sr-advice-block{border-radius:10px;padding:18px 20px;margin-bottom:12px}
+.sr-advice-buy{background:#e8f5e9;border:1px solid #a5d6a7}
+.dark .sr-advice-buy{background:#0d2e18;border-color:#2e7d32}
+.sr-advice-watch{background:#fff8e1;border:1px solid #ffe082}
+.dark .sr-advice-watch{background:#2a1e00;border-color:#5a3e00}
+.sr-advice-sell{background:#fce8e6;border:1px solid #ef9a9a}
+.dark .sr-advice-sell{background:#4a1010;border-color:#c62828}
+.sr-advice-title{font-size:16px;font-weight:700;margin-bottom:8px}
+.sr-price-row{display:flex;gap:12px;flex-wrap:wrap}
+.sr-price-box{background:var(--sr-card);border-radius:8px;padding:10px 14px;flex:1;min-width:110px;border:1px solid var(--sr-border)}
+.sr-price-box .sr-pk{font-size:11px;color:var(--sr-sub);margin-bottom:2px}
+.sr-price-box .sr-pv{font-size:16px;font-weight:700}
+.sr-footer-tip{font-size:12px;color:var(--sr-sub);background:var(--sr-bg);border-radius:8px;padding:10px 14px;margin-top:10px}
+.sr-kline-wrap{position:relative;width:100%;height:220px;background:var(--sr-bg);border-radius:8px;overflow:hidden}
+#sr-kline{display:block;width:100%;height:220px}
+.sr-chip-bar-wrap{margin-top:10px}
+.sr-chip-row{display:flex;align-items:center;gap:8px;margin-bottom:4px;font-size:12px}
+.sr-chip-label{width:54px;color:var(--sr-sub);text-align:right;flex-shrink:0}
+.sr-chip-outer{flex:1;background:#e0e0e0;border-radius:3px;height:10px}
+.dark .sr-chip-outer{background:#444}
+.sr-chip-inner{height:10px;border-radius:3px;background:#1a73e8}
+.sr-chip-inner-red{background:#ea4335}
+.sr-chip-pct{width:38px;color:var(--sr-sub);text-align:right}
+</style>
+<div class="sr-wrap">
+<div class="sr-header">
+<h2>天齐锂业 (002466) · A股深圳主板</h2>
+<div class="sr-meta">分析日期：2026-05-14 &nbsp;|&nbsp; 行业：有色金属 · 锂矿&nbsp;|&nbsp; 数据来源：westock-data</div>
+<div class="sr-price-hero">
+<span class="sr-price">72.50</span>
+<span class="sr-neg">▼ -1.88 (-2.53%)</span>
+<span class="sr-info">&nbsp;昨收 74.38 &nbsp;|&nbsp; 今开 73.68 &nbsp;|&nbsp; 振幅 3.20%</span>
+</div>
+</div>
+<div class="sr-score-banner">
+<div class="sr-score-card">
+<div class="sr-label">综合评分</div>
+<div class="sr-val sr-val-orange">5.2</div>
+<div class="sr-sub2">观望等待</div>
+</div>
+<div class="sr-score-card">
+<div class="sr-label">基本面</div>
+<div class="sr-val sr-val-green">6.5</div>
+<div class="sr-sub2">利润暴增17倍</div>
+</div>
+<div class="sr-score-card">
+<div class="sr-label">资金面</div>
+<div class="sr-val sr-val-red">3.0</div>
+<div class="sr-sub2">主力持续流出</div>
+</div>
+<div class="sr-score-card">
+<div class="sr-label">技术面</div>
+<div class="sr-val sr-val-orange">5.0</div>
+<div class="sr-sub2">均线承压</div>
+</div>
+<div class="sr-score-card">
+<div class="sr-label">消息面</div>
+<div class="sr-val sr-val-green">6.0</div>
+<div class="sr-sub2">锂价上涨利好</div>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">▦ 基本信息</div>
+<div class="sr-section-body">
+<div class="sr-grid4">
+<div class="sr-kv"><div class="sr-k">当前价</div><div class="sr-v sr-val-red">72.50元</div></div>
+<div class="sr-kv"><div class="sr-k">总市值</div><div class="sr-v">1241亿元</div></div>
+<div class="sr-kv"><div class="sr-k">流通市值</div><div class="sr-v">1070亿元</div></div>
+<div class="sr-kv"><div class="sr-k">换手率</div><div class="sr-v">2.56%</div></div>
+<div class="sr-kv"><div class="sr-k">市盈率(TTM)</div><div class="sr-v sr-val-orange">55.54</div></div>
+<div class="sr-kv"><div class="sr-k">市净率</div><div class="sr-v">2.68</div></div>
+<div class="sr-kv"><div class="sr-k">52周最高</div><div class="sr-v">82.49元</div></div>
+<div class="sr-kv"><div class="sr-k">52周最低</div><div class="sr-v">28.57元</div></div>
+<div class="sr-kv"><div class="sr-k">成交额</div><div class="sr-v">27.5亿元</div></div>
+<div class="sr-kv"><div class="sr-k">量比</div><div class="sr-v">1.86</div></div>
+<div class="sr-kv"><div class="sr-k">20日涨跌</div><div class="sr-v sr-val-green">+16.75%</div></div>
+<div class="sr-kv"><div class="sr-k">年初至今</div><div class="sr-v sr-val-green">+30.91%</div></div>
+</div>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">↗ K线走势分析（近60日）</div>
+<div class="sr-section-body">
+<div class="sr-kline-wrap">
+<canvas id="sr-kline" width="800" height="220"></canvas>
+</div>
+<script>
+(function(){
+var data=[
+{d:'03-02',o:55.99,h:56.40,l:53.80,c:55.18},{d:'03-03',o:54.73,h:55.40,l:51.50,c:51.58},
+{d:'03-04',o:50.70,h:53.32,l:50.64,c:52.07},{d:'03-05',o:53.09,h:53.46,l:51.90,c:52.35},
+{d:'03-06',o:52.34,h:53.00,l:51.92,c:51.99},{d:'03-09',o:50.74,h:53.29,l:50.04,c:53.09},
+{d:'03-10',o:53.66,h:54.35,l:53.44,c:53.85},{d:'03-11',o:53.17,h:54.85,l:53.01,c:54.54},
+{d:'03-12',o:54.30,h:54.48,l:53.02,c:53.60},{d:'03-13',o:53.96,h:55.94,l:53.80,c:54.15},
+{d:'03-16',o:53.90,h:54.63,l:52.80,c:53.58},{d:'03-17',o:53.81,h:54.48,l:52.00,c:52.11},
+{d:'03-18',o:52.48,h:52.57,l:50.34,c:51.15},{d:'03-19',o:50.15,h:50.47,l:48.71,c:48.93},
+{d:'03-20',o:49.38,h:52.62,l:48.80,c:50.10},{d:'03-23',o:49.02,h:51.28,l:48.54,c:49.00},
+{d:'03-24',o:50.05,h:51.63,l:48.28,c:51.63},{d:'03-25',o:52.66,h:53.98,l:51.96,c:53.46},
+{d:'03-26',o:53.46,h:55.79,l:52.95,c:54.20},{d:'03-27',o:53.61,h:58.26,l:53.50,c:57.96},
+{d:'03-30',o:58.02,h:58.39,l:56.07,c:57.24},{d:'03-31',o:57.10,h:57.19,l:55.29,c:55.48},
+{d:'04-01',o:55.98,h:56.65,l:54.68,c:55.45},{d:'04-02',o:55.45,h:57.70,l:54.62,c:56.17},
+{d:'04-03',o:55.96,h:56.87,l:55.00,c:55.44},{d:'04-07',o:55.70,h:57.36,l:55.31,c:56.70},
+{d:'04-08',o:56.18,h:58.37,l:55.66,c:58.27},{d:'04-09',o:58.13,h:59.17,l:57.03,c:57.65},
+{d:'04-10',o:58.00,h:60.66,l:57.88,c:59.64},{d:'04-13',o:59.43,h:62.47,l:59.43,c:62.10},
+{d:'04-14',o:62.50,h:64.64,l:61.77,c:64.53},{d:'04-15',o:64.68,h:64.68,l:61.50,c:61.80},
+{d:'04-16',o:62.55,h:66.66,l:62.00,c:65.32},{d:'04-17',o:65.78,h:68.40,l:65.74,c:66.65},
+{d:'04-20',o:66.00,h:67.70,l:65.39,c:66.82},{d:'04-21',o:70.00,h:73.30,l:68.71,c:70.71},
+{d:'04-22',o:70.00,h:71.22,l:69.02,c:70.73},{d:'04-23',o:70.09,h:70.29,l:66.97,c:67.97},
+{d:'04-24',o:67.90,h:74.77,l:67.60,c:73.70},{d:'04-27',o:73.50,h:75.46,l:73.00,c:73.65},
+{d:'04-28',o:74.61,h:75.09,l:72.00,c:72.53},{d:'04-29',o:73.00,h:75.80,l:71.07,c:75.52},
+{d:'04-30',o:75.00,h:81.19,l:74.49,c:80.03},{d:'05-06',o:80.03,h:82.49,l:78.40,c:81.71},
+{d:'05-07',o:80.28,h:80.55,l:77.51,c:79.06},{d:'05-08',o:78.30,h:80.83,l:76.00,c:76.05},
+{d:'05-11',o:76.83,h:78.27,l:75.57,c:77.37},{d:'05-12',o:77.86,h:77.99,l:73.60,c:74.75},
+{d:'05-13',o:74.01,h:76.20,l:73.60,c:74.38},{d:'05-14',o:73.68,h:74.38,l:72.00,c:72.50}
+];
+var cvs=document.getElementById('sr-kline');
+if(!cvs)return;
+var dpr=window.devicePixelRatio||1;
+var W=cvs.parentElement.offsetWidth||800,H=220;
+cvs.width=W*dpr;cvs.height=H*dpr;
+cvs.style.width=W+'px';cvs.style.height=H+'px';
+var ctx=cvs.getContext('2d');
+ctx.scale(dpr,dpr);
+var pad={l:40,r:10,t:16,b:28};
+var cw=W-pad.l-pad.r,ch=H-pad.t-pad.b;
+var prices=data.reduce(function(a,d){return a.concat([d.h,d.l]);},[]);
+var mn=Math.min.apply(null,prices),mx=Math.max.apply(null,prices);
+var range=mx-mn||1;
+mn-=range*0.05;mx+=range*0.05;range=mx-mn;
+function px(v){return pad.t+ch*(1-(v-mn)/range);}
+var bw=Math.max(2,Math.floor(cw/data.length*0.6));
+var step=cw/data.length;
+var isDark=document.documentElement.classList.contains('dark');
+var axisColor=isDark?'#555':'#dadce0';
+var textColor=isDark?'#9aa0a6':'#5f6368';
+ctx.fillStyle=isDark?'#1e2129':'#f0f2f5';
+ctx.fillRect(0,0,W,H);
+for(var gi=0;gi<5;gi++){
+var gv=mn+range*gi/4;
+var gy=px(gv);
+ctx.beginPath();ctx.moveTo(pad.l,gy);ctx.lineTo(W-pad.r,gy);
+ctx.strokeStyle=axisColor;ctx.lineWidth=0.5;ctx.stroke();
+ctx.fillStyle=textColor;ctx.font='9px sans-serif';ctx.textAlign='right';
+ctx.fillText(gv.toFixed(1),pad.l-3,gy+3);
+}
+var ma5=[],ma10=[],ma20=[];
+for(var i=0;i<data.length;i++){
+var s5=0,s10=0,s20=0,c5=0,c10=0,c20=0;
+for(var j=Math.max(0,i-4);j<=i;j++){s5+=data[j].c;c5++;}
+for(var j=Math.max(0,i-9);j<=i;j++){s10+=data[j].c;c10++;}
+for(var j=Math.max(0,i-19);j<=i;j++){s20+=data[j].c;c20++;}
+ma5.push(s5/c5);ma10.push(s10/c10);ma20.push(s20/c20);
+}
+function drawMA(arr,color){
+ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=1.2;
+for(var i=0;i<arr.length;i++){
+var x=pad.l+i*step+step/2;
+if(i===0)ctx.moveTo(x,px(arr[i]));
+else ctx.lineTo(x,px(arr[i]));
+}
+ctx.stroke();
+}
+drawMA(ma5,'#f57c00');drawMA(ma10,'#1a73e8');drawMA(ma20,'#9c27b0');
+var costLine=73.04;
+ctx.beginPath();ctx.setLineDash([4,3]);
+ctx.moveTo(pad.l,px(costLine));ctx.lineTo(W-pad.r,px(costLine));
+ctx.strokeStyle='#ea4335';ctx.lineWidth=1.2;ctx.stroke();
+ctx.setLineDash([]);
+ctx.fillStyle='#ea4335';ctx.font='10px sans-serif';ctx.textAlign='left';
+ctx.fillText('均筹73.04',W-pad.r-60,px(costLine)-4);
+var cost78=78;
+ctx.beginPath();ctx.setLineDash([3,3]);
+ctx.moveTo(pad.l,px(cost78));ctx.lineTo(W-pad.r,px(cost78));
+ctx.strokeStyle='#9c27b0';ctx.lineWidth=1;ctx.stroke();
+ctx.setLineDash([]);
+ctx.fillStyle='#9c27b0';ctx.font='10px sans-serif';ctx.textAlign='left';
+ctx.fillText('成本78',W-pad.r-42,px(cost78)-4);
+data.forEach(function(d,i){
+var x=pad.l+i*step+step/2;
+var isUp=d.c>=d.o;
+var color=isUp?'#ea4335':'#34a853';
+ctx.beginPath();ctx.moveTo(x,px(d.h));ctx.lineTo(x,px(d.l));
+ctx.strokeStyle=color;ctx.lineWidth=1;ctx.stroke();
+var top=px(Math.max(d.o,d.c));
+var bot=px(Math.min(d.o,d.c));
+var bh=Math.max(1,bot-top);
+ctx.fillStyle=color;
+ctx.fillRect(x-bw/2,top,bw,bh);
+});
+var lblStep=Math.ceil(data.length/8);
+data.forEach(function(d,i){
+if(i%lblStep===0||i===data.length-1){
+var x=pad.l+i*step+step/2;
+ctx.fillStyle=textColor;ctx.font='9px sans-serif';ctx.textAlign='center';
+ctx.fillText(d.d,x,H-4);
+}
+});
+ctx.fillStyle=isDark?'rgba(30,33,41,0.8)':'rgba(240,242,245,0.8)';
+ctx.fillRect(pad.l+4,pad.t+2,130,30);
+ctx.font='9px sans-serif';ctx.textAlign='left';
+ctx.fillStyle='#f57c00';ctx.fillText('MA5',pad.l+8,pad.t+12);
+ctx.fillStyle='#1a73e8';ctx.fillText('MA10',pad.l+30,pad.t+12);
+ctx.fillStyle='#9c27b0';ctx.fillText('MA20',pad.l+60,pad.t+12);
+ctx.fillStyle='#ea4335';ctx.fillText('均筹线',pad.l+90,pad.t+12);
+ctx.fillStyle='#9c27b0';ctx.fillText('成本线',pad.l+8,pad.t+24);
+})();
+</script>
+<div class="sr-warn-box" style="margin-top:12px">
+<b>K线关键特征：</b>4月初从约55元低点强势拉升，突破82元后遭遇高位抛压，近一周持续高位震荡回落，5月14日当日高开低走，收于72.50元（日内低72.00元），呈现明显阴线，成交量相比高峰期明显萎缩（37.8万手 vs 高点120万手）。MA5(75.01)、MA10(76.39)均在价格上方，均线呈空头排列信号。
+</div>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">$ 资金面分析</div>
+<div class="sr-section-body">
+<div class="sr-grid2">
+<div>
+<table class="sr-table">
+<tr><th>资金类型</th><th>今日流向</th><th>状态</th></tr>
+<tr><td>主力净流入</td><td class="sr-val-red">-4.30亿元</td><td><span class="sr-badge sr-badge-red">流出</span></td></tr>
+<tr><td>超大单净流入</td><td class="sr-val-red">-3.97亿元</td><td><span class="sr-badge sr-badge-red">流出</span></td></tr>
+<tr><td>大单净流入</td><td class="sr-val-orange">-0.34亿元</td><td><span class="sr-badge sr-badge-orange">流出</span></td></tr>
+<tr><td>中单净流入</td><td class="sr-val-orange">+0.88亿元</td><td><span class="sr-badge sr-badge-blue">流入</span></td></tr>
+<tr><td>小单净流入</td><td class="sr-val-green">+3.42亿元</td><td><span class="sr-badge sr-badge-green">流入</span></td></tr>
+</table>
+</div>
+<div>
+<table class="sr-table">
+<tr><th>资金指标</th><th>数值</th></tr>
+<tr><td>主力净流入比</td><td class="sr-val-red">-0.40%（偏弱）</td></tr>
+<tr><td>5日主力净流入</td><td class="sr-val-red">-45.97亿元</td></tr>
+<tr><td>10日主力净流入</td><td class="sr-val-red">-40.04亿元</td></tr>
+<tr><td>20日主力净流入</td><td class="sr-val-red">-42.81亿元</td></tr>
+<tr><td>融资余额</td><td>46.97亿元 (↓2.91%)</td></tr>
+<tr><td>融资净卖出</td><td class="sr-val-red">-1.41亿元</td></tr>
+<tr><td>大宗交易</td><td>平价成交 6796万元</td></tr>
+</tr>
+</table>
+</div>
+</div>
+<div class="sr-danger-box">
+<b>▶ 资金面核心结论：</b>主力资金连续多日大幅净流出，5日累计流出高达45.97亿元，今日流出4.30亿元，主力净比仅-0.40%，呈现"散户接盘、主力出货"的典型格局。融资余额环比下降2.91%，融资净卖出1.41亿元，说明融资盘也在撤退。此为当前最大风险信号。
+</div>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">▦ 筹码分析</div>
+<div class="sr-section-body">
+<div class="sr-grid2">
+<div>
+<div class="sr-kv" style="margin-bottom:10px"><div class="sr-k">平均筹码成本</div><div class="sr-v sr-val-orange">73.04元</div></div>
+<div class="sr-kv" style="margin-bottom:10px"><div class="sr-k">获利盘比例</div><div class="sr-v sr-val-green">47.43%</div></div>
+<div class="sr-kv" style="margin-bottom:10px"><div class="sr-k">90%筹码集中度</div><div class="sr-v">20.72%</div></div>
+<div class="sr-kv"><div class="sr-k">70%筹码集中度</div><div class="sr-v">16.35%</div></div>
+</div>
+<div>
+<div style="font-size:12px;color:var(--sr-sub);margin-bottom:8px">筹码分布示意（相对密度）</div>
+<div class="sr-chip-bar-wrap">
+<div class="sr-chip-row">
+<div class="sr-chip-label">82-86元</div>
+<div class="sr-chip-outer"><div class="sr-chip-inner sr-chip-inner-red" style="width:18%"></div></div>
+<div class="sr-chip-pct sr-val-red">套牢区</div>
+</div>
+<div class="sr-chip-row">
+<div class="sr-chip-label">76-82元</div>
+<div class="sr-chip-outer"><div class="sr-chip-inner sr-chip-inner-red" style="width:32%"></div></div>
+<div class="sr-chip-pct sr-val-red">套牢区</div>
+</div>
+<div class="sr-chip-row">
+<div class="sr-chip-label">72-76元</div>
+<div class="sr-chip-outer"><div class="sr-chip-inner" style="width:65%"></div></div>
+<div class="sr-chip-pct">密集区</div>
+</div>
+<div class="sr-chip-row">
+<div class="sr-chip-label">67-72元</div>
+<div class="sr-chip-outer"><div class="sr-chip-inner sr-bar-green" style="width:55%"></div></div>
+<div class="sr-chip-pct sr-val-green">获利区</div>
+</div>
+<div class="sr-chip-row">
+<div class="sr-chip-label">55-67元</div>
+<div class="sr-chip-outer"><div class="sr-chip-inner sr-bar-green" style="width:80%"></div></div>
+<div class="sr-chip-pct sr-val-green">获利区</div>
+</div>
+<div class="sr-chip-row">
+<div class="sr-chip-label">48-55元</div>
+<div class="sr-chip-outer"><div class="sr-chip-inner sr-bar-green" style="width:30%"></div></div>
+<div class="sr-chip-pct sr-val-green">获利区</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sr-warn-box" style="margin-top:12px">
+<b>▶ 筹码核心结论：</b>平均筹码成本73.04元，当前价72.50元已略低于平均成本，说明整体市场处于轻度亏损状态。获利盘仅47.43%，意味着超过一半持仓处于亏损。82元附近存在大量套牢盘形成压力，72-73元为密集筹码博弈区，若跌破72元（今日已触及）可能引发进一步抛售。
+</div>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">↗ 技术面分析</div>
+<div class="sr-section-body">
+<div class="sr-grid3">
+<div>
+<div style="font-weight:600;font-size:13px;margin-bottom:8px">均线系统</div>
+<table class="sr-table">
+<tr><th>均线</th><th>数值</th><th>位置</th></tr>
+<tr><td>MA5</td><td>75.01</td><td><span class="sr-badge sr-badge-red">压力</span></td></tr>
+<tr><td>MA10</td><td>76.39</td><td><span class="sr-badge sr-badge-red">压力</span></td></tr>
+<tr><td>MA20</td><td>72.29</td><td><span class="sr-badge sr-badge-green">支撑</span></td></tr>
+<tr><td>MA30</td><td>67.33</td><td><span class="sr-badge sr-badge-green">支撑</span></td></tr>
+<tr><td>MA60</td><td>59.98</td><td><span class="sr-badge sr-badge-green">强支撑</span></td></tr>
+</table>
+</div>
+<div>
+<div style="font-weight:600;font-size:13px;margin-bottom:8px">振荡指标</div>
+<table class="sr-table">
+<tr><th>指标</th><th>数值</th><th>信号</th></tr>
+<tr><td>MACD(DIF)</td><td>4.25</td><td><span class="sr-badge sr-badge-orange">金叉后转弱</span></td></tr>
+<tr><td>MACD(DEA)</td><td>4.90</td><td><span class="sr-badge sr-badge-red">死叉</span></td></tr>
+<tr><td>MACD柱</td><td>-1.30</td><td><span class="sr-badge sr-badge-red">空头</span></td></tr>
+<tr><td>KDJ-K</td><td>37.09</td><td><span class="sr-badge sr-badge-orange">偏弱</span></td></tr>
+<tr><td>KDJ-J</td><td>-0.69</td><td><span class="sr-badge sr-badge-red">超卖边缘</span></td></tr>
+</table>
+</div>
+<div>
+<div style="font-weight:600;font-size:13px;margin-bottom:8px">其他指标</div>
+<table class="sr-table">
+<tr><th>指标</th><th>数值</th><th>信号</th></tr>
+<tr><td>RSI(6)</td><td>40.26</td><td><span class="sr-badge sr-badge-orange">偏弱</span></td></tr>
+<tr><td>RSI(12)</td><td>53.73</td><td><span class="sr-badge sr-badge-gray">中性</span></td></tr>
+<tr><td>BOLL上轨</td><td>82.90</td><td>压力</td></tr>
+<tr><td>BOLL中轨</td><td>72.29</td><td><span class="sr-badge sr-badge-orange">测试</span></td></tr>
+<tr><td>BOLL下轨</td><td>61.67</td><td>支撑</td></tr>
+<tr><td>CCI(14)</td><td>-46.72</td><td><span class="sr-badge sr-badge-orange">偏弱</span></td></tr>
+</table>
+</div>
+</div>
+<div class="sr-warn-box" style="margin-top:12px">
+<b>▶ 技术面核心结论：</b>MACD出现死叉，红柱转绿，短期动能转弱；KDJ-J值接近超卖（-0.69）有反弹可能，但非强买点；当前价72.50正在测试BOLL中轨和MA20（72.29），若此处企稳则有支撑，若跌破则下一支撑在MA30（67.33）。整体技术形态由强转弱，处于高位回调整理阶段。
+</div>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">⊞ 基本面分析</div>
+<div class="sr-section-body">
+<div class="sr-grid2">
+<div>
+<div style="font-weight:600;font-size:13px;margin-bottom:8px">核心财务指标（2025年报）</div>
+<table class="sr-table">
+<tr><th>指标</th><th>数值</th></tr>
+<tr><td>营业收入</td><td>103.46亿元</td></tr>
+<tr><td>归母净利润</td><td>4.63亿元</td></tr>
+<tr><td>EPS</td><td>0.28元</td></tr>
+<tr><td>毛利率</td><td>约39.5%</td></tr>
+<tr><td>经营性现金流</td><td>29.61亿元</td></tr>
+<tr><td>资产负债率</td><td>约28.0%（低杠杆）</td></tr>
+<tr><td>总资产</td><td>721亿元</td></tr>
+<tr><td>净资产（归母）</td><td>423.6亿元</td></tr>
+</table>
+</div>
+<div>
+<div style="font-weight:600;font-size:13px;margin-bottom:8px">估值与行业对比</div>
+<table class="sr-table">
+<tr><th>指标</th><th>当前</th><th>评估</th></tr>
+<tr><td>PE(TTM)</td><td>55.54x</td><td><span class="sr-badge sr-badge-orange">偏高</span></td></tr>
+<tr><td>PE(预测FY2026)</td><td>16.54x</td><td><span class="sr-badge sr-badge-green">合理</span></td></tr>
+<tr><td>PB</td><td>2.68x</td><td><span class="sr-badge sr-badge-green">合理</span></td></tr>
+<tr><td>PS(TTM)</td><td>9.88x</td><td><span class="sr-badge sr-badge-orange">偏高</span></td></tr>
+<tr><td>净利润同比</td><td>约+17倍</td><td><span class="sr-badge sr-badge-green">爆发式增长</span></td></tr>
+<tr><td>股息收益率</td><td>0%</td><td><span class="sr-badge sr-badge-gray">无分红</span></td></tr>
+</table>
+</div>
+</div>
+<div class="sr-warn-box" style="margin-top:12px">
+<b>▶ 基本面核心结论：</b>天齐锂业2025年净利润同比暴增约17倍，受益于碳酸锂价格从低谷大幅回升，基本面出现根本性改善。PE(TTM)偏高(55.54x)是因为2025年利润基数较低，若以2026年预测PE(16.54x)衡量则估值合理。公司资产负债率低，长期股权投资（含泰利森锂矿）规模巨大（261.9亿元），资产质量扎实。但需关注锂价波动风险。
+</div>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">◎ 消息面 & 政策面</div>
+<div class="sr-section-body">
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-green" style="margin-right:6px">利好</span>碳酸锂突破20万元/吨 供应端扰动叠加需求旺盛（证券时报/中国证券报）</div>
+<div class="sr-news-meta">2026-05-13 ~ 2026-05-14 · 多家主流媒体报道</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-green" style="margin-right:6px">利好</span>中信证券喊话锂价目标25万元/吨 大幅上调行业预期</div>
+<div class="sr-news-meta">2026-05-13 · 经鉴</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-green" style="margin-right:6px">利好</span>雅宝净利狂飙5倍、天齐锂业净利暴增17倍 全球锂业春天回来了</div>
+<div class="sr-news-meta">2026-05-13 · 多空象限</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-green" style="margin-right:6px">利好</span>摩根士丹利增持天齐锂业16.3万股 国际机构看好</div>
+<div class="sr-news-meta">2026-05-12 · 格隆汇</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-blue" style="margin-right:6px">中性</span>天齐锂业携多元产品矩阵亮相CIBF2026深圳国际电池技术展</div>
+<div class="sr-news-meta">2026-05-13 · 天齐锂业官方</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-blue" style="margin-right:6px">中性</span>矿产资源法对锂行业影响分析 政策规范化有利长期发展</div>
+<div class="sr-news-meta">2026-05-13 · 二级狗的碎碎念</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-red" style="margin-right:6px">利空</span>天齐锂业今日主力资金净流出4.5亿元 大幅下跌 股价承压</div>
+<div class="sr-news-meta">2026-05-14 · 智选洞察</div>
+</div>
+</div>
+<div class="sr-news-item">
+<div>
+<div class="sr-news-title"><span class="sr-badge sr-badge-red" style="margin-right:6px">利空</span>天齐锂业5月13日被融资净卖出4180万元 融资盘减仓信号</div>
+<div class="sr-news-meta">2026-05-14 · 市场透视</div>
+</div>
+</div>
+<div class="sr-warn-box" style="margin-top:12px">
+<b>▶ 消息面 & 政策面核心结论：</b>基本面/行业消息面偏强——碳酸锂价格突破20万/吨并有望冲25万，国际机构增持，业绩爆发。政策面方面，矿产资源法规范化有利于行业长期健康发展，新能源汽车政策持续支持锂需求。然而短期股价承压明显，市场呈现"利好出尽是利空"的高位减仓特征，主力机构在利好兑现后获利了结。
+</div>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">★ 综合投资建议</div>
+<div class="sr-section-body">
+<div class="sr-advice-block sr-advice-watch">
+<div class="sr-advice-title" style="color:#e65100">▶ 综合建议：谨慎观望，暂不补仓</div>
+<p style="font-size:13px;margin:0 0 10px">综合评分：<b>5.2/10</b>，处于观望区间。基本面向好，但资金面严重背离，技术面走弱，短期风险大于机会。</p>
+<div class="sr-price-row">
+<div class="sr-price-box">
+<div class="sr-pk">当前价</div>
+<div class="sr-pv sr-val-red">72.50元</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">您的成本</div>
+<div class="sr-pv sr-val-orange">78.00元</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">均筹成本</div>
+<div class="sr-pv sr-val-orange">73.04元</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">补仓参考价</div>
+<div class="sr-pv sr-val-blue">68~70元</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">止损价位</div>
+<div class="sr-pv sr-val-red">65元</div>
+</div>
+<div class="sr-price-box">
+<div class="sr-pk">目标价位</div>
+<div class="sr-pv sr-val-green">82~88元</div>
+</div>
+</div>
+</div>
+<div class="sr-section" style="margin-bottom:8px">
+<div class="sr-section-title">▶ 关于成本78元补仓建议</div>
+<div class="sr-section-body">
+<table class="sr-table">
+<tr><th>维度</th><th>结论</th><th>分析</th></tr>
+<tr><td>成本对比</td><td><span class="sr-badge sr-badge-red">高于均筹</span></td><td>成本78 &gt; 均筹73.04，已处于整体套牢区</td></tr>
+<tr><td>短期技术</td><td><span class="sr-badge sr-badge-red">不利</span></td><td>MACD死叉，MA5/MA10在上方形成压力，趋势转弱</td></tr>
+<tr><td>资金流向</td><td><span class="sr-badge sr-badge-red">持续流出</span></td><td>5日净流出45.97亿，主力离场迹象明显</td></tr>
+<tr><td>支撑位置</td><td><span class="sr-badge sr-badge-orange">测试关键位</span></td><td>72元为今日低点，MA20=72.29，BOLL中轨=72.29</td></tr>
+<tr><td>基本面</td><td><span class="sr-badge sr-badge-green">支撑</span></td><td>业绩爆发、锂价上行、估值合理</td></tr>
+<tr><td>中线机会</td><td><span class="sr-badge sr-badge-blue">存在</span></td><td>若锂价维持高位，中线目标82-88元仍有空间</td></tr>
+</table>
+<div class="sr-danger-box" style="margin-top:10px">
+<b>▶ 不建议立即补仓的理由：</b>当前价72.50并非最佳补仓时机，原因：①主力资金连续多日大量流出，高位出货特征明显；②MACD刚形成死叉，技术走弱；③当前价在均筹73.04附近，若跌破则将进入大面积套牢区，可能加速下跌至67-70元区域；④成本78元若在72元补仓，虽可拉低成本至约75元，但若继续下跌止损损失扩大。
+</div>
+<div class="sr-warn-box" style="margin-top:8px">
+<b>▶ 建议等待补仓时机：</b>如确定看多锂业中线逻辑，建议等待以下信号再补仓：① 股价跌至<b>68-70元区间</b>（MA30支撑位）且出现止跌信号；② MACD底部金叉，资金流向转正；③ 碳酸锂价格进一步上涨至22-25万/吨，提供更强基本面支撑。
+</div>
+</div>
+</div>
+<div style="font-weight:600;font-size:13px;margin:12px 0 8px">核心风险因素</div>
+<table class="sr-table">
+<tr><th>风险类型</th><th>描述</th><th>等级</th></tr>
+<tr><td>资金面风险</td><td>主力持续流出，高位筹码博弈，短期下行压力大</td><td><span class="sr-badge sr-badge-red">高</span></td></tr>
+<tr><td>技术面风险</td><td>MACD死叉，均线压制，82元高点套牢盘压制</td><td><span class="sr-badge sr-badge-orange">中高</span></td></tr>
+<tr><td>锂价回落风险</td><td>碳酸锂价格受供需驱动，若供应恢复价格或回落</td><td><span class="sr-badge sr-badge-orange">中</span></td></tr>
+<tr><td>市场情绪风险</td><td>新能源板块估值整体偏高，市场情绪波动风险</td><td><span class="sr-badge sr-badge-orange">中</span></td></tr>
+</table>
+</div>
+</div>
+<div class="sr-section">
+<div class="sr-section-title">▦ 走势预估（未来1-2周）</div>
+<div class="sr-section-body">
+<div class="sr-grid3">
+<div class="sr-kv">
+<div class="sr-k">短期（1-3日）</div>
+<div class="sr-v sr-val-red">震荡偏弱</div>
+<div style="font-size:11px;color:var(--sr-sub);margin-top:4px">测试72元支撑，若跌破可能下探68-70元</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">中期（1-2周）</div>
+<div class="sr-v sr-val-orange">关键博弈期</div>
+<div style="font-size:11px;color:var(--sr-sub);margin-top:4px">震荡区间68-78元，关注资金面能否企稳</div>
+</div>
+<div class="sr-kv">
+<div class="sr-k">中线（1-3月）</div>
+<div class="sr-v sr-val-green">乐观</div>
+<div style="font-size:11px;color:var(--sr-sub);margin-top:4px">锂价维持高位则目标价82-88元，突破82则看100元</div>
+</div>
+</div>
+<div style="margin-top:14px;font-size:13px">
+<b>核心逻辑：</b>短期供需博弈+主力减仓导致高位震荡，中期等待筹码换手完成后有望再度上攻。碳酸锂突破20万/吨是最强催化剂，但"股价提前反映预期，现在反映现实"，短期内可能有一个修整洗盘过程（约4-8周），预计支撑区间67-72元，中线目标82-90元。
+</div>
+</div>
+</div>
+<div class="sr-footer-tip">
+<b>数据说明：</b>本报告基于2026-05-14 实时数据，包含westock-data实时行情、K线、资金流向、筹码、技术指标、财务数据。分析仅供参考，不构成投资建议。股市有风险，投资需谨慎。
+</div>
+</div>
